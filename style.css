@@ -1,0 +1,863 @@
+/* =========================================================
+   style.css – Kayan Real Estate Landing Page
+   ========================================================= */
+
+/* ---------- 1. BASE RESETS & TYPOGRAPHY ---------- */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+/* Language-aware font switching */
+[lang="ar"] body,
+html[lang="ar"] body { font-family: 'Cairo', sans-serif; }
+[lang="en"] body,
+html[lang="en"] body { font-family: 'Inter', sans-serif; }
+
+/* ---------- 2. CUSTOM SCROLLBAR ---------- */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #111118; }
+::-webkit-scrollbar-thumb { background: #059669; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #10b981; }
+
+/* ---------- 3. SELECTION COLOR ---------- */
+::selection { background: rgba(16, 185, 129, 0.3); color: #fff; }
+
+/* ---------- 4. GREEN GRADIENT TEXT ---------- */
+.text-gradient {
+  background: linear-gradient(135deg, #34d399 0%, #10b981 40%, #059669 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ---------- 5. NAVBAR ---------- */
+#navbar {
+  background: transparent;
+  transition: background 0.4s ease, backdrop-filter 0.4s ease, box-shadow 0.4s ease;
+}
+#navbar.scrolled {
+  background: rgba(10, 10, 15, 0.88);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 0 1px 0 rgba(255,255,255,0.06);
+}
+
+.nav-link {
+  color: rgba(255,255,255,0.75);
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 2px;
+  transition: color 0.3s ease;
+}
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  inset-inline-start: 0;
+  width: 0;
+  height: 1.5px;
+  background: linear-gradient(90deg, #10b981, #34d399);
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+.nav-link:hover { color: #10b981; }
+.nav-link:hover::after { width: 100%; }
+
+/* Hamburger lines */
+.hamburger-line {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: rgba(255,255,255,0.75);
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+/* ---------- 6. HERO SECTION ---------- */
+.hero-bg { transition: transform 8s ease; }
+section#hero:hover .hero-bg { transform: scale(1.04); }
+
+.shadow-gold {
+  box-shadow: 0 0 30px rgba(16, 185, 129, 0.35);
+}
+
+/* ---------- 7. CTA BUTTONS ---------- */
+.cta-primary {
+  display: inline-block;
+  background: linear-gradient(135deg, #34d399, #10b981, #059669);
+  background-size: 200% 200%;
+  animation: gradientShift 4s ease infinite;
+  color: #0a0a0f;
+  font-weight: 700;
+  border-radius: 9999px;
+}
+.cta-primary:hover {
+  box-shadow: 0 8px 32px rgba(16, 185, 129, 0.45);
+}
+
+@keyframes gradientShift {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.cta-secondary {
+  display: inline-block;
+  background: rgba(255,255,255,0.06);
+  backdrop-filter: blur(10px);
+  border-radius: 9999px;
+}
+
+/* ---------- 8. SECTION COMMON ---------- */
+.section-badge {
+  display: inline-block;
+  padding: 0.3rem 1.1rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(16, 185, 129, 0.35);
+  background: rgba(16, 185, 129, 0.08);
+  color: #10b981;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.section-title {
+  font-size: clamp(1.75rem, 4vw, 2.75rem);
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1.2;
+}
+
+.section-divider {
+  width: 48px;
+  height: 3px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, #10b981, #34d399);
+}
+
+/* ---------- 9. ABOUT SECTION ---------- */
+.about-img-wrapper::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 60%, rgba(10,10,15,0.3) 100%);
+  border-radius: 1rem;
+  pointer-events: none;
+}
+
+/* ---------- 10. VISION & MISSION CARDS ---------- */
+.vm-card {
+  position: relative;
+  overflow: hidden;
+}
+.vm-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  inset-inline-start: 0;
+  width: 3px;
+  height: 0;
+  background: linear-gradient(180deg, #10b981, #34d399);
+  border-radius: 0 2px 2px 0;
+  transition: height 0.5s ease;
+}
+.vm-card:hover::before { height: 100%; }
+
+.vm-icon-wrap {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  background: rgba(16, 185, 129, 0.1);
+  border: 1px solid rgba(16, 185, 129, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s ease;
+}
+.vm-card:hover .vm-icon-wrap {
+  background: rgba(16, 185, 129, 0.18);
+  box-shadow: 0 0 20px rgba(16, 185, 129, 0.2);
+}
+
+/* ---------- 11. PROJECT CARDS ---------- */
+.project-card {
+  box-shadow: 0 4px 24px rgba(0,0,0,0.3);
+  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1),
+              box-shadow 0.4s ease,
+              border-color 0.4s ease;
+}
+.project-card:hover {
+  box-shadow: 0 20px 60px rgba(0,0,0,0.5), 0 0 30px rgba(16,185,129,0.1);
+}
+.project-card:focus-visible {
+  outline: 2px solid #10b981;
+  outline-offset: 3px;
+}
+
+.location-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.65rem;
+  border-radius: 9999px;
+  background: rgba(10,10,15,0.7);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,0.15);
+  color: rgba(255,255,255,0.85);
+  font-size: 0.68rem;
+  font-weight: 500;
+}
+
+.shadow-gold-sm {
+  box-shadow: 0 8px 32px rgba(16, 185, 129, 0.15);
+}
+
+/* ---------- 12. MODAL ---------- */
+.modal-overlay {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.35s ease;
+}
+.modal-overlay.is-open {
+  opacity: 1;
+  pointer-events: all;
+}
+.modal-box {
+  transform: translateY(32px) scale(0.97);
+  transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.modal-overlay.is-open .modal-box {
+  transform: translateY(0) scale(1);
+}
+
+/* Prevent body scroll when modal is open */
+body.modal-open { overflow: hidden; }
+
+/* Modal spec tiles */
+.spec-tile {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px;
+  padding: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.spec-tile .spec-label { font-size: 0.68rem; color: rgba(255,255,255,0.4); }
+.spec-tile .spec-value { font-size: 0.9rem; color: #fff; font-weight: 600; }
+
+/* ---------- 13. SWIPER OVERRIDES ---------- */
+.swiper-button-prev,
+.swiper-button-next {
+  background: rgba(10,10,15,0.6);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 50%;
+  width: 40px !important;
+  height: 40px !important;
+  color: #fff !important;
+  transition: background 0.3s ease;
+}
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background: rgba(16, 185, 129, 0.3);
+  border-color: rgba(16, 185, 129, 0.4);
+}
+.swiper-button-prev::after,
+.swiper-button-next::after { font-size: 0.8rem !important; font-weight: 900; }
+
+.swiper-pagination-bullet { background: rgba(255,255,255,0.4) !important; }
+.swiper-pagination-bullet-active {
+  background: #10b981 !important;
+  width: 24px !important;
+  border-radius: 4px !important;
+  transition: width 0.3s ease !important;
+}
+
+.modal-swiper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ---------- 14. CONTACT FORM ---------- */
+.form-card {
+  box-shadow: 0 8px 40px rgba(0,0,0,0.3);
+}
+
+.form-label {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: rgba(255,255,255,0.6);
+  margin-bottom: 0.45rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.85rem 1rem;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 10px;
+  color: #fff;
+  font-size: 0.9rem;
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+}
+.form-input::placeholder { color: rgba(255,255,255,0.3); }
+.form-input:focus {
+  border-color: rgba(16, 185, 129, 0.5);
+  background: rgba(255,255,255,0.07);
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.12);
+}
+.form-input:invalid:not(:placeholder-shown) {
+  border-color: rgba(239, 68, 68, 0.5);
+}
+/* Dark option styling */
+.form-input option { background: #1a1a24; color: #fff; }
+
+.form-submit-btn {
+  background: linear-gradient(135deg, #34d399, #10b981, #059669);
+  background-size: 200% 200%;
+  animation: gradientShift 4s ease infinite;
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+}
+.form-submit-btn:hover {
+  box-shadow: 0 8px 32px rgba(16, 185, 129, 0.45);
+}
+
+/* ---------- 15. CONTACT INFO CARDS ---------- */
+.contact-info-card { text-decoration: none; }
+
+.contact-icon-wrap {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: rgba(16, 185, 129, 0.1);
+  border: 1px solid rgba(16, 185, 129, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+.contact-info-card:hover .contact-icon-wrap {
+  background: rgba(16, 185, 129, 0.18);
+  box-shadow: 0 0 16px rgba(16, 185, 129, 0.2);
+}
+
+/* ---------- 16. FOOTER ---------- */
+.footer-link {
+  display: inline-block;
+  color: rgba(255,255,255,0.4);
+  font-size: 0.82rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.footer-link:hover { color: #10b981; }
+
+.social-link {
+  width: 36px;
+  height: 36px;
+  border-radius: 9999px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  color: rgba(255,255,255,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.social-link:hover {
+  background: rgba(16, 185, 129, 0.15);
+  border-color: rgba(16, 185, 129, 0.35);
+  color: #10b981;
+  transform: translateY(-2px);
+}
+
+/* ---------- 17. WHATSAPP FAB ---------- */
+.whatsapp-fab {
+  background: linear-gradient(135deg, #25d366, #128c7e);
+  z-index: 50;
+}
+.whatsapp-fab:hover {
+  box-shadow: 0 8px 32px rgba(37, 211, 102, 0.45);
+}
+
+/* ---------- 18. KEYFRAME ANIMATIONS ---------- */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(28px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.4; }
+}
+
+.animate-fadeInUp    { animation: fadeInUp 0.75s ease forwards; }
+.animate-fadeInDown  { animation: fadeInDown 0.6s ease forwards; }
+.delay-200 { animation-delay: 0.2s; opacity: 0; }
+.delay-400 { animation-delay: 0.4s; opacity: 0; }
+
+/* ---------- 19. SCROLL-REVEAL UTILITY ---------- */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ---------- 20. LINE-CLAMP FALLBACK ---------- */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ---------- 21. RESPONSIVE TWEAKS ---------- */
+@media (max-width: 640px) {
+  .section-title { font-size: 1.6rem; }
+  .vm-card { padding: 1.5rem; }
+  .form-card { padding: 1.25rem; }
+}
+
+/* ---------- 22. RTL / LTR DIRECTION HELPERS ---------- */
+/* Invert arrow direction for LTR */
+html[dir="ltr"] .rotate-180-rtl { transform: rotate(180deg); }
+
+/* =========================================================
+   23. LIGHT MODE COMPLETE OVERRIDES & STYLING
+   Applied when <html> has class="light-mode"
+   ========================================================= */
+
+/* Smooth color/bg transitions */
+html.light-mode body,
+html.light-mode header,
+html.light-mode section,
+html.light-mode article,
+html.light-mode p,
+html.light-mode h1,
+html.light-mode h2,
+html.light-mode h3,
+html.light-mode h4,
+html.light-mode span,
+html.light-mode a,
+html.light-mode li {
+  transition: background-color 0.35s ease, color 0.35s ease, border-color 0.35s ease, box-shadow 0.35s ease;
+}
+
+/* Explicitly preserve Swiper slide transform animation in all modes */
+.swiper-wrapper {
+  transition-property: transform !important;
+}
+.swiper-slide {
+  transition-property: transform, opacity !important;
+}
+
+/* ---- Base Body ---- */
+html.light-mode body {
+  background-color: #f8fafc !important;
+  color: #0f172a !important;
+}
+
+/* ---- Custom Scrollbar ---- */
+html.light-mode ::-webkit-scrollbar-track { background: #e2e8f0 !important; }
+html.light-mode ::-webkit-scrollbar-thumb { background: #059669 !important; }
+
+/* ---- Navbar ---- */
+html.light-mode #navbar {
+  background: rgba(255, 255, 255, 0.88) !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06) !important;
+}
+html.light-mode #navbar.scrolled {
+  background: rgba(255, 255, 255, 0.96) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08) !important;
+}
+html.light-mode .nav-link { color: #334155 !important; }
+html.light-mode .nav-link:hover { color: #059669 !important; }
+html.light-mode .hamburger-line { background-color: #334155 !important; }
+html.light-mode .mobile-menu-panel {
+  background: rgba(255, 255, 255, 0.98) !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.08) !important;
+}
+html.light-mode .mobile-nav-link { color: #1e293b !important; }
+
+/* Theme & Lang toggle buttons */
+html.light-mode .theme-btn,
+html.light-mode .lang-btn {
+  border-color: rgba(5, 150, 105, 0.6) !important;
+  color: #047857 !important;
+}
+html.light-mode .theme-btn:hover,
+html.light-mode .lang-btn:hover {
+  background-color: rgba(5, 150, 105, 0.12) !important;
+  color: #047857 !important;
+}
+
+/* ---- Section Titles & Badges ---- */
+html.light-mode .section-badge {
+  background: rgba(5, 150, 105, 0.1) !important;
+  border-color: rgba(5, 150, 105, 0.3) !important;
+  color: #047857 !important;
+}
+html.light-mode .section-title { color: #0f172a !important; }
+html.light-mode .section-subtitle { color: #475569 !important; }
+
+/* ---- Hero Section (Light Mode Redesign) ---- */
+html.light-mode section#hero {
+  background-color: #f8fafc !important;
+}
+
+/* Background image overlay adjustment */
+html.light-mode section#hero .hero-bg {
+  opacity: 0.85 !important;
+  filter: brightness(1.05) contrast(1.05) !important;
+}
+
+/* Light translucent overlays so background image remains clearly visible */
+html.light-mode section#hero .bg-gradient-to-b {
+  background-image: none !important;
+  background: linear-gradient(180deg, 
+    rgba(255, 255, 255, 0.72) 0%, 
+    rgba(248, 250, 252, 0.55) 50%, 
+    rgba(240, 253, 244, 0.75) 100%) !important;
+}
+html.light-mode section#hero .bg-gradient-to-r {
+  background-image: none !important;
+  background: linear-gradient(90deg, 
+    rgba(255, 255, 255, 0.50) 0%, 
+    rgba(255, 255, 255, 0.20) 50%, 
+    rgba(255, 255, 255, 0.50) 100%) !important;
+}
+
+/* Top Badge */
+html.light-mode section#hero .inline-flex {
+  background: #ffffff !important;
+  border: 1px solid rgba(5, 150, 105, 0.35) !important;
+  color: #047857 !important;
+  box-shadow: 0 4px 14px rgba(5, 150, 105, 0.1) !important;
+}
+html.light-mode section#hero .inline-flex .bg-gold-400 {
+  background-color: #059669 !important;
+}
+
+/* Hero Headline */
+html.light-mode section#hero h1 {
+  color: #0f172a !important;
+}
+
+/* Headline Green Gradient Text */
+html.light-mode section#hero .text-gradient {
+  background: linear-gradient(135deg, #059669 0%, #047857 60%, #064e3b 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+}
+
+/* Hero Subheadline */
+html.light-mode section#hero p.text-white\/70,
+html.light-mode section#hero p[data-i18n="hero_subheadline"] {
+  color: #334155 !important;
+  font-weight: 500 !important;
+}
+
+/* Primary CTA Button (Explore Projects) */
+html.light-mode section#hero .cta-primary {
+  background: linear-gradient(135deg, #059669 0%, #047857 100%) !important;
+  color: #ffffff !important;
+  box-shadow: 0 10px 25px rgba(5, 150, 105, 0.35) !important;
+}
+html.light-mode section#hero .cta-primary:hover {
+  box-shadow: 0 14px 32px rgba(5, 150, 105, 0.45) !important;
+}
+
+/* Secondary CTA Button (Contact Us) */
+html.light-mode section#hero .cta-secondary {
+  background: #ffffff !important;
+  border: 2px solid rgba(5, 150, 105, 0.4) !important;
+  color: #047857 !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04) !important;
+}
+html.light-mode section#hero .cta-secondary:hover {
+  background: rgba(5, 150, 105, 0.08) !important;
+  border-color: #059669 !important;
+  color: #047857 !important;
+}
+
+/* Scroll Indicator */
+html.light-mode section#hero .animate-bounce {
+  opacity: 1 !important;
+}
+html.light-mode section#hero .animate-bounce span,
+html.light-mode section#hero [data-i18n="hero_scroll"] {
+  color: #475569 !important;
+  font-weight: 600 !important;
+}
+html.light-mode section#hero .animate-bounce svg {
+  color: #059669 !important;
+}
+
+/* ---- About Section ---- */
+html.light-mode section#about {
+  background-color: #f8fafc !important;
+}
+html.light-mode section#about .bg-gradient-to-b {
+  background-image: none !important;
+  background: linear-gradient(to bottom, #f8fafc, #f1f5f9, #f8fafc) !important;
+}
+html.light-mode section#about h2,
+html.light-mode section#about h3,
+html.light-mode section#about .text-white {
+  color: #0f172a !important;
+}
+html.light-mode section#about p,
+html.light-mode section#about .text-white\/65,
+html.light-mode section#about .text-white\/70,
+html.light-mode section#about .text-white\/80 {
+  color: #334155 !important;
+}
+html.light-mode section#about span {
+  color: #1e293b !important;
+}
+
+/* Stat box badge on image */
+html.light-mode section#about .bg-dark-800\/90 {
+  background: rgba(255, 255, 255, 0.95) !important;
+  border-color: rgba(5, 150, 105, 0.25) !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08) !important;
+}
+html.light-mode section#about .bg-dark-800\/90 .text-gold-400 {
+  color: #059669 !important;
+}
+html.light-mode section#about .bg-dark-800\/90 .text-white\/70 {
+  color: #475569 !important;
+}
+
+/* Decorative image borders */
+html.light-mode section#about .border-gold-400\/30,
+html.light-mode section#about .border-gold-400\/20 {
+  border-color: rgba(5, 150, 105, 0.35) !important;
+}
+
+/* Bullet points list checkmark circles */
+html.light-mode section#about .bg-gold-400\/20 {
+  background: rgba(5, 150, 105, 0.15) !important;
+}
+html.light-mode section#about .text-gold-400,
+html.light-mode section#about svg.text-gold-400 {
+  color: #059669 !important;
+}
+
+/* ---- Vision & Mission Cards ---- */
+html.light-mode .vm-card {
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.04) !important;
+}
+html.light-mode .vm-card:hover {
+  border-color: rgba(5, 150, 105, 0.4) !important;
+  box-shadow: 0 10px 30px rgba(5, 150, 105, 0.12) !important;
+}
+html.light-mode .vm-card h3 { color: #0f172a !important; }
+html.light-mode .vm-card p { color: #475569 !important; }
+html.light-mode .vm-card .text-gold-400 { color: #059669 !important; }
+
+/* ---- Projects Section & Cards ---- */
+html.light-mode section#projects {
+  background: #f1f5f9 !important;
+}
+html.light-mode .project-card {
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05) !important;
+}
+html.light-mode .project-card:hover {
+  border-color: rgba(5, 150, 105, 0.4) !important;
+  box-shadow: 0 12px 35px rgba(5, 150, 105, 0.15) !important;
+}
+html.light-mode .project-card h3 { color: #0f172a !important; }
+html.light-mode .project-card p { color: #475569 !important; }
+html.light-mode .project-card span.text-white\/40,
+html.light-mode .project-card span.text-white\/50,
+html.light-mode .project-card span.text-white\/60,
+html.light-mode .project-card span.text-white\/75 { color: #64748b !important; }
+
+/* Location badges on project cards */
+html.light-mode .location-badge {
+  background: rgba(255, 255, 255, 0.92) !important;
+  border-color: rgba(5, 150, 105, 0.3) !important;
+  color: #047857 !important;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08) !important;
+}
+
+/* Card details arrow text */
+html.light-mode .project-card [data-i18n="card_details"] {
+  color: #059669 !important;
+}
+
+/* =========================================================
+   PROJECT MODAL (POPUP) IN LIGHT MODE
+   ========================================================= */
+
+/* Backdrop overlay */
+html.light-mode #modal-backdrop {
+  background: rgba(15, 23, 42, 0.65) !important;
+  backdrop-filter: blur(8px) !important;
+}
+
+/* Modal Card Box */
+html.light-mode .modal-box {
+  background-color: #ffffff !important;
+  border: 1px solid rgba(5, 150, 105, 0.25) !important;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.2) !important;
+  color: #0f172a !important;
+}
+
+/* Close button (X) */
+html.light-mode #modal-close {
+  background: rgba(0, 0, 0, 0.06) !important;
+  border: 1px solid rgba(0, 0, 0, 0.12) !important;
+  color: #334155 !important;
+}
+html.light-mode #modal-close:hover {
+  background: rgba(5, 150, 105, 0.15) !important;
+  color: #059669 !important;
+  border-color: rgba(5, 150, 105, 0.3) !important;
+}
+
+/* Swiper Container Top */
+html.light-mode #project-modal .relative.bg-dark-900 {
+  background-color: #e2e8f0 !important;
+}
+
+/* Modal Title */
+html.light-mode #modal-title {
+  color: #0f172a !important;
+}
+
+/* Modal Location Badge */
+html.light-mode #modal-location-badge {
+  background: rgba(5, 150, 105, 0.12) !important;
+  border-color: rgba(5, 150, 105, 0.3) !important;
+  color: #047857 !important;
+}
+
+/* Modal Description */
+html.light-mode #modal-description {
+  color: #334155 !important;
+}
+
+/* Spec tiles inside modal */
+html.light-mode .spec-tile {
+  background: #f8fafc !important;
+  border: 1px solid #e2e8f0 !important;
+}
+html.light-mode .spec-tile .spec-label {
+  color: #64748b !important;
+}
+html.light-mode .spec-tile .spec-value {
+  color: #0f172a !important;
+}
+
+/* Secondary close button at modal bottom */
+html.light-mode #modal-close-btn {
+  border-color: #cbd5e1 !important;
+  color: #334155 !important;
+  background: #f1f5f9 !important;
+}
+html.light-mode #modal-close-btn:hover {
+  background: #e2e8f0 !important;
+  color: #0f172a !important;
+}
+
+/* Swiper navigation buttons in modal */
+html.light-mode #project-modal .swiper-button-prev,
+html.light-mode #project-modal .swiper-button-next {
+  background: rgba(255, 255, 255, 0.95) !important;
+  border: 1px solid rgba(5, 150, 105, 0.4) !important;
+  color: #059669 !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12) !important;
+}
+html.light-mode #project-modal .swiper-button-prev:hover,
+html.light-mode #project-modal .swiper-button-next:hover {
+  background: #059669 !important;
+  color: #ffffff !important;
+}
+html.light-mode #project-modal .swiper-pagination-bullet {
+  background: rgba(15, 23, 42, 0.45) !important;
+  opacity: 0.7 !important;
+}
+html.light-mode #project-modal .swiper-pagination-bullet-active {
+  background: #059669 !important;
+  opacity: 1 !important;
+  width: 24px !important;
+}
+
+/* ---- Contact Section ---- */
+html.light-mode section#contact {
+  background: #f8fafc !important;
+}
+html.light-mode section#contact .bg-gradient-to-b {
+  background: linear-gradient(to bottom, #f1f5f9, #f8fafc) !important;
+}
+html.light-mode .contact-info-card {
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05) !important;
+}
+html.light-mode .contact-info-card:hover {
+  border-color: rgba(5, 150, 105, 0.35) !important;
+}
+html.light-mode .contact-info-card h3 { color: #0f172a !important; }
+html.light-mode .contact-info-card p { color: #64748b !important; }
+html.light-mode .contact-info-card .text-white\/50 { color: #64748b !important; }
+html.light-mode .contact-info-card .text-white { color: #0f172a !important; }
+html.light-mode .contact-info-card [data-i18n*="btn"],
+html.light-mode .contact-info-card .text-gold-400 { color: #059669 !important; }
+
+/* Map Container in Contact */
+html.light-mode section#contact .max-w-5xl {
+  background: #ffffff !important;
+  border-color: #e2e8f0 !important;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05) !important;
+}
+html.light-mode section#contact .max-w-5xl p.text-white\/50 { color: #64748b !important; }
+html.light-mode section#contact .max-w-5xl p.text-white { color: #0f172a !important; }
+html.light-mode section#contact .max-w-5xl a[href*="maps"] {
+  background: rgba(5, 150, 105, 0.1) !important;
+  border-color: rgba(5, 150, 105, 0.3) !important;
+  color: #047857 !important;
+}
+html.light-mode section#contact .max-w-5xl a[href*="maps"]:hover {
+  background: #059669 !important;
+  color: #ffffff !important;
+}
+
+/* ---- Footer ---- */
+html.light-mode footer {
+  background-color: #0f172a !important;
+  border-top-color: #1e293b !important;
+}
+html.light-mode footer h4,
+html.light-mode footer p,
+html.light-mode footer a {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+html.light-mode footer .text-white\/45,
+html.light-mode footer .text-white\/30 {
+  color: rgba(255, 255, 255, 0.55) !important;
+}
+
