@@ -1,0 +1,12 @@
+{
+  "name": "kayan-project",
+  "version": "1.0.0",
+  "description": "Kayan Real Estate Development Landing Page",
+  "main": "mainjava.js",
+  "scripts": {
+    "build:css": "npx.cmd tailwindcss -i ./src/input.css -o ./tailwind.min.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.19"
+  }
+}

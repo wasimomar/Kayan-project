@@ -12,6 +12,7 @@ const translations = {
   ar: {
     // --- Navbar ---
     nav_about:    'عن الشركة',
+    nav_services: 'خدماتنا',
     nav_projects: 'المشاريع',
     nav_contact:  'تواصل معنا',
     lang_toggle:  'EN',
@@ -145,6 +146,24 @@ const translations = {
     contact_addr_value:     'القاهرة – مصر',
     contact_map_badge:      'افتح موقع الشركة على الخريطة ↗',
 
+    // --- Services Section ---
+    services_badge:      'خدماتنا ونطاق أعمالنا',
+    services_title:      'خدمات المقاولات والواجهات المتخصصة',
+    services_subtitle:   'تقدم كيان حلولاً متكاملة تشمل المقاولات العامة، التوريدات العمومية، وأعمال الواجهات المعمارية المتخصصة وفق أعلى معايير الجودة.',
+    services_desc_main:  'تقدم كيان أعمال المقاولات مع تركيز قوي على جودة التنفيذ والتنسيق الميداني والالتزام بمواصفات المشروع. ويكمن جزء أساسي من خبرتنا في أعمال الألومنيوم والواجهات المعمارية.',
+    service1_title:      'أنظمة الكرتن وول',
+    service1_desc:       'أنظمة واجهات ألومنيوم وزجاج حديثة مصممة لتحقيق المظهر المعماري الجذاب والأداء الوظيفي العالي.',
+    service2_title:      'أبواب ونوافذ الألومنيوم',
+    service2_desc:       'حلول تصنيع وتركيب مخصصة وفقاً لأبعاد ومواصفات ومتطلبات تصميم كل مشروع.',
+    service3_title:      'أنظمة السكاي لايت',
+    service3_desc:       'حلول الألومنيوم والزجاج للأسقف المعمارية الشفافة، وتدمج بين الإضاءة الطبيعية والتركيب الدقيق.',
+    service4_title:      'كاسرات الشمس (اللوفرز)',
+    service4_desc:       'أنظمة كاسرات شمس معمارية مصممة وفقاً للمتطلبات الوظيفية والجمالية لكل مشروع.',
+    service5_title:      'المقاولات العامة',
+    service5_desc:       'إدارة وتنفيذ الأعمال الإنشائية والميدانية بكفاءة والتزام يسبق الجدول الزمني.',
+    service6_title:      'التوريدات العمومية',
+    service6_desc:       'توريد كافة المستلزمات والمواد المعمارية والهندسية عالية الجودة والمطابقة للمواصفات.',
+
     // --- Footer ---
     footer_desc:          'كيان للتطوير العقاري – نبني مستقبلك بثقة وجودة استثنائية. شريكك الأول في عالم العقارات المصرية.',
     footer_links_title:   'روابط سريعة',
@@ -156,6 +175,7 @@ const translations = {
   en: {
     // --- Navbar ---
     nav_about:    'About Us',
+    nav_services: 'Services',
     nav_projects: 'Projects',
     nav_contact:  'Contact',
     lang_toggle:  'عربي',
@@ -289,6 +309,24 @@ const translations = {
     contact_addr_value:     'Cairo – Egypt',
     contact_map_badge:      'Open Company Location on Map ↗',
 
+    // --- Services Section ---
+    services_badge:      'Our Services & Scope',
+    services_title:      'Contracting & Façade Services',
+    services_subtitle:   'KAYAN provides integrated solutions across contracting, general supplies, and architectural aluminum façade works.',
+    services_desc_main:  'KAYAN delivers contracting works with a strong focus on execution quality, site coordination, and compliance with project specifications. A key part of our expertise lies in aluminum and architectural façade works.',
+    service1_title:      'Curtain Wall Systems',
+    service1_desc:       'Modern aluminum and glass façade systems designed to achieve both architectural appearance and functional performance.',
+    service2_title:      'Aluminum Doors & Windows',
+    service2_desc:       'Fabrication and installation solutions tailored to project dimensions, specifications, and design requirements.',
+    service3_title:      'Skylight Systems',
+    service3_desc:       'Aluminum and glazing solutions for architectural skylights, combining natural lighting with precise installation.',
+    service4_title:      'Architectural Louvers',
+    service4_desc:       'Architectural aluminum louver systems designed according to the functional and aesthetic requirements of each project.',
+    service5_title:      'General Contracting',
+    service5_desc:       'Execution and management of construction and site works with precision and high execution quality.',
+    service6_title:      'General Supplies',
+    service6_desc:       'Supply of all high-grade architectural and engineering materials compliant with project specifications.',
+
     // --- Footer ---
     footer_desc:          'Kayan Real Estate Development – Building your future with trust and exceptional quality. Your first partner in Egyptian real estate.',
     footer_links_title:   'Quick Links',
@@ -304,9 +342,8 @@ const translations = {
 const projectData = {
   'al-jazeera': {
     images: [
-      'images/AL JAZEERA PROJECT/al jazeera p1.png',
-      'images/AL JAZEERA PROJECT/al jazeera p3.png',
-      'images/AL JAZEERA PROJECT/al jazeerz p4.png',
+      'images/AL JAZEERA PROJECT/al jazeerz p1.png',
+      'images/AL JAZEERA PROJECT/al jazeera p2.png',
     ],
     titleKey:   'proj1_title',
     locationKey:'proj1_location',
@@ -337,8 +374,7 @@ const projectData = {
       'images/MAZARINE PROJECT/mazarine project p1.jpg',
       'images/MAZARINE PROJECT/mazarine project p2.jpg',
       'images/MAZARINE PROJECT/mazarine project p3.jpg',
-      'images/MAZARINE PROJECT/mazarine project p4.jpg',
-      'images/MAZARINE PROJECT/mazarine project p5.png',
+      'images/MAZARINE PROJECT/mazarine project p4.png',
     ],
     titleKey:   'proj3_title',
     locationKey:'proj3_location',
@@ -352,10 +388,8 @@ const projectData = {
   'courts': {
     images: [
       'images/COURTS COMPLEX \u2013 CITY OF JUSTICE/courts complex p1.jpg',
-      'images/COURTS COMPLEX \u2013 CITY OF JUSTICE/courts complex p2.jpg',
-      'images/COURTS COMPLEX \u2013 CITY OF JUSTICE/courts complex p3.jpg',
-      'images/COURTS COMPLEX \u2013 CITY OF JUSTICE/courts complex p4.jpg',
-      'images/COURTS COMPLEX \u2013 CITY OF JUSTICE/courts complex p5.jpg',
+      'images/COURTS COMPLEX \u2013 CITY OF JUSTICE/courts complex p2.png',
+      'images/COURTS COMPLEX \u2013 CITY OF JUSTICE/courts complex p3.png',
     ],
     titleKey:   'proj4_title',
     locationKey:'proj4_location',
@@ -551,7 +585,7 @@ function buildModalContent(projectKey) {
   if (cta) {
     const projectTitle = t[data.titleKey] || '';
     const whatsappMsg = encodeURIComponent(currentLang === 'ar' ? `مرحباً، أود الاستفسار عن ${projectTitle}` : `Hello, I would like to inquire about ${projectTitle}`);
-    cta.setAttribute('href', `https://wa.me/201001153366?text=${whatsappMsg}`);
+    cta.setAttribute('href', `https://wa.me/201003710242?text=${whatsappMsg}`);
     cta.setAttribute('target', '_blank');
     cta.setAttribute('rel', 'noopener noreferrer');
 
@@ -748,7 +782,7 @@ function initScrollReveal() {
 // 11. THEME TOGGLE (DARK / LIGHT)
 // ============================================================
 function initThemeToggle() {
-  const htmlEl   = document.documentElement;
+  const htmlEl    = document.documentElement;
   const toggleBtn = $('#theme-toggle');
   const moonIcon  = $('#theme-icon-moon');
   const sunIcon   = $('#theme-icon-sun');
@@ -824,14 +858,14 @@ function initContactLinks() {
   // Phone links / cards
   $$('a[href^="tel:"]').forEach(link => {
     link.addEventListener('click', (e) => {
-      const phone = '+201001153366';
+      const phone = '+201003710242';
       try {
         navigator.clipboard?.writeText(phone);
       } catch (err) {}
 
       if (!isMobile) {
         // On desktop Windows/Mac, tel is unhandled. Redirect to WhatsApp or show toast with number
-        const waUrl = `https://wa.me/201001153366?text=${encodeURIComponent(currentLang === 'ar' ? 'مرحباً أود الاستفسار عن مشاريع كيان' : 'Hello, I would like to inquire about KAYAN projects')}`;
+        const waUrl = `https://wa.me/201003710242?text=${encodeURIComponent(currentLang === 'ar' ? 'مرحباً أود الاستفسار عن مشاريع كيان' : 'Hello, I would like to inquire about KAYAN projects')}`;
         window.open(waUrl, '_blank');
         showToast(currentLang === 'ar' ? 'تم التوجيه للواتساب ونسخ رقم الهاتف 📞' : 'Redirecting to WhatsApp & Phone copied 📞');
       }
