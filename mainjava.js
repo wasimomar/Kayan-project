@@ -305,7 +305,6 @@ const projectData = {
   'al-jazeera': {
     images: [
       'images/AL JAZEERA PROJECT/al jazeera p1.png',
-      'images/AL JAZEERA PROJECT/al jazeera p2.png',
       'images/AL JAZEERA PROJECT/al jazeera p3.png',
       'images/AL JAZEERA PROJECT/al jazeerz p4.png',
     ],
@@ -339,6 +338,7 @@ const projectData = {
       'images/MAZARINE PROJECT/mazarine project p2.jpg',
       'images/MAZARINE PROJECT/mazarine project p3.jpg',
       'images/MAZARINE PROJECT/mazarine project p4.jpg',
+      'images/MAZARINE PROJECT/mazarine project p5.png',
     ],
     titleKey:   'proj3_title',
     locationKey:'proj3_location',
@@ -655,19 +655,11 @@ function initModal() {
 
   // Close buttons
   $('#modal-close')?.addEventListener('click', closeModal);
-  $('#modal-close-btn')?.addEventListener('click', () => {
-    closeModal();
-    // Scroll to contact section
-    document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
-  });
+  $('#modal-close-btn')?.addEventListener('click', closeModal);
 
-  // CTA button scrolls to contact and closes
-  $('#modal-cta')?.addEventListener('click', (e) => {
-    e.preventDefault();
+  // CTA button closes modal when clicked (allowing WhatsApp link to navigate)
+  $('#modal-cta')?.addEventListener('click', () => {
     closeModal();
-    setTimeout(() => {
-      document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
-    }, 400);
   });
 
   // Backdrop click
@@ -789,7 +781,66 @@ function initThemeToggle() {
 }
 
 // ============================================================
-// 12. INIT
+// 12. CONTACT LINKS HANDLING (Email & Phone Fallbacks)
+// ============================================================
+function showToast(message) {
+  let toast = $('#contact-toast');
+  if (!toast) {
+    toast = document.createElement('div');
+    toast.id = 'contact-toast';
+    toast.className = 'fixed bottom-6 start-1/2 -translate-x-1/2 z-[300] bg-gold-400 text-dark-900 font-bold text-xs sm:text-sm px-5 py-3 rounded-full shadow-2xl transition-all duration-300 transform opacity-0 translate-y-4 pointer-events-none flex items-center gap-2';
+    document.body.appendChild(toast);
+  }
+  toast.textContent = message;
+  toast.classList.remove('opacity-0', 'translate-y-4');
+  toast.classList.add('opacity-100', 'translate-y-0');
+
+  setTimeout(() => {
+    toast.classList.remove('opacity-100', 'translate-y-0');
+    toast.classList.add('opacity-0', 'translate-y-4');
+  }, 3200);
+}
+
+function initContactLinks() {
+  const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+  // Email links / cards
+  $$('a[href^="mailto:"]').forEach(link => {
+    link.addEventListener('click', (e) => {
+      const email = 'Kayanconstructionseg@gmail.com';
+      try {
+        navigator.clipboard?.writeText(email);
+      } catch (err) {}
+
+      if (!isMobile) {
+        // On desktop Windows/Mac, mailto is often unhandled by browser without desktop client. Open Gmail Web compose
+        const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(email)}`;
+        window.open(gmailUrl, '_blank');
+        showToast(currentLang === 'ar' ? 'تم فتح الجيميل ونسخ البريد الإلكتروني ✉️' : 'Opening Gmail & Email copied to clipboard ✉️');
+      }
+    });
+  });
+
+  // Phone links / cards
+  $$('a[href^="tel:"]').forEach(link => {
+    link.addEventListener('click', (e) => {
+      const phone = '+201001153366';
+      try {
+        navigator.clipboard?.writeText(phone);
+      } catch (err) {}
+
+      if (!isMobile) {
+        // On desktop Windows/Mac, tel is unhandled. Redirect to WhatsApp or show toast with number
+        const waUrl = `https://wa.me/201001153366?text=${encodeURIComponent(currentLang === 'ar' ? 'مرحباً أود الاستفسار عن مشاريع كيان' : 'Hello, I would like to inquire about KAYAN projects')}`;
+        window.open(waUrl, '_blank');
+        showToast(currentLang === 'ar' ? 'تم التوجيه للواتساب ونسخ رقم الهاتف 📞' : 'Redirecting to WhatsApp & Phone copied 📞');
+      }
+    });
+  });
+}
+
+// ============================================================
+// 13. INIT
 // ============================================================
 document.addEventListener('DOMContentLoaded', () => {
   // Apply default language (Arabic)
@@ -812,6 +863,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Lead form
   initLeadForm();
+
+  // Contact links fallback & copy
+  initContactLinks();
 
   // Scroll reveal
   initScrollReveal();
