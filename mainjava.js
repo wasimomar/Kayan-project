@@ -858,14 +858,16 @@ function initContactLinks() {
   // Phone links / cards
   $$('a[href^="tel:"]').forEach(link => {
     link.addEventListener('click', (e) => {
-      const phone = '+201003710242';
+      const rawHref = link.getAttribute('href') || '';
+      const phoneNum = rawHref.replace('tel:', '') || '+201003710242';
       try {
-        navigator.clipboard?.writeText(phone);
+        navigator.clipboard?.writeText(phoneNum);
       } catch (err) {}
 
       if (!isMobile) {
         // On desktop Windows/Mac, tel is unhandled. Redirect to WhatsApp or show toast with number
-        const waUrl = `https://wa.me/201003710242?text=${encodeURIComponent(currentLang === 'ar' ? 'مرحباً أود الاستفسار عن مشاريع كيان' : 'Hello, I would like to inquire about KAYAN projects')}`;
+        const cleanDigits = phoneNum.replace(/[^0-9]/g, '');
+        const waUrl = `https://wa.me/${cleanDigits}?text=${encodeURIComponent(currentLang === 'ar' ? 'مرحباً أود الاستفسار عن مشاريع كيان' : 'Hello, I would like to inquire about KAYAN projects')}`;
         window.open(waUrl, '_blank');
         showToast(currentLang === 'ar' ? 'تم التوجيه للواتساب ونسخ رقم الهاتف 📞' : 'Redirecting to WhatsApp & Phone copied 📞');
       }
