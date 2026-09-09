@@ -794,16 +794,27 @@ function initThemeToggle() {
   const toggleBtn = $('#theme-toggle');
   const moonIcon  = $('#theme-icon-moon');
   const sunIcon   = $('#theme-icon-sun');
+  const navbarLogo = $('#navbar-logo');
 
-  if (!toggleBtn) return;
+  function updateLogo(isLight) {
+    if (navbarLogo) {
+      navbarLogo.src = isLight 
+        ? 'images/logo/Kayan_Constructions_Logo-removebg-preview.png' 
+        : 'images/logo/logo english dark.png';
+    }
+  }
 
   // Apply saved preference on load
   const savedTheme = localStorage.getItem('kayan_theme');
-  if (savedTheme === 'light') {
+  const isInitialLight = savedTheme === 'light';
+  if (isInitialLight) {
     htmlEl.classList.add('light-mode');
     moonIcon?.classList.add('hidden');
     sunIcon?.classList.remove('hidden');
   }
+  updateLogo(isInitialLight);
+
+  if (!toggleBtn) return;
 
   toggleBtn.addEventListener('click', () => {
     const isLight = htmlEl.classList.toggle('light-mode');
@@ -816,6 +827,8 @@ function initThemeToggle() {
       sunIcon?.classList.add('hidden');
       moonIcon?.classList.remove('hidden');
     }
+
+    updateLogo(isLight);
 
     // Persist preference
     localStorage.setItem('kayan_theme', isLight ? 'light' : 'dark');

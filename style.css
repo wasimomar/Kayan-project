@@ -36,23 +36,23 @@ html[lang="en"] body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #059669;
+  background: #0e938d;
   border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #10b981;
+  background: #13a8a1;
 }
 
 /* ---------- 3. SELECTION COLOR ---------- */
 ::selection {
-  background: rgba(16, 185, 129, 0.3);
+  background: rgba(19, 168, 161, 0.3);
   color: #fff;
 }
 
 /* ---------- 4. GREEN GRADIENT TEXT ---------- */
 .text-gradient {
-  background: linear-gradient(135deg, #34d399 0%, #10b981 40%, #059669 100%);
+  background: linear-gradient(135deg, #35c4bd 0%, #13a8a1 40%, #0e938d 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -86,13 +86,13 @@ html[lang="en"] body {
   inset-inline-start: 0;
   width: 0;
   height: 1.5px;
-  background: linear-gradient(90deg, #10b981, #34d399);
+  background: linear-gradient(90deg, #13a8a1, #35c4bd);
   border-radius: 2px;
   transition: width 0.3s ease;
 }
 
 .nav-link:hover {
-  color: #10b981;
+  color: #13a8a1;
 }
 
 .nav-link:hover::after {
@@ -119,7 +119,7 @@ section#hero:hover .hero-bg {
 }
 
 .shadow-gold {
-  box-shadow: 0 0 30px rgba(16, 185, 129, 0.35);
+  box-shadow: 0 0 30px rgba(19, 168, 161, 0.35);
 }
 
 /* ---------- 7. CTA BUTTONS ---------- */
@@ -127,7 +127,7 @@ section#hero:hover .hero-bg {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #34d399, #10b981, #059669);
+  background: linear-gradient(135deg, #35c4bd, #13a8a1, #0e938d);
   background-size: 200% 200%;
   animation: gradientShift 4s ease infinite;
   color: #0a0a0f;
@@ -136,7 +136,7 @@ section#hero:hover .hero-bg {
 }
 
 .cta-primary:hover {
-  box-shadow: 0 8px 32px rgba(16, 185, 129, 0.45);
+  box-shadow: 0 8px 32px rgba(19, 168, 161, 0.45);
 }
 
 @keyframes gradientShift {
@@ -167,9 +167,9 @@ section#hero:hover .hero-bg {
   display: inline-block;
   padding: 0.3rem 1.1rem;
   border-radius: 9999px;
-  border: 1px solid rgba(16, 185, 129, 0.35);
-  background: rgba(16, 185, 129, 0.08);
-  color: #10b981;
+  border: 1px solid rgba(19, 168, 161, 0.35);
+  background: rgba(19, 168, 161, 0.08);
+  color: #13a8a1;
   font-size: 0.72rem;
   font-weight: 600;
   letter-spacing: 0.1em;
@@ -187,7 +187,7 @@ section#hero:hover .hero-bg {
   width: 48px;
   height: 3px;
   border-radius: 2px;
-  background: linear-gradient(90deg, #10b981, #34d399);
+  background: linear-gradient(90deg, #13a8a1, #35c4bd);
 }
 
 /* ---------- 9. ABOUT SECTION ---------- */
@@ -213,7 +213,7 @@ section#hero:hover .hero-bg {
   inset-inline-start: 0;
   width: 3px;
   height: 0;
-  background: linear-gradient(180deg, #10b981, #34d399);
+  background: linear-gradient(180deg, #13a8a1, #35c4bd);
   border-radius: 0 2px 2px 0;
   transition: height 0.5s ease;
 }
@@ -226,8 +226,8 @@ section#hero:hover .hero-bg {
   width: 52px;
   height: 52px;
   border-radius: 14px;
-  background: rgba(16, 185, 129, 0.1);
-  border: 1px solid rgba(16, 185, 129, 0.2);
+  background: rgba(19, 168, 161, 0.1);
+  border: 1px solid rgba(19, 168, 161, 0.2);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -235,8 +235,8 @@ section#hero:hover .hero-bg {
 }
 
 .vm-card:hover .vm-icon-wrap {
-  background: rgba(16, 185, 129, 0.18);
-  box-shadow: 0 0 20px rgba(16, 185, 129, 0.2);
+  background: rgba(19, 168, 161, 0.18);
+  box-shadow: 0 0 20px rgba(19, 168, 161, 0.2);
 }
 
 /* ---------- 11. PROJECT CARDS ---------- */
@@ -248,11 +248,11 @@ section#hero:hover .hero-bg {
 }
 
 .project-card:hover {
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5), 0 0 30px rgba(16, 185, 129, 0.1);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5), 0 0 30px rgba(19, 168, 161, 0.1);
 }
 
 .project-card:focus-visible {
-  outline: 2px solid #10b981;
+  outline: 2px solid #13a8a1;
   outline-offset: 3px;
 }
 
@@ -270,7 +270,7 @@ section#hero:hover .hero-bg {
 }
 
 .shadow-gold-sm {
-  box-shadow: 0 8px 32px rgba(16, 185, 129, 0.15);
+  box-shadow: 0 8px 32px rgba(19, 168, 161, 0.15);
 }
 
 /* ---------- 12. MODAL ---------- */
@@ -336,8 +336,8 @@ body.modal-open {
 
 .swiper-button-prev:hover,
 .swiper-button-next:hover {
-  background: rgba(16, 185, 129, 0.3);
-  border-color: rgba(16, 185, 129, 0.4);
+  background: rgba(19, 168, 161, 0.3);
+  border-color: rgba(19, 168, 161, 0.4);
 }
 
 .swiper-button-prev::after,
@@ -351,7 +351,7 @@ body.modal-open {
 }
 
 .swiper-pagination-bullet-active {
-  background: #10b981 !important;
+  background: #13a8a1 !important;
   width: 24px !important;
   border-radius: 4px !important;
   transition: width 0.3s ease !important;
@@ -396,9 +396,9 @@ body.modal-open {
 }
 
 .form-input:focus {
-  border-color: rgba(16, 185, 129, 0.5);
+  border-color: rgba(19, 168, 161, 0.5);
   background: rgba(255, 255, 255, 0.07);
-  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.12);
+  box-shadow: 0 0 0 3px rgba(19, 168, 161, 0.12);
 }
 
 .form-input:invalid:not(:placeholder-shown) {
@@ -412,7 +412,7 @@ body.modal-open {
 }
 
 .form-submit-btn {
-  background: linear-gradient(135deg, #34d399, #10b981, #059669);
+  background: linear-gradient(135deg, #35c4bd, #13a8a1, #0e938d);
   background-size: 200% 200%;
   animation: gradientShift 4s ease infinite;
   font-family: inherit;
@@ -421,7 +421,7 @@ body.modal-open {
 }
 
 .form-submit-btn:hover {
-  box-shadow: 0 8px 32px rgba(16, 185, 129, 0.45);
+  box-shadow: 0 8px 32px rgba(19, 168, 161, 0.45);
 }
 
 /* ---------- 15. CONTACT INFO CARDS ---------- */
@@ -433,8 +433,8 @@ body.modal-open {
   width: 48px;
   height: 48px;
   border-radius: 12px;
-  background: rgba(16, 185, 129, 0.1);
-  border: 1px solid rgba(16, 185, 129, 0.15);
+  background: rgba(19, 168, 161, 0.1);
+  border: 1px solid rgba(19, 168, 161, 0.15);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -442,8 +442,8 @@ body.modal-open {
 }
 
 .contact-info-card:hover .contact-icon-wrap {
-  background: rgba(16, 185, 129, 0.18);
-  box-shadow: 0 0 16px rgba(16, 185, 129, 0.2);
+  background: rgba(19, 168, 161, 0.18);
+  box-shadow: 0 0 16px rgba(19, 168, 161, 0.2);
 }
 
 /* ---------- 16. FOOTER ---------- */
@@ -456,7 +456,7 @@ body.modal-open {
 }
 
 .footer-link:hover {
-  color: #10b981;
+  color: #13a8a1;
 }
 
 .social-link {
@@ -474,9 +474,9 @@ body.modal-open {
 }
 
 .social-link:hover {
-  background: rgba(16, 185, 129, 0.15);
-  border-color: rgba(16, 185, 129, 0.35);
-  color: #10b981;
+  background: rgba(19, 168, 161, 0.15);
+  border-color: rgba(19, 168, 161, 0.35);
+  color: #13a8a1;
   transform: translateY(-2px);
 }
 
@@ -628,7 +628,7 @@ html.light-mode ::-webkit-scrollbar-track {
 }
 
 html.light-mode ::-webkit-scrollbar-thumb {
-  background: #059669 !important;
+  background: #0e938d !important;
 }
 
 /* ---- Navbar ---- */
@@ -647,7 +647,7 @@ html.light-mode .nav-link {
 }
 
 html.light-mode .nav-link:hover {
-  color: #059669 !important;
+  color: #0e938d !important;
 }
 
 html.light-mode .hamburger-line {
@@ -666,21 +666,21 @@ html.light-mode .mobile-nav-link {
 /* Theme & Lang toggle buttons */
 html.light-mode .theme-btn,
 html.light-mode .lang-btn {
-  border-color: rgba(5, 150, 105, 0.6) !important;
-  color: #047857 !important;
+  border-color: rgba(14, 147, 141, 0.6) !important;
+  color: #0b7974 !important;
 }
 
 html.light-mode .theme-btn:hover,
 html.light-mode .lang-btn:hover {
-  background-color: rgba(5, 150, 105, 0.12) !important;
-  color: #047857 !important;
+  background-color: rgba(14, 147, 141, 0.12) !important;
+  color: #0b7974 !important;
 }
 
 /* ---- Section Titles & Badges ---- */
 html.light-mode .section-badge {
-  background: rgba(5, 150, 105, 0.1) !important;
-  border-color: rgba(5, 150, 105, 0.3) !important;
-  color: #047857 !important;
+  background: rgba(14, 147, 141, 0.1) !important;
+  border-color: rgba(14, 147, 141, 0.3) !important;
+  color: #0b7974 !important;
 }
 
 html.light-mode .section-title {
@@ -722,13 +722,13 @@ html.light-mode section#hero .bg-gradient-to-r {
 /* Top Badge */
 html.light-mode section#hero .inline-flex {
   background: #ffffff !important;
-  border: 1px solid rgba(5, 150, 105, 0.35) !important;
-  color: #047857 !important;
-  box-shadow: 0 4px 14px rgba(5, 150, 105, 0.1) !important;
+  border: 1px solid rgba(14, 147, 141, 0.35) !important;
+  color: #0b7974 !important;
+  box-shadow: 0 4px 14px rgba(14, 147, 141, 0.1) !important;
 }
 
 html.light-mode section#hero .inline-flex .bg-gold-400 {
-  background-color: #059669 !important;
+  background-color: #0e938d !important;
 }
 
 /* Hero Headline */
@@ -736,12 +736,13 @@ html.light-mode section#hero h1 {
   color: #0f172a !important;
 }
 
-/* Headline Green Gradient Text */
+/* Headline Text in Light Mode - Solid dark slate/black */
 html.light-mode section#hero .text-gradient {
-  background: linear-gradient(135deg, #059669 0%, #047857 60%, #064e3b 100%) !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
-  background-clip: text !important;
+  background: none !important;
+  -webkit-background-clip: border-box !important;
+  -webkit-text-fill-color: #0f172a !important;
+  background-clip: border-box !important;
+  color: #0f172a !important;
 }
 
 /* Hero Subheadline */
@@ -753,27 +754,27 @@ html.light-mode section#hero p[data-i18n="hero_subheadline"] {
 
 /* Primary CTA Button (Explore Projects) */
 html.light-mode section#hero .cta-primary {
-  background: linear-gradient(135deg, #059669 0%, #047857 100%) !important;
+  background: linear-gradient(135deg, #0e938d 0%, #0b7974 100%) !important;
   color: #ffffff !important;
-  box-shadow: 0 10px 25px rgba(5, 150, 105, 0.35) !important;
+  box-shadow: 0 10px 25px rgba(14, 147, 141, 0.35) !important;
 }
 
 html.light-mode section#hero .cta-primary:hover {
-  box-shadow: 0 14px 32px rgba(5, 150, 105, 0.45) !important;
+  box-shadow: 0 14px 32px rgba(14, 147, 141, 0.45) !important;
 }
 
 /* Secondary CTA Button (Contact Us) */
 html.light-mode section#hero .cta-secondary {
   background: #ffffff !important;
-  border: 2px solid rgba(5, 150, 105, 0.4) !important;
-  color: #047857 !important;
+  border: 2px solid rgba(14, 147, 141, 0.4) !important;
+  color: #0b7974 !important;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04) !important;
 }
 
 html.light-mode section#hero .cta-secondary:hover {
-  background: rgba(5, 150, 105, 0.08) !important;
-  border-color: #059669 !important;
-  color: #047857 !important;
+  background: rgba(14, 147, 141, 0.08) !important;
+  border-color: #0e938d !important;
+  color: #0b7974 !important;
 }
 
 /* Scroll Indicator */
@@ -788,7 +789,7 @@ html.light-mode section#hero [data-i18n="hero_scroll"] {
 }
 
 html.light-mode section#hero .animate-bounce svg {
-  color: #059669 !important;
+  color: #0e938d !important;
 }
 
 /* ---- About Section ---- */
@@ -821,12 +822,12 @@ html.light-mode section#about span {
 /* Stat box badge on image */
 html.light-mode section#about .bg-dark-800\/90 {
   background: rgba(255, 255, 255, 0.95) !important;
-  border-color: rgba(5, 150, 105, 0.25) !important;
+  border-color: rgba(14, 147, 141, 0.25) !important;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08) !important;
 }
 
 html.light-mode section#about .bg-dark-800\/90 .text-gold-400 {
-  color: #059669 !important;
+  color: #0e938d !important;
 }
 
 html.light-mode section#about .bg-dark-800\/90 .text-white\/70 {
@@ -836,17 +837,17 @@ html.light-mode section#about .bg-dark-800\/90 .text-white\/70 {
 /* Decorative image borders */
 html.light-mode section#about .border-gold-400\/30,
 html.light-mode section#about .border-gold-400\/20 {
-  border-color: rgba(5, 150, 105, 0.35) !important;
+  border-color: rgba(14, 147, 141, 0.35) !important;
 }
 
 /* Bullet points list checkmark circles */
 html.light-mode section#about .bg-gold-400\/20 {
-  background: rgba(5, 150, 105, 0.15) !important;
+  background: rgba(14, 147, 141, 0.15) !important;
 }
 
 html.light-mode section#about .text-gold-400,
 html.light-mode section#about svg.text-gold-400 {
-  color: #059669 !important;
+  color: #0e938d !important;
 }
 
 /* ---- Vision & Mission Cards ---- */
@@ -857,8 +858,8 @@ html.light-mode .vm-card {
 }
 
 html.light-mode .vm-card:hover {
-  border-color: rgba(5, 150, 105, 0.4) !important;
-  box-shadow: 0 10px 30px rgba(5, 150, 105, 0.12) !important;
+  border-color: rgba(14, 147, 141, 0.4) !important;
+  box-shadow: 0 10px 30px rgba(14, 147, 141, 0.12) !important;
 }
 
 html.light-mode .vm-card h3 {
@@ -870,7 +871,7 @@ html.light-mode .vm-card p {
 }
 
 html.light-mode .vm-card .text-gold-400 {
-  color: #059669 !important;
+  color: #0e938d !important;
 }
 
 /* ---- Projects Section & Cards ---- */
@@ -885,8 +886,8 @@ html.light-mode .project-card {
 }
 
 html.light-mode .project-card:hover {
-  border-color: rgba(5, 150, 105, 0.4) !important;
-  box-shadow: 0 12px 35px rgba(5, 150, 105, 0.15) !important;
+  border-color: rgba(14, 147, 141, 0.4) !important;
+  box-shadow: 0 12px 35px rgba(14, 147, 141, 0.15) !important;
 }
 
 html.light-mode .project-card h3 {
@@ -907,14 +908,14 @@ html.light-mode .project-card span.text-white\/75 {
 /* Location badges on project cards */
 html.light-mode .location-badge {
   background: rgba(255, 255, 255, 0.92) !important;
-  border-color: rgba(5, 150, 105, 0.3) !important;
-  color: #047857 !important;
+  border-color: rgba(14, 147, 141, 0.3) !important;
+  color: #0b7974 !important;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08) !important;
 }
 
 /* Card details arrow text */
 html.light-mode .project-card [data-i18n="card_details"] {
-  color: #059669 !important;
+  color: #0e938d !important;
 }
 
 /* =========================================================
@@ -930,7 +931,7 @@ html.light-mode #modal-backdrop {
 /* Modal Card Box */
 html.light-mode .modal-box {
   background-color: #ffffff !important;
-  border: 1px solid rgba(5, 150, 105, 0.25) !important;
+  border: 1px solid rgba(14, 147, 141, 0.25) !important;
   box-shadow: 0 25px 60px rgba(0, 0, 0, 0.2) !important;
   color: #0f172a !important;
 }
@@ -943,9 +944,9 @@ html.light-mode #modal-close {
 }
 
 html.light-mode #modal-close:hover {
-  background: rgba(5, 150, 105, 0.15) !important;
-  color: #059669 !important;
-  border-color: rgba(5, 150, 105, 0.3) !important;
+  background: rgba(14, 147, 141, 0.15) !important;
+  color: #0e938d !important;
+  border-color: rgba(14, 147, 141, 0.3) !important;
 }
 
 /* Swiper Container Top */
@@ -960,9 +961,9 @@ html.light-mode #modal-title {
 
 /* Modal Location Badge */
 html.light-mode #modal-location-badge {
-  background: rgba(5, 150, 105, 0.12) !important;
-  border-color: rgba(5, 150, 105, 0.3) !important;
-  color: #047857 !important;
+  background: rgba(14, 147, 141, 0.12) !important;
+  border-color: rgba(14, 147, 141, 0.3) !important;
+  color: #0b7974 !important;
 }
 
 /* Modal Description */
@@ -1000,14 +1001,14 @@ html.light-mode #modal-close-btn:hover {
 html.light-mode #project-modal .swiper-button-prev,
 html.light-mode #project-modal .swiper-button-next {
   background: rgba(255, 255, 255, 0.95) !important;
-  border: 1px solid rgba(5, 150, 105, 0.4) !important;
-  color: #059669 !important;
+  border: 1px solid rgba(14, 147, 141, 0.4) !important;
+  color: #0e938d !important;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12) !important;
 }
 
 html.light-mode #project-modal .swiper-button-prev:hover,
 html.light-mode #project-modal .swiper-button-next:hover {
-  background: #059669 !important;
+  background: #0e938d !important;
   color: #ffffff !important;
 }
 
@@ -1017,7 +1018,7 @@ html.light-mode #project-modal .swiper-pagination-bullet {
 }
 
 html.light-mode #project-modal .swiper-pagination-bullet-active {
-  background: #059669 !important;
+  background: #0e938d !important;
   opacity: 1 !important;
   width: 24px !important;
 }
@@ -1038,7 +1039,7 @@ html.light-mode .contact-info-card {
 }
 
 html.light-mode .contact-info-card:hover {
-  border-color: rgba(5, 150, 105, 0.35) !important;
+  border-color: rgba(14, 147, 141, 0.35) !important;
 }
 
 html.light-mode .contact-info-card h3 {
@@ -1059,7 +1060,7 @@ html.light-mode .contact-info-card .text-white {
 
 html.light-mode .contact-info-card [data-i18n*="btn"],
 html.light-mode .contact-info-card .text-gold-400 {
-  color: #059669 !important;
+  color: #0e938d !important;
 }
 
 /* Map Container in Contact */
@@ -1078,13 +1079,13 @@ html.light-mode section#contact .max-w-5xl p.text-white {
 }
 
 html.light-mode section#contact .max-w-5xl a[href*="maps"] {
-  background: rgba(5, 150, 105, 0.1) !important;
-  border-color: rgba(5, 150, 105, 0.3) !important;
-  color: #047857 !important;
+  background: rgba(14, 147, 141, 0.1) !important;
+  border-color: rgba(14, 147, 141, 0.3) !important;
+  color: #0b7974 !important;
 }
 
 html.light-mode section#contact .max-w-5xl a[href*="maps"]:hover {
-  background: #059669 !important;
+  background: #0e938d !important;
   color: #ffffff !important;
 }
 
@@ -1100,8 +1101,8 @@ html.light-mode .service-card {
 }
 
 html.light-mode .service-card:hover {
-  border-color: rgba(5, 150, 105, 0.4) !important;
-  box-shadow: 0 10px 30px rgba(5, 150, 105, 0.12) !important;
+  border-color: rgba(14, 147, 141, 0.4) !important;
+  box-shadow: 0 10px 30px rgba(14, 147, 141, 0.12) !important;
 }
 
 html.light-mode .service-card h3 {
@@ -1113,7 +1114,7 @@ html.light-mode .service-card p {
 }
 
 html.light-mode .service-card .text-gold-400 {
-  color: #059669 !important;
+  color: #0e938d !important;
 }
 
 html.light-mode section#services .bg-dark-800\/80 {
