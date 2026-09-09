@@ -124,7 +124,9 @@ section#hero:hover .hero-bg {
 
 /* ---------- 7. CTA BUTTONS ---------- */
 .cta-primary {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   background: linear-gradient(135deg, #34d399, #10b981, #059669);
   background-size: 200% 200%;
   animation: gradientShift 4s ease infinite;
@@ -152,7 +154,9 @@ section#hero:hover .hero-bg {
 }
 
 .cta-secondary {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   background: rgba(255, 255, 255, 0.06);
   backdrop-filter: blur(10px);
   border-radius: 9999px;
