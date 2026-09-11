@@ -20,7 +20,7 @@ const translations = {
     // --- Hero ---
     hero_badge:        'مشاريع استثنائية في قلب مصر',
     hero_headline:     'نبني مستقبلك\nبثقة وجودة استثنائية',
-    hero_subheadline:  'كيان للمقاولات والانشاءات – شريكك الموثوق في بناء تنفيذ وتطوير المشاريع في مصر',
+    hero_subheadline:  'نقدم حلولًا متكاملة لأعمال الألومنيوم والواجهات، من التصنيع وحتى التركيب .',
     hero_cta_primary:  'استكشف المشاريع',
     hero_cta_secondary:'تواصل معنا',
     hero_scroll:       'اكتشف المزيد',
@@ -342,8 +342,9 @@ const translations = {
 const projectData = {
   'al-jazeera': {
     images: [
+      'images/AL JAZEERA PROJECT/al jazeera p3.jpeg',
       'images/AL JAZEERA PROJECT/al jazeerz p1.png',
-      'images/AL JAZEERA PROJECT/al jazeera p2.png',
+      'images/AL JAZEERA PROJECT/al jazeera p2.png'
     ],
     titleKey:   'proj1_title',
     locationKey:'proj1_location',
@@ -371,10 +372,10 @@ const projectData = {
   },
   'mazarine': {
     images: [
-      'images/MAZARINE PROJECT/mazarine project p1.jpg',
+      'images/MAZARINE PROJECT/mazarine project p4.png',
       'images/MAZARINE PROJECT/mazarine project p2.jpg',
       'images/MAZARINE PROJECT/mazarine project p3.jpg',
-      'images/MAZARINE PROJECT/mazarine project p4.png',
+      'images/MAZARINE PROJECT/mazarine project p1.jpg',
     ],
     titleKey:   'proj3_title',
     locationKey:'proj3_location',
@@ -387,8 +388,8 @@ const projectData = {
   },
   'courts': {
     images: [
-      'images/COURTS COMPLEX \u2013 CITY OF JUSTICE/courts complex p1.jpg',
-      'images/COURTS COMPLEX \u2013 CITY OF JUSTICE/courts complex p2.png',
+      'images/COURTS COMPLEX \u2013 CITY OF JUSTICE/courts complex p1.png',
+      'images/COURTS COMPLEX \u2013 CITY OF JUSTICE/courts complex p2.jpg',
       'images/COURTS COMPLEX \u2013 CITY OF JUSTICE/courts complex p3.png',
     ],
     titleKey:   'proj4_title',
@@ -585,7 +586,7 @@ function buildModalContent(projectKey) {
   if (cta) {
     const projectTitle = t[data.titleKey] || '';
     const whatsappMsg = encodeURIComponent(currentLang === 'ar' ? `مرحباً، أود الاستفسار عن ${projectTitle}` : `Hello, I would like to inquire about ${projectTitle}`);
-    cta.setAttribute('href', `https://wa.me/201003710242?text=${whatsappMsg}`);
+    cta.setAttribute('href', `https://wa.me/201001153366?text=${whatsappMsg}`);
     cta.setAttribute('target', '_blank');
     cta.setAttribute('rel', 'noopener noreferrer');
 
