@@ -18,30 +18,30 @@ const translations = {
     lang_toggle:  'EN',
 
     // --- Hero ---
-    hero_badge:        'مشاريع استثنائية في قلب مصر',
-    hero_headline:     'نبني مستقبلك\nبثقة وجودة استثنائية',
-    hero_subheadline:  'نقدم حلولًا متكاملة لأعمال الألومنيوم والواجهات، من التصنيع وحتى التركيب .',
+    hero_badge: 'مقاولات وتوريدات عمومية متكاملة',
+    hero_headline: 'من الهيكل إلى التفاصيل…\nحلول متكاملة تُبنى بالفخامة والدقة',
+    hero_subheadline: 'كيان للمقاولات والتوريدات العمومية – حلول التشطيبات والتجهيزات الداخلية والواجهات المعمارية الخارجية من مرحلة التصميم حتى التسليم النهائي.',
     hero_cta_primary:  'استكشف المشاريع',
     hero_cta_secondary:'تواصل معنا',
     hero_scroll:       'اكتشف المزيد',
 
     // --- About ---
     about_badge:      'من نحن',
-    about_title:      'عن شركة كيان للمقاولات العامة',
-    about_stat_label: 'سنوات خبرة في السوق',
-    about_subtitle:   'حلول المقاولات العامة والتوريدات وتجهيز الواجهات المتخصصة',
-    about_p1:         'كيان هي شركة مصرية للمقاولات والتوريدات العامة تتمتع بخبرة أربع سنوات في سوق البناء والتشييد. منذ تأسيسها، تعمل كيان بالتعاون مع إدارة الأشغال العسكرية، وتسهم في تنفيذ مشاريع متنوعة مع الالتزام بأعلى معايير الجودة والدقة والالتزام.',
-    about_p2:         'بطاقة إنتاجية تبلغ حوالي 1,500 إلى 2,000 متر مربع أسبوعياً، تمتلك كيان التجهيزات والقدرة الكافية للتعامل مع متطلبات المشاريع الكبرى والحفاظ على كفاءة التوريد والتنفيذ عبر مواقع متعددة. تجمع خبرتنا بين قدرات المقاولات العامة وحلول الألومنيوم والواجهات المتخصصة، بدعم من فريق عمل خبير وطاقة إنتاجية وتنفيذية قوية.',
-    about_point1:     'التعاون والمشاركة في تنفيذ مشاريع مع إدارة الأشغال العسكرية',
-    about_point2:     'طاقة إنتاجية تبلغ 1,500 - 2,000 م² أسبوعياً',
-    about_point3:     'حلول متخصصة في الألومنيوم والواجهات بأعلى معايير الدقة',
-    about_point4:     'فريق عمل خبير وطاقة تنفيذية عالية عبر مواقع متعددة',
+    about_title: 'عن كيان للمقاولات والتوريدات العمومية',
+    about_stat_label: 'عام التأسيس',
+    about_subtitle: 'شريك استراتيجي متكامل من الهيكل حتى التفاصيل',
+    about_p1: 'منذ تأسيس شركة كيان للمقاولات العامة والتوريدات عام 2019، نجحت الشركة في ترسيخ مكانتها كشريك استراتيجي متكامل في تنفيذ المشروعات القومية والمؤسسية والسكنية الكبرى. تجمع كيان بين خبرتها الرائدة في قطاع تصنيع الأثاث الخشبي الفاخر والتشطيبات والديكورات الداخلية، وبين تميزها في قطاع أنظمة الألومنيوم، الواجهات الزجاجية، والأعمال الإنشائية الخارجية.',
+    about_p2: 'نحن نقدم منظومة هندسية وتنفيذية شاملة تعتمد على الجودة، الدقة، والابتكار لتحويل الرؤى المعمارية إلى واقع ملموس.',
+    about_point1: 'شريك استراتيجي في المشروعات القومية والمؤسسية والسكنية الكبرى',
+    about_point2: 'خبرة رائدة في تصنيع الأثاث الخشبي الفاخر والتشطيبات والديكورات الداخلية',
+    about_point3: 'تميز في أنظمة الألومنيوم والواجهات الزجاجية والأعمال الإنشائية الخارجية',
+    about_point4: 'منظومة هندسية وتنفيذية شاملة من التصميم حتى التسليم النهائي',
 
     // --- Vision / Mission ---
     vision_title: 'رؤيتنا',
-    vision_text:  'أن نصبح اسماً موثوقاً به في قطاع المقاولات والبناء في مصر، وأن نتميز بالتنفيذ الموثوق، ودقة الجودة، وحلول الواجهات المتخصصة. ونسعى إلى الاستمرار في توسيع قدراتنا ومحفظة مشاريعنا مع بناء علاقات طويلة الأمد تقوم على الثقة والأداء والنتائج المستمرة.',
-    mission_title:'رسالتنا',
-    mission_text: 'رسالتنا هي تقديم حلول المقاولات والتوريدات التي تجمع بين الخبرة الفنية، والتنفيذ الكفء، والاهتمام بأدق التفاصيل. ونحن ملتزمون بتلبية مواصفات المشاريع، والحفاظ على أعلى معايير الجودة، وتسليم كل مشروع باحترافية من البداية وحتى النهاية.',
+    vision_text: 'أن نكون الخيار الأول والشركة الرائدة في تقديم الحلول المتكاملة للإنشاءات، قطاع الألومنيوم، والأثاث الفاخر على مستوى الشرق الأوسط.',
+    mission_title: 'رسالتنا',
+    mission_text: 'تقديم خدمات شاملة تجمع بين التصميم الهندسي والتنفيذ الدقيق والجودة الفائقة، مع الالتزام بأعلى معايير السلامة والجودة والصحة المهنية (QHSE Plan).',
 
     // --- Projects section ---
     projects_badge:    'أعمالنا',
@@ -127,6 +127,111 @@ const translations = {
     proj6_spec3_label:'الدعم والخبرة',
     proj6_spec3_value:'فريق استشاري متخصص',
 
+    // --- Projects tabs ---
+    projects_tab_main: 'الواجهات والألومنيوم',
+    projects_tab_new:  'الفرش والتشطيبات الداخلية',
+
+    // --- New projects: shared spec labels ---
+    np_label_location: 'الموقع',
+    np_label_scope:    'نطاق الأعمال',
+    np_label_areas:    'المساحات المجهزة',
+
+    // New 1 – Hassan Mostafa Indoor Hall
+    np1_title:       'صالة حسن مصطفى المغطاة',
+    np1_location:    '6 أكتوبر',
+    np1_desc_short:  'فرش وتجهيز المكاتب وصالات الاستقبال وقاعات المؤتمرات مع أعمال التجاليد الخشبية.',
+    np1_units:       'فرش وتجاليد خشبية',
+    np1_modal_desc:  'نفذت كيان أعمال الفرش والتجهيز الداخلي بصالة حسن مصطفى المغطاة بمدينة 6 أكتوبر، وشملت مكتب رئيس الاتحاد الدولي لكرة اليد ومكتب رئيس الاتحاد المصري لكرة اليد وصالات الاستقبال وكبار الزوار وقاعات الانتظار والاجتماعات والمؤتمرات الصحفية.\n\nشمل العمل توريد وتركيب المكاتب والكراسي الثابتة والمتحركة والأنتريهات وترابيزات الاجتماعات والترابيزات الديكورية، إضافة إلى أعمال التجاليد الخشبية وتجهيز غرف تغيير الملابس وصالة الألعاب.',
+    np1_areas:       'مكاتب الاتحادين المصري والدولي لكرة اليد، صالات الاستقبال وكبار الزوار، قاعات الاجتماعات والمؤتمرات',
+
+    // New 2 – Administrative Capital Indoor Hall
+    np2_title:       'صالة العاصمة الإدارية المغطاة',
+    np2_location:    'العاصمة الإدارية الجديدة',
+    np2_desc_short:  'تجهيز مكاتب الوزارة وصالات VIP وقاعات الخدمات الإعلامية بالمدينة الرياضية.',
+    np2_units:       'فرش وأعمال خشبية',
+    np2_modal_desc:  'ساهمت كيان في تجهيز صالة العاصمة الإدارية المغطاة بالمدينة الرياضية بالعاصمة الإدارية الجديدة، بفرش مكتب السيد وزير الشباب والرياضة وسكرتاريته وصالات انتظار واستقبال كبار الزوار وصالة الخدمات الإعلامية وغرفة ورك ستيشن الخدمات الإعلامية.\n\nشملت الأعمال أيضاً فرش العيادات الطبية وغرف تغيير الملابس وصالات الألعاب الرياضية وحجرات الساونا والجاكوزي، إلى جانب الأعمال الخشبية والتجاليد وعناصر اللاند سكيب.',
+    np2_areas:       'مكتب وزير الشباب والرياضة، صالات كبار الزوار، صالة الخدمات الإعلامية، العيادات الطبية',
+
+    // New 3 – Cairo Stadium Halls Complex
+    np3_title:       'مجمع صالات استاد القاهرة',
+    np3_location:    'القاهرة',
+    np3_desc_short:  'تجهيز صالات الألعاب الرياضية وقاعات المؤتمرات وأعمال تجليد الحوائط بالفنيل المعالج.',
+    np3_units:       'تجهيز صالات رياضية',
+    np3_modal_desc:  'نفذت كيان أعمال الفرش والتجهيز بمجمع صالات استاد القاهرة، وشملت تجهيز صالات الألعاب الرياضية وقاعة المؤتمرات الصحفية وغرفة انتظار كبار الزوار ووحدات العمل والكاونترات والأعمال الخشبية.\n\nكما تضمن المشروع أعمال تجليد الحوائط بالفنيل المعالج.',
+    np3_areas:       'صالات الألعاب، قاعة المؤتمرات الصحفية، غرفة انتظار كبار الزوار',
+
+    // New 4 – African Space Agency
+    np4_title:       'وكالة الفضاء الإفريقية',
+    np4_location:    'العاصمة الإدارية الجديدة',
+    np4_desc_short:  'فرش قاعات المؤتمرات والاجتماعات وصالات كبار الزوار بتجاليد خشبية فاخرة.',
+    np4_units:       'فرش وتجاليد خشبية',
+    np4_modal_desc:  'شاركت كيان في تجهيز مقر وكالة الفضاء الإفريقية بالعاصمة الإدارية الجديدة، من خلال فرش قاعة المؤتمرات وصالات الاجتماعات وقاعة انتظار كبار الزوار والمكاتب.\n\nشمل العمل توريد وتركيب الكراسي الثابتة والمتحركة والترابيزات والأنتريهات والأبواب، مع تنفيذ أعمال التجاليد الخشبية والأعمال الخشبية الدقيقة.',
+    np4_areas:       'قاعة المؤتمرات، قاعة انتظار كبار الزوار، صالات الاجتماعات، المكاتب',
+
+    // New 5 – 151st Brigade Command
+    np5_title:       'قيادة اللواء 151 – أشغال عسكرية',
+    np5_location:    'قطاع بني يوسف',
+    np5_desc_short:  'فرش المكاتب وغرف النوم الفندقية وقاعات الاجتماعات مع الأبواب والتجاليد الخشبية.',
+    np5_units:       'فرش وأبواب وتجاليد',
+    np5_modal_desc:  'نفذت كيان أعمال الفرش والتجهيز بمشروع قيادة اللواء 151 أشغال عسكرية بقطاع بني يوسف، وشملت المكاتب وغرف النوم الفندقية وقاعات الاجتماعات.\n\nضم المشروع توريد وتركيب الأبواب والتجاليد الخشبية والكراسي والأنتريهات وترابيزات الاجتماعات ووحدات الإضاءة.',
+    np5_areas:       'المكاتب، غرف النوم الفندقية، قاعات الاجتماعات',
+
+    // New 6 – Konouz Marble Exhibition
+    np6_title:       'معرض كنوز للرخام',
+    np6_location:    'بشق الثعبان',
+    np6_desc_short:  'تجهيز المكاتب وقاعة الاستقبال ووحدات العمل بمعرض كنوز للرخام.',
+    np6_units:       'مكاتب وقاعة استقبال',
+    np6_modal_desc:  'ساهمت كيان في تجهيز معرض كنوز للرخام بمنطقة بشق الثعبان، بفرش مكتب مدير المعرض وقاعة الاستقبال والمكاتب الإدارية.\n\nشمل العمل وحدات العمل والكراسي الثابتة والمتحركة والأنتريهات والترابيزات والقطع الديكورية والأبواب والأعمال الخشبية.',
+    np6_areas:       'مكتب مدير المعرض، قاعة الاستقبال، المكاتب الإدارية',
+
+    // New 7 – Engineering Authority Clinics
+    np7_title:       'عيادات دار الهيئة الهندسية',
+    np7_location:    'القاهرة',
+    np7_desc_short:  'تجهيز العيادات الطبية والمكاتب الإدارية بأعمال خشبية وأبواب.',
+    np7_units:       'تجهيز عيادات طبية',
+    np7_modal_desc:  'نفذت كيان أعمال تجهيز عيادات دار الهيئة الهندسية بالقاهرة، شاملة فرش العيادات الطبية والمكاتب الإدارية.\n\nتضمن العمل الأعمال الخشبية والأبواب والكراسي الثابتة والمتحركة.',
+    np7_areas:       'العيادات الطبية، المكاتب الإدارية',
+
+    // New 8 – Licensing & Follow-up Department
+    np8_title:       'إدارة التراخيص والمتابعة',
+    np8_location:    'القاهرة',
+    np8_desc_short:  'فرش المكاتب ووحدات العمل وتجهيز غرف الاجتماعات بأعمال خشبية.',
+    np8_units:       'مكاتب وغرف اجتماعات',
+    np8_modal_desc:  'قامت كيان بتجهيز مقر إدارة التراخيص والمتابعة بالقاهرة، من خلال فرش المكاتب ووحدات العمل وتجهيز غرف الاجتماعات.\n\nشمل العمل الأعمال الخشبية والكراسي الثابتة والمتحركة.',
+    np8_areas:       'المكاتب، غرف الاجتماعات',
+
+    // New 9 – Al-Hussein Mosque
+    np9_title:       'مشروع مسجد الحسين',
+    np9_location:    'القاهرة التاريخية',
+    np9_desc_short:  'ضمن مشروعات إحياء التراث الإسلامي: فرش مكتبة المسجد وصالة كبار الزوار ومكتب الإمام.',
+    np9_units:       'إحياء التراث الإسلامي',
+    np9_modal_desc:  'ضمن مشروعات إحياء التراث الإسلامي بالقاهرة التاريخية، نفذت كيان أعمال الفرش والتجهيز بمسجد سيدنا الحسين، وشملت مكتبة المسجد وصالة كبار الزوار ومكتب إمام المسجد.\n\nتضمن العمل المكاتب والكراسي الثابتة والمتحركة والأعمال الخشبية والأبواب.',
+    np9_areas:       'مكتبة المسجد، صالة كبار الزوار، مكتب إمام المسجد',
+
+    // New 10 – Sayida Zeinab Mosque
+    np10_title:      'مشروع مسجد السيدة زينب',
+    np10_location:   'القاهرة التاريخية',
+    np10_desc_short: 'ضمن مشروعات إحياء التراث الإسلامي: فرش قاعة استقبال كبار الزوار بأعمال خشبية وأبواب.',
+    np10_units:      'إحياء التراث الإسلامي',
+    np10_modal_desc: 'ضمن مشروعات إحياء التراث الإسلامي بالقاهرة التاريخية، نفذت كيان أعمال الفرش والتجهيز بمسجد السيدة زينب، وشملت قاعة استقبال كبار الزوار.\n\nتضمن العمل الأنتريهات والكراسي الثابتة والمتحركة والأعمال الخشبية والأبواب.',
+    np10_areas:      'قاعة استقبال كبار الزوار',
+
+    // New 11 – Various projects
+    np11_title:      'مشروعات متنوعة',
+    np11_location:   'مواقع متعددة',
+    np11_desc_short: 'فرش مكاتب وأنتريهات مع أعمال خشبية وأبواب لمشروعات متنوعة.',
+    np11_units:      'فرش وأعمال خشبية',
+    np11_modal_desc: 'مجموعة من مشروعات الفرش والتجهيز المتنوعة التي نفذتها كيان، وتشمل المكاتب والكراسي الثابتة والمتحركة والأنتريهات وترابيزات الاجتماعات والأعمال الخشبية والأبواب.',
+    np11_areas:      'مكاتب، قاعات اجتماعات، أنتريهات',
+
+    // New 12 – Technical office 3D designs
+    np12_title:      'أعمال المكتب الفني – تصميمات ثلاثية الأبعاد',
+    np12_location:   'كيان – المكتب الفني',
+    np12_desc_short: 'تصميمات ثلاثية الأبعاد توضح الشكل النهائي للمشروع قبل بدء التنفيذ.',
+    np12_units:      'تصميم ثلاثي الأبعاد',
+    np12_modal_desc: 'يقدم المكتب الفني في كيان تصميمات ثلاثية الأبعاد (3D Visualization) تعرض الشكل النهائي للمشروع قبل التنفيذ، لضمان وضوح الفكرة وسهولة اتخاذ القرارات.\n\nتشمل الأعمال تطوير التصاميم المخصصة واختيار الخامات وتقسيمات التجاليد والنقوش وتوزيع الإضاءة والديكورات.',
+    np12_areas:      'تصميم داخلي، اختيار الخامات، عرض ثلاثي الأبعاد',
+
     // --- Modal ---
     modal_cta:       'تواصل عبر الواتساب',
     modal_close_btn: 'إغلاق',
@@ -142,33 +247,51 @@ const translations = {
     contact_phone_btn:      'اتصل بنا مباشرة ←',
     contact_email_label:    'البريد الإلكتروني',
     contact_email_btn:      'أرسل رسالة إلكترونية ←',
-    contact_addr_label:     'المقر الرئيسي',
-    contact_addr_value:     'القاهرة – مصر',
+    contact_addr_label: 'المقر الرئيسي',
+    contact_addr_value: '93 ش 5 الجولف – مدينة نصر – القاهرة',
     contact_map_badge:      'افتح موقع الشركة على الخريطة ↗',
 
     // --- Services Section ---
-    services_badge:      'خدماتنا ونطاق أعمالنا',
-    services_title:      'خدمات المقاولات والواجهات المتخصصة',
-    services_subtitle:   'تقدم كيان حلولاً متكاملة تشمل المقاولات العامة، التوريدات العمومية، وأعمال الواجهات المعمارية المتخصصة وفق أعلى معايير الجودة.',
-    services_desc_main:  'تقدم كيان أعمال المقاولات مع تركيز قوي على جودة التنفيذ والتنسيق الميداني والالتزام بمواصفات المشروع. ويكمن جزء أساسي من خبرتنا في أعمال الألومنيوم والواجهات المعمارية.',
-    service1_title:      'أنظمة الكرتن وول',
-    service1_desc:       'أنظمة واجهات ألومنيوم وزجاج حديثة مصممة لتحقيق المظهر المعماري الجذاب والأداء الوظيفي العالي.',
-    service2_title:      'أبواب ونوافذ الألومنيوم',
-    service2_desc:       'حلول تصنيع وتركيب مخصصة وفقاً لأبعاد ومواصفات ومتطلبات تصميم كل مشروع.',
-    service3_title:      'أنظمة السكاي لايت',
-    service3_desc:       'حلول الألومنيوم والزجاج للأسقف المعمارية الشفافة، وتدمج بين الإضاءة الطبيعية والتركيب الدقيق.',
-    service4_title:      'كاسرات الشمس (اللوفرز)',
-    service4_desc:       'أنظمة كاسرات شمس معمارية مصممة وفقاً للمتطلبات الوظيفية والجمالية لكل مشروع.',
-    service5_title:      'المقاولات العامة',
-    service5_desc:       'إدارة وتنفيذ الأعمال الإنشائية والميدانية بكفاءة والتزام يسبق الجدول الزمني.',
-    service6_title:      'التوريدات العمومية',
-    service6_desc:       'توريد كافة المستلزمات والمواد المعمارية والهندسية عالية الجودة والمطابقة للمواصفات.',
+    services_badge: 'قطاعات الشركة وأنشطتها',
+    services_title: 'قطاعاتنا الرئيسية',
+    services_subtitle: 'نقسم خدمات الشركة إلى قطاعين رئيسيين يكملان بعضهما، لنقدم تجربة متكاملة من الهيكل حتى الفرش والتشطيب.',
+    goals_title: 'أهدافنا',
+    goals_text: 'تحقيق التميز المستدام، تعزيز الشراكة في المشروعات القومية، وتقديم تجربة متكاملة للعميل من الهيكل والواجهات الخارجية حتى الفرش والديكور الداخلي.',
+    div1_title: 'قطاع الألومنيوم والحلول المعمارية الخارجية',
+    div1_sub: 'Aluminum & Exterior Solutions',
+    div1_a_title: 'أعمال الألومنيوم والواجهات',
+    div1_a_desc: 'توريد وتصنيع وتركيب أحدث قطاعات الألومنيوم للواجهات والشبابيك والأبواب بأعلى معايير العزل والجودة.',
+    div1_b_title: 'الأنظمة الزجاجية',
+    div1_b_desc: 'توريد وتركيب الزجاج المعالج والمعماري للواجهات والتجهيزات (Glass Solutions).',
+    div1_c_title: 'الأعمال الديكورية والإرشادية الخارجية',
+    div1_c_desc: 'تصميم وتنفيذ اللافتات والإرشادات والواجهات الفنية للمشروعات القومية والمؤسسات الكبرى (Outdoor).',
+    div2_title: 'قطاع الأخشاب والديكورات والفرش الداخلي',
+    div2_sub: 'Wood, Interior & Furniture Solutions',
+    div2_a_title: 'تصنيع الأبواب الخشبية الفاخرة',
+    div2_a_desc: 'تجفيف ومعالجة الأخشاب وتصنيع أبواب الخشب الطبيعي والقشرة وMDF والأبواب العازلة للصوت بتصاميم كلاسيكية ومودرن.',
+    div2_b_title: 'التجاليد الخشبية والفنية',
+    div2_b_desc: 'تصميم وتنفيذ تجاليد الحوائط والأرضيات والأسقف بلمسات فنية راقية.',
+    div2_c_title: 'التشطيبات والديكور المتكامل',
+    div2_c_desc: 'تنفيذ أعمال الأرضيات، الدهانات، الكهرباء، والسباكة بنظام فندقي فاخر.',
+    div2_d_title: 'تأثيث وفرش المشروعات',
+    div2_d_desc: 'توريد وفرش الأثاث المكتبي، الفندقي، السكني، والقاعات الكبرى بالكامل.',
+    quality_badge: 'الجودة والتنظيم',
+    quality_title: 'الجودة والهيكل التنظيمي',
+    quality_subtitle: 'منظومة إدارية وفنية متكاملة تضمن جودة التنفيذ وسلامة الموقع حتى التسليم النهائي.',
+    qhse_title: 'نظام الجودة والسلامة (QHSE)',
+    qhse_text: 'الالتزام التام بالسلامة والصحة المهنية والحفاظ على البيئة طبقاً لخطة الشركة المعتمدة.',
+    org_title: 'الهيكل التنظيمي (Organizational Structure)',
+    org_text: 'إدارة هندسية وفنية متكاملة تضمن متابعة المشروع من المخطط الزمني (Project Timeline) وحتى التسليم النهائي.',
+    step1: 'التصميم',
+    step2: 'التصنيع والتوريد',
+    step3: 'التنفيذ والتركيب',
+    step4: 'التسليم النهائي',
 
     // --- Footer ---
-    footer_desc:          'كيان للمقاولات العامة – نبني مستقبلك بثقة وجودة استثنائية. شريكك الأول في عالم الإنشاءات والمقاولات.',
+    footer_desc: 'كيان للمقاولات والتوريدات العمومية – من الهيكل إلى التفاصيل… حلول متكاملة تُبنى بالفخامة والدقة.',
     footer_links_title:   'روابط سريعة',
     footer_contact_title: 'تواصل معنا',
-    footer_copy:          '© 2025 كيان للمقاولات العامة. جميع الحقوق محفوظة.',
+    footer_copy: '© 2026 كيان للمقاولات والتوريدات العمومية. جميع الحقوق محفوظة.',
     footer_made:          'صُنع بـ ❤️ في مصر',
   },
 
@@ -181,30 +304,30 @@ const translations = {
     lang_toggle:  'عربي',
 
     // --- Hero ---
-    hero_badge:        'Exceptional Projects in the Heart of Egypt',
-    hero_headline:     'Building Your Future\nWith Trust & Excellence',
-    hero_subheadline:  'Kayan Construction – Your trusted partner for the finest building and construction projects in Egypt',
+    hero_badge: 'Integrated Contracting & General Supplies',
+    hero_headline: 'From Structure to Details…\nIntegrated Solutions Built with Luxury & Precision',
+    hero_subheadline: 'Kayan Contracting & General Supplies – finishing, interior fit-out and exterior architectural façade solutions, from design to final handover.',
     hero_cta_primary:  'Explore Projects',
     hero_cta_secondary:'Contact Us',
     hero_scroll:       'Discover More',
 
     // --- About ---
     about_badge:      'Who We Are',
-    about_title:      'About KAYAN',
-    about_stat_label: 'Years of Experience',
-    about_subtitle:   'Contracting, General Supplies & Specialized Façade Solutions',
-    about_p1:         'KAYAN is an Egyptian contracting and general supplies company with four years of experience in the construction market. Since its establishment, KAYAN has been working in cooperation with the Military Works Department, contributing to the execution of various projects while maintaining strict standards of quality, precision, and commitment.',
-    about_p2:         'With a production capacity of approximately 1,500–2,000 m² per week, KAYAN is equipped to handle demanding project requirements and maintain efficient delivery across multiple sites. Our experience combines contracting capabilities with specialized aluminum and façade solutions, supported by an experienced team and a strong production and execution capacity.',
-    about_point1:     'Cooperation with the Military Works Department on various projects',
-    about_point2:     'Production capacity of approximately 1,500–2,000 m² per week',
-    about_point3:     'Specialized aluminum and façade solutions with high precision',
-    about_point4:     'Experienced team with strong production and execution capacity',
+    about_title: 'About Kayan Contracting & General Supplies',
+    about_stat_label: 'Year Established',
+    about_subtitle: 'An Integrated Strategic Partner, from Structure to Details',
+    about_p1: 'Since its establishment in 2019, Kayan Contracting & General Supplies has secured its position as an integrated strategic partner in delivering major national, institutional and residential projects. Kayan combines its leading expertise in luxury wooden furniture manufacturing, finishing and interior decoration with its excellence in aluminum systems, glass façades and exterior structural works.',
+    about_p2: 'We offer a comprehensive engineering and execution system built on quality, precision and innovation to turn architectural visions into tangible reality.',
+    about_point1: 'Strategic partner in major national, institutional and residential projects',
+    about_point2: 'Leading expertise in luxury wooden furniture, finishing and interior decoration',
+    about_point3: 'Excellence in aluminum systems, glass façades and exterior structural works',
+    about_point4: 'A comprehensive engineering and execution system from design to final handover',
 
     // --- Vision / Mission ---
     vision_title: 'Our Vision',
-    vision_text:  'To become a trusted name in Egypt’s contracting and construction sector, recognized for reliable execution, quality workmanship, and specialized façade solutions. We aim to continue expanding our capabilities and project portfolio while building long-term relationships based on trust, performance, and consistent results.',
-    mission_title:'Our Mission',
-    mission_text: 'Our mission is to deliver contracting and supply solutions that combine technical expertise, efficient execution, and attention to detail. We are committed to meeting project specifications, maintaining high standards of workmanship, and delivering every project with professionalism from start to finish.',
+    vision_text: 'To be the first choice and the leading company in providing integrated solutions for construction, aluminum, and luxury furniture across the Middle East.',
+    mission_title: 'Our Mission',
+    mission_text: 'To deliver comprehensive services that combine engineering design, precise execution and superior quality, while adhering to the highest standards of safety, quality and occupational health (QHSE Plan).',
 
     // --- Projects section ---
     projects_badge:    'Our Work',
@@ -290,6 +413,111 @@ const translations = {
     proj6_spec3_label:'Expertise',
     proj6_spec3_value:'Specialized Technical Team',
 
+    // --- Projects tabs ---
+    projects_tab_main: 'Façades & Aluminum',
+    projects_tab_new:  'Furnishing & Interior Fit-out',
+
+    // --- New projects: shared spec labels ---
+    np_label_location: 'Location',
+    np_label_scope:    'Scope of Works',
+    np_label_areas:    'Areas Fitted-out',
+
+    // New 1 – Hassan Mostafa Indoor Hall
+    np1_title:       'Hassan Mostafa Indoor Hall',
+    np1_location:    '6th of October',
+    np1_desc_short:  'Furnishing and fit-out of offices, reception halls and conference rooms, with wooden cladding works.',
+    np1_units:       'Furnishing & Wood Cladding',
+    np1_modal_desc:  'KAYAN carried out the furnishing and interior fit-out of Hassan Mostafa Indoor Hall in 6th of October City, including the offices of the President of the International Handball Federation and the President of the Egyptian Handball Federation, as well as the reception halls, VIP lounges, waiting rooms, meeting rooms and press conference halls.\n\nThe scope covered the supply and installation of desks, fixed and swivel chairs, lounge sets, meeting tables and decorative tables, in addition to wooden cladding and the fit-out of changing rooms and the games hall.',
+    np1_areas:       'Egyptian & International Handball Federation offices, reception and VIP halls, meeting and press rooms',
+
+    // New 2 – Administrative Capital Indoor Hall
+    np2_title:       'Administrative Capital Indoor Hall',
+    np2_location:    'New Administrative Capital',
+    np2_desc_short:  'Fit-out of ministerial offices, VIP lounges and media services halls at the Sports City.',
+    np2_units:       'Furnishing & Woodwork',
+    np2_modal_desc:  'KAYAN contributed to the fit-out of the Administrative Capital Indoor Hall at the Sports City in the New Administrative Capital, furnishing the Minister of Youth and Sports’ office and secretariat, the VIP waiting and reception lounges, the media services hall and the media services workstation room.\n\nThe works also included furnishing medical clinics, changing rooms, sports halls and the sauna and jacuzzi rooms, along with woodwork, cladding and landscape elements.',
+    np2_areas:       'Minister’s office, VIP lounges, media services hall, medical clinics',
+
+    // New 3 – Cairo Stadium Halls Complex
+    np3_title:       'Cairo Stadium Halls Complex',
+    np3_location:    'Cairo',
+    np3_desc_short:  'Fit-out of sports halls and press conference rooms, with treated-vinyl wall cladding.',
+    np3_units:       'Sports Halls Fit-out',
+    np3_modal_desc:  'KAYAN carried out the furnishing and fit-out works at the Cairo Stadium Halls Complex, including the sports halls, the press conference hall, the VIP waiting lounge, work units, counters and woodwork.\n\nThe project also included wall cladding works with treated vinyl.',
+    np3_areas:       'Sports halls, press conference hall, VIP waiting lounge',
+
+    // New 4 – African Space Agency
+    np4_title:       'African Space Agency',
+    np4_location:    'New Administrative Capital',
+    np4_desc_short:  'Furnishing of conference rooms, meeting halls and VIP lounges with premium wooden cladding.',
+    np4_units:       'Furnishing & Wood Cladding',
+    np4_modal_desc:  'KAYAN took part in fitting out the African Space Agency headquarters in the New Administrative Capital, furnishing the conference hall, meeting rooms, the VIP waiting lounge and the offices.\n\nThe scope included the supply and installation of fixed and swivel chairs, tables, lounge sets and doors, along with wooden cladding and detailed woodwork.',
+    np4_areas:       'Conference hall, VIP waiting lounge, meeting rooms, offices',
+
+    // New 5 – 151st Brigade Command
+    np5_title:       '151st Brigade Command – Military Works',
+    np5_location:    'Beni Youssef Sector',
+    np5_desc_short:  'Furnishing of offices, hotel-style bedrooms and meeting rooms, with doors and wooden cladding.',
+    np5_units:       'Furnishing, Doors & Cladding',
+    np5_modal_desc:  'KAYAN carried out the furnishing and fit-out of the 151st Brigade Command project (Military Works) in the Beni Youssef sector, covering offices, hotel-style bedrooms and meeting rooms.\n\nThe project included the supply and installation of doors, wooden cladding, chairs, lounge sets, meeting tables and lighting units.',
+    np5_areas:       'Offices, hotel-style bedrooms, meeting rooms',
+
+    // New 6 – Konouz Marble Exhibition
+    np6_title:       'Konouz Marble Exhibition',
+    np6_location:    'Shaq El-Thuban',
+    np6_desc_short:  'Fit-out of offices, the reception hall and work units at Konouz Marble Exhibition.',
+    np6_units:       'Offices & Reception Hall',
+    np6_modal_desc:  'KAYAN contributed to fitting out the Konouz Marble Exhibition in Shaq El-Thuban, furnishing the exhibition director’s office, the reception hall and the administrative offices.\n\nThe scope included work units, fixed and swivel chairs, lounge sets, tables, decorative pieces, doors and woodwork.',
+    np6_areas:       'Director’s office, reception hall, administrative offices',
+
+    // New 7 – Engineering Authority Clinics
+    np7_title:       'Engineering Authority Clinics',
+    np7_location:    'Cairo',
+    np7_desc_short:  'Fit-out of medical clinics and administrative offices with woodwork and doors.',
+    np7_units:       'Medical Clinics Fit-out',
+    np7_modal_desc:  'KAYAN carried out the fit-out of the Engineering Authority Clinics in Cairo, including the furnishing of medical clinics and administrative offices.\n\nThe scope included woodwork, doors, and fixed and swivel chairs.',
+    np7_areas:       'Medical clinics, administrative offices',
+
+    // New 8 – Licensing & Follow-up Department
+    np8_title:       'Licensing & Follow-up Department',
+    np8_location:    'Cairo',
+    np8_desc_short:  'Furnishing of offices and work units and fit-out of meeting rooms with woodwork.',
+    np8_units:       'Offices & Meeting Rooms',
+    np8_modal_desc:  'KAYAN fitted out the Licensing and Follow-up Department headquarters in Cairo, furnishing the offices and work units and equipping the meeting rooms.\n\nThe scope included woodwork and fixed and swivel chairs.',
+    np8_areas:       'Offices, meeting rooms',
+
+    // New 9 – Al-Hussein Mosque
+    np9_title:       'Al-Hussein Mosque Project',
+    np9_location:    'Historic Cairo',
+    np9_desc_short:  'Part of the Islamic heritage revival projects: furnishing the mosque library, VIP lounge and Imam’s office.',
+    np9_units:       'Islamic Heritage Revival',
+    np9_modal_desc:  'As part of the Projects for Reviving Islamic Heritage in Historic Cairo, KAYAN carried out the furnishing and fit-out at Al-Hussein Mosque, including the mosque library, the VIP lounge and the Imam’s office.\n\nThe scope included desks, fixed and swivel chairs, woodwork and doors.',
+    np9_areas:       'Mosque library, VIP lounge, Imam’s office',
+
+    // New 10 – Sayida Zeinab Mosque
+    np10_title:      'Sayida Zeinab Mosque Project',
+    np10_location:   'Historic Cairo',
+    np10_desc_short: 'Part of the Islamic heritage revival projects: furnishing the VIP reception hall with woodwork and doors.',
+    np10_units:      'Islamic Heritage Revival',
+    np10_modal_desc: 'As part of the Projects for Reviving Islamic Heritage in Historic Cairo, KAYAN carried out the furnishing and fit-out at Sayida Zeinab Mosque, including the VIP reception hall.\n\nThe scope included lounge sets, fixed and swivel chairs, woodwork and doors.',
+    np10_areas:      'VIP reception hall',
+
+    // New 11 – Various projects
+    np11_title:      'Various Projects',
+    np11_location:   'Multiple Locations',
+    np11_desc_short: 'Furnishing of offices and lounges with woodwork and doors across various projects.',
+    np11_units:      'Furnishing & Woodwork',
+    np11_modal_desc: 'A selection of various furnishing and fit-out projects delivered by KAYAN, including offices, fixed and swivel chairs, lounge sets, meeting tables, woodwork and doors.',
+    np11_areas:      'Offices, meeting rooms, lounges',
+
+    // New 12 – Technical office 3D designs
+    np12_title:      'Technical Office Works – 3D Designs',
+    np12_location:   'Kayan – Technical Office',
+    np12_desc_short: '3D designs that show the final look of the project before execution begins.',
+    np12_units:      '3D Visualization',
+    np12_modal_desc: 'KAYAN’s technical office produces 3D visualizations that present the final look of the project before execution, ensuring a clear concept and easier decision-making.\n\nThe work covers custom design development, material selection, cladding layouts, patterns, lighting distribution and decoration.',
+    np12_areas:      'Interior design, material selection, 3D visualization',
+
     // --- Modal ---
     modal_cta:       'Chat on WhatsApp',
     modal_close_btn: 'Close',
@@ -305,33 +533,51 @@ const translations = {
     contact_phone_btn:      'Call Us Directly →',
     contact_email_label:    'Email Address',
     contact_email_btn:      'Send an Email →',
-    contact_addr_label:     'Headquarters',
-    contact_addr_value:     'Cairo – Egypt',
+    contact_addr_label: 'Headquarters',
+    contact_addr_value: '93 5th St, Golf – Nasr City, Cairo',
     contact_map_badge:      'Open Company Location on Map ↗',
 
     // --- Services Section ---
-    services_badge:      'Our Services & Scope',
-    services_title:      'Contracting & Façade Services',
-    services_subtitle:   'KAYAN provides integrated solutions across contracting, general supplies, and architectural aluminum façade works.',
-    services_desc_main:  'KAYAN delivers contracting works with a strong focus on execution quality, site coordination, and compliance with project specifications. A key part of our expertise lies in aluminum and architectural façade works.',
-    service1_title:      'Curtain Wall Systems',
-    service1_desc:       'Modern aluminum and glass façade systems designed to achieve both architectural appearance and functional performance.',
-    service2_title:      'Aluminum Doors & Windows',
-    service2_desc:       'Fabrication and installation solutions tailored to project dimensions, specifications, and design requirements.',
-    service3_title:      'Skylight Systems',
-    service3_desc:       'Aluminum and glazing solutions for architectural skylights, combining natural lighting with precise installation.',
-    service4_title:      'Architectural Louvers',
-    service4_desc:       'Architectural aluminum louver systems designed according to the functional and aesthetic requirements of each project.',
-    service5_title:      'General Contracting',
-    service5_desc:       'Execution and management of construction and site works with precision and high execution quality.',
-    service6_title:      'General Supplies',
-    service6_desc:       'Supply of all high-grade architectural and engineering materials compliant with project specifications.',
+    services_badge: 'Our Divisions & Activities',
+    services_title: 'Our Core Divisions',
+    services_subtitle: 'Our services are divided into two complementary divisions, delivering an integrated experience from structure to furnishing and finishing.',
+    goals_title: 'Our Goals',
+    goals_text: 'To achieve sustainable excellence, strengthen partnership in national projects, and deliver an integrated client experience from structure and exterior façades to furnishing and interior decor.',
+    div1_title: 'Aluminum & Exterior Architectural Solutions',
+    div1_sub: 'Aluminum & Exterior Solutions',
+    div1_a_title: 'Aluminum & Façade Works',
+    div1_a_desc: 'Supply, fabrication and installation of the latest aluminum sections for façades, windows and doors with top insulation and quality standards.',
+    div1_b_title: 'Glass Solutions',
+    div1_b_desc: 'Supply and installation of treated and architectural glass for façades and fit-outs.',
+    div1_c_title: 'Exterior Decorative & Signage Works',
+    div1_c_desc: 'Design and execution of signage, wayfinding and artistic façades for national projects and major institutions (Outdoor).',
+    div2_title: 'Wood, Interior & Furniture Solutions',
+    div2_sub: 'Wood, Interior & Furniture Solutions',
+    div2_a_title: 'Luxury Wooden Door Manufacturing',
+    div2_a_desc: 'Wood drying and treatment, and manufacturing of natural wood, veneer, MDF and soundproof doors in classic and modern designs.',
+    div2_b_title: 'Wood & Artistic Cladding',
+    div2_b_desc: 'Design and execution of wall, floor and ceiling cladding with refined artistic touches.',
+    div2_c_title: 'Integrated Finishing & Decor',
+    div2_c_desc: 'Flooring, painting, electrical and plumbing works delivered to a luxury hotel standard.',
+    div2_d_title: 'Project Furnishing',
+    div2_d_desc: 'Full supply and furnishing of office, hotel and residential furniture and grand halls.',
+    quality_badge: 'Quality & Organization',
+    quality_title: 'Quality, Safety & Organizational Structure',
+    quality_subtitle: 'An integrated management and technical system that ensures execution quality and site safety through to final handover.',
+    qhse_title: 'Quality & Safety System (QHSE)',
+    qhse_text: 'Full commitment to safety, occupational health and environmental protection in line with the company’s approved plan.',
+    org_title: 'Organizational Structure',
+    org_text: 'An integrated engineering and technical management that follows every project from the Project Timeline through to final handover.',
+    step1: 'Design',
+    step2: 'Manufacturing & Supply',
+    step3: 'Execution & Installation',
+    step4: 'Final Handover',
 
     // --- Footer ---
-    footer_desc:          'Kayan Construction – Building your future with trust and exceptional quality. Your primary partner in Egyptian construction & contracting.',
+    footer_desc: 'Kayan Contracting & General Supplies – From structure to details… integrated solutions built with luxury and precision.',
     footer_links_title:   'Quick Links',
     footer_contact_title: 'Contact Us',
-    footer_copy:          '© 2025 Kayan Construction. All Rights Reserved.',
+    footer_copy: '© 2026 Kayan Contracting & General Supplies. All Rights Reserved.',
     footer_made:          'Made with ❤️ in Egypt',
   }
 };
@@ -430,6 +676,31 @@ const projectData = {
     ]
   },
 };
+
+// --- New projects (Furnishing & Interior Fit-out tab) ---
+// Image galleries are defined in new-projects-data.js (window.newProjectsImages)
+(function registerNewProjects() {
+  const galleries = window.newProjectsImages || {};
+  const list = [
+    'hassan-mostafa', 'capital-hall', 'cairo-stadium', 'space-agency',
+    'brigade-151', 'konouz', 'clinics', 'licensing',
+    'hussein-mosque', 'zeinab-mosque', 'various', 'technical-office',
+  ];
+  list.forEach((key, i) => {
+    const n = i + 1;
+    projectData[key] = {
+      images: galleries[key] || [],
+      titleKey:    `np${n}_title`,
+      locationKey: `np${n}_location`,
+      descKey:     `np${n}_modal_desc`,
+      specs: [
+        { labelKey: 'np_label_location', valueKey: `np${n}_location` },
+        { labelKey: 'np_label_scope',    valueKey: `np${n}_units` },
+        { labelKey: 'np_label_areas',    valueKey: `np${n}_areas` },
+      ]
+    };
+  });
+})();
 
 // ============================================================
 // 3. STATE
@@ -546,8 +817,12 @@ function buildModalContent(projectKey) {
   // --- Swiper slides ---
   const wrapper = $('#modal-swiper-wrapper');
   if (wrapper) {
+    const projectTitle = t[data.titleKey] || '';
     wrapper.innerHTML = data.images.map(src =>
-      `<div class="swiper-slide"><img src="${src}" alt="" loading="lazy" /></div>`
+      `<div class="swiper-slide">
+        <img class="modal-slide-bg" src="${src}" alt="" aria-hidden="true" />
+        <img class="modal-slide-img" src="${src}" alt="${projectTitle}" loading="lazy" decoding="async" />
+      </div>`
     ).join('');
   }
 
@@ -564,6 +839,15 @@ function buildModalContent(projectKey) {
       </svg>
       ${t[data.locationKey] || ''}
     `;
+  }
+
+  // --- Images count badge ---
+  const countBadge = $('#modal-images-count');
+  if (countBadge) {
+    const total = data.images.length;
+    countBadge.textContent = currentLang === 'ar'
+      ? `${total} ${total === 1 ? 'صورة' : (total === 2 ? 'صورتان' : (total <= 10 ? 'صور' : 'صورة'))}`
+      : `${total} photo${total === 1 ? '' : 's'}`;
   }
 
   // --- Description ---
@@ -608,7 +892,10 @@ function buildModalContent(projectKey) {
   if (closeBtn) closeBtn.textContent = t['modal_close_btn'];
 }
 
-function openModal(projectKey) {
+function openModal(projectKey, initialSlideIndex = 0) {
+  const data = projectData[projectKey];
+  if (!data) return;
+
   buildModalContent(projectKey);
 
   const modal = $('#project-modal');
@@ -630,31 +917,49 @@ function openModal(projectKey) {
     modalSwiperInstance = null;
   }
 
+  const hasMultipleImages = Array.isArray(data.images) && data.images.length > 1;
+
   // Init Swiper with DOM observer support & smooth slide speed
-  modalSwiperInstance = new Swiper('.modal-swiper', {
-    loop: true,
-    speed: 600,
-    grabCursor: true,
+  modalSwiperInstance = new Swiper(modal.querySelector('.modal-swiper'), {
+    loop: hasMultipleImages,
+    speed: 400,
+    grabCursor: hasMultipleImages,
     observer: true,
     observeParents: true,
     observeSlideChildren: true,
     resizeObserver: true,
-    autoplay: { delay: 3500, disableOnInteraction: false },
-    pagination: { el: '.swiper-pagination', clickable: true, dynamicBullets: true },
+    autoplay: false,
+    pagination: {
+      el: modal.querySelector('.swiper-pagination'),
+      clickable: true,
+      dynamicBullets: true
+    },
     navigation: {
-      prevEl: '.swiper-button-prev',
-      nextEl: '.swiper-button-next',
+      nextEl: modal.querySelector('.swiper-button-next'),
+      prevEl: modal.querySelector('.swiper-button-prev'),
     },
     keyboard: { enabled: true },
     a11y: { enabled: true },
   });
 
+  if (Number.isInteger(initialSlideIndex) && initialSlideIndex > 0) {
+    try {
+      modalSwiperInstance.slideToLoop(initialSlideIndex, 0);
+    } catch (err) {
+      try {
+        modalSwiperInstance.slideTo(initialSlideIndex, 0);
+      } catch (e) {}
+    }
+  }
+
   // Force layout update after modal becomes visible
   setTimeout(() => {
-    if (modalSwiperInstance) {
-      modalSwiperInstance.update();
-    }
-  }, 150);
+    if (modalSwiperInstance) modalSwiperInstance.update();
+  }, 100);
+
+  setTimeout(() => {
+    if (modalSwiperInstance) modalSwiperInstance.update();
+  }, 300);
 
   // Focus close button for accessibility
   setTimeout(() => {
@@ -683,15 +988,20 @@ function closeModal() {
 function initModal() {
   // Project cards -> open modal
   $$('.project-card').forEach(card => {
-    const openHandler = () => {
+    const openHandler = (e) => {
+      // Don't open modal if clicked on in-card slider navigation buttons
+      if (e && e.target && e.target.closest('.card-slider-btn')) return;
       const key = card.getAttribute('data-project');
-      if (key) openModal(key);
+      const currentSlide = parseInt(card.getAttribute('data-current-slide') || '0', 10);
+      if (key) openModal(key, currentSlide);
     };
     card.addEventListener('click', openHandler);
     card.addEventListener('keydown', e => {
       if (e.key === 'Enter' || e.key === ' ') {
         e.preventDefault();
-        openHandler();
+        const key = card.getAttribute('data-project');
+        const currentSlide = parseInt(card.getAttribute('data-current-slide') || '0', 10);
+        if (key) openModal(key, currentSlide);
       }
     });
   });
@@ -898,6 +1208,150 @@ function initContactLinks() {
 }
 
 // ============================================================
+// 12b. PROJECTS TABS
+// ============================================================
+function initProjectTabs() {
+  const tabs   = $$('.projects-tab');
+  const panels = $$('.projects-panel');
+  if (!tabs.length || !panels.length) return;
+
+  function activate(name, { focus = false } = {}) {
+    tabs.forEach(tab => {
+      const on = tab.dataset.tab === name;
+      tab.classList.toggle('is-active', on);
+      tab.setAttribute('aria-selected', String(on));
+      tab.tabIndex = on ? 0 : -1;
+      if (on && focus) tab.focus();
+    });
+
+    panels.forEach(panel => {
+      const on = panel.id === `projects-panel-${name}`;
+      panel.hidden = !on;
+      if (!on) return;
+
+      // Replay the entrance animation
+      panel.classList.remove('is-entering');
+      void panel.offsetWidth;
+      panel.classList.add('is-entering');
+
+      // Cards inside a previously hidden panel were never intersecting – reveal them now
+      $$('.project-card', panel).forEach(card => card.classList.add('is-visible'));
+    });
+  }
+
+  tabs.forEach((tab, index) => {
+    tab.addEventListener('click', () => activate(tab.dataset.tab));
+
+    // Arrow-key navigation (RTL aware)
+    tab.addEventListener('keydown', e => {
+      const keys = ['ArrowLeft', 'ArrowRight', 'Home', 'End'];
+      if (!keys.includes(e.key)) return;
+      e.preventDefault();
+
+      const isRtl = document.documentElement.getAttribute('dir') === 'rtl';
+      let next = index;
+      if (e.key === 'Home') next = 0;
+      else if (e.key === 'End') next = tabs.length - 1;
+      else {
+        const step = (e.key === 'ArrowRight') === !isRtl ? 1 : -1;
+        next = (index + step + tabs.length) % tabs.length;
+      }
+      activate(tabs[next].dataset.tab, { focus: true });
+    });
+  });
+}
+
+// ============================================================
+// 12b. IN-CARD SLIDERS (FOR INTERIOR & WOOD PROJECTS)
+// ============================================================
+function initCardSliders() {
+  const cards = $$('.project-card[data-has-slider="true"]');
+  if (!cards.length) return;
+
+  cards.forEach(card => {
+    const projectKey = card.getAttribute('data-project');
+    const images = (window.newProjectsImages && window.newProjectsImages[projectKey]) || [];
+    if (!images || images.length <= 1) return;
+
+    let currentIndex = 0;
+    card.setAttribute('data-current-slide', '0');
+
+    const imgEl = card.querySelector('.card-slider-img');
+    const counterEl = card.querySelector('.card-slider-counter');
+    const prevBtn = card.querySelector('.card-slider-prev');
+    const nextBtn = card.querySelector('.card-slider-next');
+
+    function updateSlide(newIndex) {
+      currentIndex = (newIndex + images.length) % images.length;
+      card.setAttribute('data-current-slide', String(currentIndex));
+
+      if (counterEl) {
+        counterEl.textContent = `${currentIndex + 1} / ${images.length}`;
+      }
+
+      if (imgEl) {
+        imgEl.style.opacity = '0.35';
+        const targetSrc = images[currentIndex];
+        const preloader = new Image();
+        preloader.onload = () => {
+          imgEl.src = targetSrc;
+          imgEl.style.opacity = '1';
+        };
+        preloader.onerror = () => {
+          imgEl.src = targetSrc;
+          imgEl.style.opacity = '1';
+        };
+        preloader.src = targetSrc;
+      }
+    }
+
+    if (prevBtn) {
+      prevBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        updateSlide(currentIndex - 1);
+      });
+    }
+
+    if (nextBtn) {
+      nextBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        updateSlide(currentIndex + 1);
+      });
+    }
+
+    // Touch swipe support on card thumbnail
+    let touchStartX = 0;
+    let touchStartY = 0;
+    const mediaEl = card.querySelector('.card-media-slider');
+    if (mediaEl) {
+      mediaEl.addEventListener('touchstart', (e) => {
+        touchStartX = e.changedTouches[0].screenX;
+        touchStartY = e.changedTouches[0].screenY;
+      }, { passive: true });
+
+      mediaEl.addEventListener('touchend', (e) => {
+        const touchEndX = e.changedTouches[0].screenX;
+        const touchEndY = e.changedTouches[0].screenY;
+        const diffX = touchEndX - touchStartX;
+        const diffY = touchEndY - touchStartY;
+
+        if (Math.abs(diffX) > 35 && Math.abs(diffX) > Math.abs(diffY)) {
+          e.stopPropagation();
+          // Swipe left advances (+1), swipe right goes back (-1)
+          if (diffX < 0) {
+            updateSlide(currentIndex + 1);
+          } else {
+            updateSlide(currentIndex - 1);
+          }
+        }
+      }, { passive: true });
+    }
+  });
+}
+
+// ============================================================
 // 13. INIT
 // ============================================================
 document.addEventListener('DOMContentLoaded', () => {
@@ -918,6 +1372,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Project modal
   initModal();
+
+  // Projects tabs
+  initProjectTabs();
+
+  // In-card sliders for wood projects
+  initCardSliders();
 
   // Lead form
   initLeadForm();
