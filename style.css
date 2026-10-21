@@ -250,16 +250,21 @@ section#hero:hover .hero-bg {
   box-shadow: 0 0 20px rgba(19, 168, 161, 0.2);
 }
 
-/* ---------- 11. PROJECT CARDS ---------- */
+/* ---------- 11. PROJECT CARDS (OPTIMIZED PERFORMANCE) ---------- */
 .project-card {
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
-  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1),
-    box-shadow 0.4s ease,
-    border-color 0.4s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1),
+    box-shadow 0.35s ease,
+    border-color 0.35s ease;
+  content-visibility: auto;
+  contain-intrinsic-size: auto 380px;
+  contain: paint layout;
+  transform: translateZ(0);
+  backface-visibility: hidden;
 }
 
 .project-card:hover {
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5), 0 0 30px rgba(19, 168, 161, 0.1);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5), 0 0 24px rgba(19, 168, 161, 0.15);
 }
 
 .project-card:focus-visible {
@@ -272,12 +277,25 @@ section#hero:hover .hero-bg {
   align-items: center;
   padding: 0.25rem 0.65rem;
   border-radius: 9999px;
-  background: rgba(10, 10, 15, 0.7);
-  backdrop-filter: blur(8px);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  color: rgba(255, 255, 255, 0.85);
+  background: rgba(10, 12, 18, 0.88);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  color: rgba(255, 255, 255, 0.9);
   font-size: 0.68rem;
   font-weight: 500;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+  transform: translateZ(0);
+}
+
+.card-media-slider {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  contain: paint;
+}
+
+.card-slider-img {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  will-change: transform, opacity;
 }
 
 .shadow-gold-sm {
@@ -343,18 +361,16 @@ section#hero:hover .hero-bg {
 }
 
 .projects-panel.is-entering {
-  animation: panelFadeIn 0.55s ease both;
+  animation: panelFadeIn 0.28s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
 @keyframes panelFadeIn {
   from {
     opacity: 0;
-    transform: translateY(18px);
   }
 
   to {
     opacity: 1;
-    transform: translateY(0);
   }
 }
 
@@ -500,42 +516,50 @@ body.modal-open {
   font-weight: 900;
 }
 
-/* In-card slider buttons (for wood projects) */
+/* In-card slider buttons (for wood projects - High Performance) */
 .card-slider-btn {
-  background: rgba(10, 10, 15, 0.78);
-  backdrop-filter: blur(8px);
+  background: rgba(10, 12, 18, 0.9);
   border: 1px solid rgba(255, 255, 255, 0.22);
   cursor: pointer;
   z-index: 20;
-  transform: translateY(-50%);
-  transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+  transform: translateY(-50%) translateZ(0);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
   color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .card-slider-btn:hover {
   background: #0e938d !important;
   border-color: #0e938d !important;
   color: #ffffff !important;
-  transform: translateY(-50%) scale(1.12);
+  transform: translateY(-50%) scale(1.1) translateZ(0);
   box-shadow: 0 4px 14px rgba(14, 147, 141, 0.45);
 }
 
-.project-card:hover .card-slider-btn {
+.project-card:hover .card-slider-btn,
+.project-card:focus-within .card-slider-btn {
   opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 @media (max-width: 768px) {
   .card-slider-btn {
     opacity: 0.95 !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
   }
 }
 
 .card-slider-counter {
-  background: rgba(10, 10, 15, 0.82);
-  backdrop-filter: blur(8px);
+  background: rgba(10, 12, 18, 0.88);
   border: 1px solid rgba(255, 255, 255, 0.18);
   color: rgba(255, 255, 255, 0.95);
   letter-spacing: 0.5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+  transform: translateZ(0);
 }
 
 .swiper-pagination-bullet {
@@ -549,7 +573,7 @@ body.modal-open {
   transition: width 0.3s ease !important;
 }
 
-/* Modal Swiper presentation - NEVER cropped */
+/* Modal Swiper presentation - Sleek, lightweight, hardware-accelerated */
 .modal-swiper .swiper-slide {
   position: relative;
   display: flex !important;
@@ -558,19 +582,26 @@ body.modal-open {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background: #08090d;
+  background: radial-gradient(circle at center, #171b26 0%, #07080c 100%);
 }
 
-.modal-slide-bg {
+.modal-slide-spinner {
   position: absolute;
-  inset: -25%;
-  width: 150%;
-  height: 150%;
-  object-fit: cover !important;
-  filter: blur(28px) brightness(0.32);
-  transform: scale(1.15);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 34px;
+  height: 34px;
+  border: 3px solid rgba(212, 163, 89, 0.18);
+  border-top-color: #d4a359;
+  border-radius: 50%;
+  animation: modalSpin 0.75s linear infinite;
   pointer-events: none;
   z-index: 1;
+}
+
+@keyframes modalSpin {
+  to { transform: translate(-50%, -50%) rotate(360deg); }
 }
 
 .modal-slide-img {
@@ -582,9 +613,16 @@ body.modal-open {
   height: auto;
   object-fit: contain !important;
   border-radius: 8px;
-  box-shadow: 0 16px 45px rgba(0, 0, 0, 0.55);
+  box-shadow: 0 16px 45px rgba(0, 0, 0, 0.65);
   pointer-events: auto;
   user-select: none;
+  opacity: 0;
+  transition: opacity 0.28s ease;
+  will-change: opacity;
+}
+
+.modal-slide-img.is-loaded {
+  opacity: 1;
 }
 
 /* Fallback for bare images */

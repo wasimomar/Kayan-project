@@ -30,7 +30,7 @@ const translations = {
     about_title: 'عن كيان للمقاولات والتوريدات العمومية',
     about_stat_label: 'عام التأسيس',
     about_subtitle: 'شريك استراتيجي متكامل من الهيكل حتى التفاصيل',
-    about_p1: 'منذ تأسيس شركة كيان للمقاولات العامة والتوريدات عام 2019، نجحت الشركة في ترسيخ مكانتها كشريك استراتيجي متكامل في تنفيذ المشروعات القومية والمؤسسية والسكنية الكبرى. تجمع كيان بين خبرتها الرائدة في قطاع تصنيع الأثاث الخشبي الفاخر والتشطيبات والديكورات الداخلية، وبين تميزها في قطاع أنظمة الألومنيوم، الواجهات الزجاجية، والأعمال الإنشائية الخارجية.',
+    about_p1: 'منذ تأسيس شركة كيان للمقاولات العامة والتوريدات، نجحت الشركة في ترسيخ مكانتها كشريك استراتيجي متكامل في تنفيذ المشروعات القومية والمؤسسية والسكنية الكبرى. تجمع كيان بين خبرتها الرائدة في قطاع تصنيع الأثاث الخشبي الفاخر والتشطيبات والديكورات الداخلية، وبين تميزها في قطاع أنظمة الألومنيوم، الواجهات الزجاجية، والأعمال الإنشائية الخارجية.',
     about_p2: 'نحن نقدم منظومة هندسية وتنفيذية شاملة تعتمد على الجودة، الدقة، والابتكار لتحويل الرؤى المعمارية إلى واقع ملموس.',
     about_point1: 'شريك استراتيجي في المشروعات القومية والمؤسسية والسكنية الكبرى',
     about_point2: 'خبرة رائدة في تصنيع الأثاث الخشبي الفاخر والتشطيبات والديكورات الداخلية',
@@ -169,11 +169,11 @@ const translations = {
     np4_areas:       'قاعة المؤتمرات، قاعة انتظار كبار الزوار، صالات الاجتماعات، المكاتب',
 
     // New 5 – 151st Brigade Command
-    np5_title:       'قيادة اللواء 151 – أشغال عسكرية',
+    np5_title:       'قيادة اللواء 152 – أشغال عسكرية',
     np5_location:    'قطاع بني يوسف',
     np5_desc_short:  'فرش المكاتب وغرف النوم الفندقية وقاعات الاجتماعات مع الأبواب والتجاليد الخشبية.',
     np5_units:       'فرش وأبواب وتجاليد',
-    np5_modal_desc:  'نفذت كيان أعمال الفرش والتجهيز بمشروع قيادة اللواء 151 أشغال عسكرية بقطاع بني يوسف، وشملت المكاتب وغرف النوم الفندقية وقاعات الاجتماعات.\n\nضم المشروع توريد وتركيب الأبواب والتجاليد الخشبية والكراسي والأنتريهات وترابيزات الاجتماعات ووحدات الإضاءة.',
+    np5_modal_desc:  'نفذت كيان أعمال الفرش والتجهيز بمبنى قيادة اللواء 152 أشغال عسكرية بقطاع بني يوسف، وشملت المكاتب وغرف النوم الفندقية وقاعات الاجتماعات.\n\nضم المشروع توريد وتركيب الأبواب والتجاليد الخشبية والكراسي والأنتريهات وترابيزات الاجتماعات ووحدات الإضاءة.',
     np5_areas:       'المكاتب، غرف النوم الفندقية، قاعات الاجتماعات',
 
     // New 6 – Konouz Marble Exhibition
@@ -193,20 +193,20 @@ const translations = {
     np7_areas:       'العيادات الطبية، المكاتب الإدارية',
 
     // New 8 – Licensing & Follow-up Department
-    np8_title:       'إدارة التراخيص والمتابعة',
-    np8_location:    'القاهرة',
-    np8_desc_short:  'فرش المكاتب ووحدات العمل وتجهيز غرف الاجتماعات بأعمال خشبية.',
-    np8_units:       'مكاتب وغرف اجتماعات',
-    np8_modal_desc:  'قامت كيان بتجهيز مقر إدارة التراخيص والمتابعة بالقاهرة، من خلال فرش المكاتب ووحدات العمل وتجهيز غرف الاجتماعات.\n\nشمل العمل الأعمال الخشبية والكراسي الثابتة والمتحركة.',
-    np8_areas:       'المكاتب، غرف الاجتماعات',
+    np8_title:       'مبنى الخدمات الجوية بمطار القاهرة',
+    np8_location:    'مطار القاهرة',
+    np8_desc_short:  'أعمال الفرش والتجهيز الداخلي لمبنى الخدمات الجوية بمطار القاهرة.',
+    np8_units:       'فرش وتجهيز داخلي',
+    np8_modal_desc:  'نفذت كيان أعمال الفرش والتجهيز الداخلي لمبنى الخدمات الجوية بمطار القاهرة.',
+    np8_areas:       'المكاتب والقاعات الداخلية بمبنى الخدمات الجوية',
 
     // New 9 – Al-Hussein Mosque
     np9_title:       'مشروع مسجد الحسين',
     np9_location:    'القاهرة التاريخية',
-    np9_desc_short:  'ضمن مشروعات إحياء التراث الإسلامي: فرش مكتبة المسجد وصالة كبار الزوار ومكتب الإمام.',
+    np9_desc_short:  'ضمن مشروعات إحياء التراث الإسلامي: فرش وتجهيز قاعة كبار الزوار بمسجد الحسين.',
     np9_units:       'إحياء التراث الإسلامي',
-    np9_modal_desc:  'ضمن مشروعات إحياء التراث الإسلامي بالقاهرة التاريخية، نفذت كيان أعمال الفرش والتجهيز بمسجد سيدنا الحسين، وشملت مكتبة المسجد وصالة كبار الزوار ومكتب إمام المسجد.\n\nتضمن العمل المكاتب والكراسي الثابتة والمتحركة والأعمال الخشبية والأبواب.',
-    np9_areas:       'مكتبة المسجد، صالة كبار الزوار، مكتب إمام المسجد',
+    np9_modal_desc:  'ضمن مشروعات إحياء التراث الإسلامي بالقاهرة التاريخية، نفذت كيان أعمال الفرش والتجهيز بقاعة كبار الزوار بمسجد سيدنا الحسين.\n\nتضمن العمل الأنتريهات والكراسي والأعمال الخشبية والأبواب.',
+    np9_areas:       'قاعة كبار الزوار',
 
     // New 10 – Sayida Zeinab Mosque
     np10_title:      'مشروع مسجد السيدة زينب',
@@ -217,20 +217,52 @@ const translations = {
     np10_areas:      'قاعة استقبال كبار الزوار',
 
     // New 11 – Various projects
-    np11_title:      'مشروعات متنوعة',
-    np11_location:   'مواقع متعددة',
-    np11_desc_short: 'فرش مكاتب وأنتريهات مع أعمال خشبية وأبواب لمشروعات متنوعة.',
-    np11_units:      'فرش وأعمال خشبية',
-    np11_modal_desc: 'مجموعة من مشروعات الفرش والتجهيز المتنوعة التي نفذتها كيان، وتشمل المكاتب والكراسي الثابتة والمتحركة والأنتريهات وترابيزات الاجتماعات والأعمال الخشبية والأبواب.',
-    np11_areas:      'مكاتب، قاعات اجتماعات، أنتريهات',
+    np11_title:      'مشروع مسجد السيدة نفيسة',
+    np11_location:   'القاهرة التاريخية',
+    np11_desc_short: 'ضمن مشروعات إحياء التراث الإسلامي: فرش وتجهيز قاعة كبار الزوار بمسجد السيدة نفيسة.',
+    np11_units:      'إحياء التراث الإسلامي',
+    np11_modal_desc: 'ضمن مشروعات إحياء التراث الإسلامي بالقاهرة التاريخية، نفذت كيان أعمال الفرش والتجهيز بقاعة كبار الزوار بمسجد السيدة نفيسة.\n\nتضمن العمل الأنتريهات والكراسي والأعمال الخشبية والأبواب.',
+    np11_areas:      'قاعة كبار الزوار',
 
-    // New 12 – Technical office 3D designs
-    np12_title:      'أعمال المكتب الفني – تصميمات ثلاثية الأبعاد',
-    np12_location:   'كيان – المكتب الفني',
-    np12_desc_short: 'تصميمات ثلاثية الأبعاد توضح الشكل النهائي للمشروع قبل بدء التنفيذ.',
-    np12_units:      'تصميم ثلاثي الأبعاد',
-    np12_modal_desc: 'يقدم المكتب الفني في كيان تصميمات ثلاثية الأبعاد (3D Visualization) تعرض الشكل النهائي للمشروع قبل التنفيذ، لضمان وضوح الفكرة وسهولة اتخاذ القرارات.\n\nتشمل الأعمال تطوير التصاميم المخصصة واختيار الخامات وتقسيمات التجاليد والنقوش وتوزيع الإضاءة والديكورات.',
-    np12_areas:      'تصميم داخلي، اختيار الخامات، عرض ثلاثي الأبعاد',
+    // New 12 – Mazareen Chalets
+    np12_title:      'أبواب وفرش شاليهات مزارين',
+    np12_location:   'العلمين الجديدة',
+    np12_desc_short: 'توريد الأبواب وفرش الشاليهات (نموذج D ونموذج E) بمشروع مزارين بالعلمين الجديدة.',
+    np12_units:      'أبواب وفرش شاليهات',
+    np12_modal_desc: 'نفذت كيان أعمال توريد وتركيب الأبواب وفرش شاليهات مشروع مزارين بالعلمين الجديدة، وشملت النموذجين D وE.',
+    np12_areas:      'شاليهات مزارين – نموذج D ونموذج E',
+
+    // New 13 – Marina Yacht Marina Doors
+    np13_title:      'أبواب مارينا مرسى اليخوت',
+    np13_location:   'الساحل الشمالي',
+    np13_desc_short: 'توريد وتركيب الأبواب الخشبية المتخصصة بمشروع مارينا مرسى اليخوت بالساحل الشمالي.',
+    np13_units:      'أبواب خشبية فاخرة',
+    np13_modal_desc: 'نفذت كيان أعمال تصنيع وتوريد وتركيب الأبواب الخشبية لمشروع مارينا مرسى اليخوت بالساحل الشمالي بأعلى مواصفات الجودة ومقاومة العوامل الجوية الساحلية.',
+    np13_areas:      'مرافق ووحدات مارينا مرسى اليخوت',
+
+    // New 14 – Sakan Ahl Misr Doors (New Salam City)
+    np14_title:      'أبواب مشروع سكن أهل مصر',
+    np14_location:   'مدينة السلام الجديدة',
+    np14_desc_short: 'توريد وتركيب الأبواب الخشبية للوحدات السكنية بمشروع سكن أهل مصر بمدينة السلام الجديدة.',
+    np14_units:      'أبواب خشبية سكنية',
+    np14_modal_desc: 'شاركت كيان في مشروع سكن أهل مصر بمدينة السلام الجديدة عبر تصنيع وتوريد وتركيب الأبواب الخشبية للعمارات والوحدات السكنية وفقاً لأعلى معايير المتانة والتشطيب.',
+    np14_areas:      'العمارات والوحدات السكنية',
+
+    // New 15 – Gardenia Buildings Doors (Nasr City)
+    np15_title:      'أبواب عمارات جاردينيا',
+    np15_location:   'مدينة نصر، القاهرة',
+    np15_desc_short: 'تصنيع وتوريد وتركيب الأبواب الخشبية لعمارات كمبوند جاردينيا بمدينة نصر.',
+    np15_units:      'أبواب خشبية',
+    np15_modal_desc: 'نفذت كيان أعمال الأبواب الخشبية لمشروع عمارات جاردينيا بمدينة نصر، وشملت تصنيع وتركيب أبواب المداخل والوحدات السكنية بأجود أنواع الأخشاب والقشور الطبيعية.',
+    np15_areas:      'مداخل ووحدات عمارات جاردينيا',
+
+    // New 16 – Mayan Project Doors (Near Al-Rehab)
+    np16_title:      'أبواب مشروع مايان',
+    np16_location:   'القاهرة الجديدة',
+    np16_desc_short: 'تصنيع وتوريد الأبواب الخشبية الداخلية والخارجية لمشروع مايان بجوار الرحاب.',
+    np16_units:      'أبواب خشبية متخصصة',
+    np16_modal_desc: 'قامت كيان بتصنيع وتوريد وتركيب الأبواب الخشبية لمشروع مايان السكني بجوار مدينة الرحاب، بتشطيبات راقية تناسب الطابع المعماري للمشروع.',
+    np16_areas:      'الوحدات السكنية بمشروع مايان',
 
     // --- Modal ---
     modal_cta:       'تواصل عبر الواتساب',
@@ -316,7 +348,7 @@ const translations = {
     about_title: 'About Kayan Contracting & General Supplies',
     about_stat_label: 'Year Established',
     about_subtitle: 'An Integrated Strategic Partner, from Structure to Details',
-    about_p1: 'Since its establishment in 2019, Kayan Contracting & General Supplies has secured its position as an integrated strategic partner in delivering major national, institutional and residential projects. Kayan combines its leading expertise in luxury wooden furniture manufacturing, finishing and interior decoration with its excellence in aluminum systems, glass façades and exterior structural works.',
+    about_p1: 'Since its establishment, Kayan Contracting & General Supplies has secured its position as an integrated strategic partner in delivering major national, institutional and residential projects. Kayan combines its leading expertise in luxury wooden furniture manufacturing, finishing and interior decoration with its excellence in aluminum systems, glass façades and exterior structural works.',
     about_p2: 'We offer a comprehensive engineering and execution system built on quality, precision and innovation to turn architectural visions into tangible reality.',
     about_point1: 'Strategic partner in major national, institutional and residential projects',
     about_point2: 'Leading expertise in luxury wooden furniture, finishing and interior decoration',
@@ -455,11 +487,11 @@ const translations = {
     np4_areas:       'Conference hall, VIP waiting lounge, meeting rooms, offices',
 
     // New 5 – 151st Brigade Command
-    np5_title:       '151st Brigade Command – Military Works',
+    np5_title:       '152nd Brigade Command – Military Works',
     np5_location:    'Beni Youssef Sector',
     np5_desc_short:  'Furnishing of offices, hotel-style bedrooms and meeting rooms, with doors and wooden cladding.',
     np5_units:       'Furnishing, Doors & Cladding',
-    np5_modal_desc:  'KAYAN carried out the furnishing and fit-out of the 151st Brigade Command project (Military Works) in the Beni Youssef sector, covering offices, hotel-style bedrooms and meeting rooms.\n\nThe project included the supply and installation of doors, wooden cladding, chairs, lounge sets, meeting tables and lighting units.',
+    np5_modal_desc:  'KAYAN carried out the furnishing and fit-out of the 152nd Brigade Command building (Military Works) in the Beni Youssef sector, covering offices, hotel-style bedrooms and meeting rooms.\n\nThe project included the supply and installation of doors, wooden cladding, chairs, lounge sets, meeting tables and lighting units.',
     np5_areas:       'Offices, hotel-style bedrooms, meeting rooms',
 
     // New 6 – Konouz Marble Exhibition
@@ -479,20 +511,20 @@ const translations = {
     np7_areas:       'Medical clinics, administrative offices',
 
     // New 8 – Licensing & Follow-up Department
-    np8_title:       'Licensing & Follow-up Department',
-    np8_location:    'Cairo',
-    np8_desc_short:  'Furnishing of offices and work units and fit-out of meeting rooms with woodwork.',
-    np8_units:       'Offices & Meeting Rooms',
-    np8_modal_desc:  'KAYAN fitted out the Licensing and Follow-up Department headquarters in Cairo, furnishing the offices and work units and equipping the meeting rooms.\n\nThe scope included woodwork and fixed and swivel chairs.',
-    np8_areas:       'Offices, meeting rooms',
+    np8_title:       'Air Services Building – Cairo Airport',
+    np8_location:    'Cairo Airport',
+    np8_desc_short:  'Furnishing and interior fit-out of the Air Services Building at Cairo Airport.',
+    np8_units:       'Furnishing & Interior Fit-out',
+    np8_modal_desc:  'KAYAN carried out the furnishing and interior fit-out of the Air Services Building at Cairo Airport.',
+    np8_areas:       'Offices and interior halls of the Air Services Building',
 
     // New 9 – Al-Hussein Mosque
     np9_title:       'Al-Hussein Mosque Project',
     np9_location:    'Historic Cairo',
-    np9_desc_short:  'Part of the Islamic heritage revival projects: furnishing the mosque library, VIP lounge and Imam’s office.',
+    np9_desc_short:  'Part of the Islamic heritage revival projects: furnishing and fit-out of the VIP hall at Al-Hussein Mosque.',
     np9_units:       'Islamic Heritage Revival',
-    np9_modal_desc:  'As part of the Projects for Reviving Islamic Heritage in Historic Cairo, KAYAN carried out the furnishing and fit-out at Al-Hussein Mosque, including the mosque library, the VIP lounge and the Imam’s office.\n\nThe scope included desks, fixed and swivel chairs, woodwork and doors.',
-    np9_areas:       'Mosque library, VIP lounge, Imam’s office',
+    np9_modal_desc:  'As part of the Projects for Reviving Islamic Heritage in Historic Cairo, KAYAN carried out the furnishing and fit-out of the VIP hall at Al-Hussein Mosque.\n\nThe scope included lounge sets, chairs, woodwork and doors.',
+    np9_areas:       'VIP hall',
 
     // New 10 – Sayida Zeinab Mosque
     np10_title:      'Sayida Zeinab Mosque Project',
@@ -503,20 +535,52 @@ const translations = {
     np10_areas:      'VIP reception hall',
 
     // New 11 – Various projects
-    np11_title:      'Various Projects',
-    np11_location:   'Multiple Locations',
-    np11_desc_short: 'Furnishing of offices and lounges with woodwork and doors across various projects.',
-    np11_units:      'Furnishing & Woodwork',
-    np11_modal_desc: 'A selection of various furnishing and fit-out projects delivered by KAYAN, including offices, fixed and swivel chairs, lounge sets, meeting tables, woodwork and doors.',
-    np11_areas:      'Offices, meeting rooms, lounges',
+    np11_title:      'Sayida Nafisa Mosque Project',
+    np11_location:   'Historic Cairo',
+    np11_desc_short: 'Part of the Islamic heritage revival projects: furnishing and fit-out of the VIP hall at Sayida Nafisa Mosque.',
+    np11_units:      'Islamic Heritage Revival',
+    np11_modal_desc: 'As part of the Projects for Reviving Islamic Heritage in Historic Cairo, KAYAN carried out the furnishing and fit-out of the VIP hall at Sayida Nafisa Mosque.\n\nThe scope included lounge sets, chairs, woodwork and doors.',
+    np11_areas:      'VIP hall',
 
-    // New 12 – Technical office 3D designs
-    np12_title:      'Technical Office Works – 3D Designs',
-    np12_location:   'Kayan – Technical Office',
-    np12_desc_short: '3D designs that show the final look of the project before execution begins.',
-    np12_units:      '3D Visualization',
-    np12_modal_desc: 'KAYAN’s technical office produces 3D visualizations that present the final look of the project before execution, ensuring a clear concept and easier decision-making.\n\nThe work covers custom design development, material selection, cladding layouts, patterns, lighting distribution and decoration.',
-    np12_areas:      'Interior design, material selection, 3D visualization',
+    // New 12 – Mazareen Chalets
+    np12_title:      'Mazareen Chalets – Doors & Furnishing',
+    np12_location:   'New Alamein',
+    np12_desc_short: 'Supply of doors and furnishing of the Mazareen chalets (Model D and Model E) in New Alamein.',
+    np12_units:      'Doors & Chalet Furnishing',
+    np12_modal_desc: 'KAYAN supplied and installed the doors and furnished the chalets of the Mazareen project in New Alamein, covering Model D and Model E.',
+    np12_areas:      'Mazareen chalets – Model D and Model E',
+
+    // New 13 – Marina Yacht Marina Doors
+    np13_title:      'Marina Yacht Marina Doors',
+    np13_location:   'North Coast',
+    np13_desc_short: 'Supply and installation of specialized wooden doors at Marina Yacht Marina, North Coast.',
+    np13_units:      'Luxury Wooden Doors',
+    np13_modal_desc: 'KAYAN carried out the manufacturing, supply and installation of wooden doors for the Marina Yacht Marina project in the North Coast, built to the highest quality standards and weather resistance.',
+    np13_areas:      'Marina Yacht Marina units and facilities',
+
+    // New 14 – Sakan Ahl Misr Doors (New Salam City)
+    np14_title:      'Sakan Ahl Misr Project Doors',
+    np14_location:   'New Salam City',
+    np14_desc_short: 'Supply and installation of wooden doors for residential units in Sakan Ahl Misr, New Salam City.',
+    np14_units:      'Residential Wooden Doors',
+    np14_modal_desc: 'KAYAN participated in the Sakan Ahl Misr project in New Salam City by manufacturing, supplying, and installing wooden doors for residential buildings and units with high durability and finish.',
+    np14_areas:      'Residential buildings and units',
+
+    // New 15 – Gardenia Buildings Doors (Nasr City)
+    np15_title:      'Gardenia Buildings Doors',
+    np15_location:   'Nasr City, Cairo',
+    np15_desc_short: 'Manufacturing, supply and installation of wooden doors for Gardenia compound buildings in Nasr City.',
+    np15_units:      'Wooden Doors',
+    np15_modal_desc: 'KAYAN executed the wooden door works for the Gardenia buildings project in Nasr City, including entrance and apartment doors crafted from quality wood and natural veneers.',
+    np15_areas:      'Gardenia building entrances and residential units',
+
+    // New 16 – Mayan Project Doors (Near Al-Rehab)
+    np16_title:      'Mayan Project Doors',
+    np16_location:   'New Cairo',
+    np16_desc_short: 'Manufacturing and supply of interior and exterior wooden doors for the Mayan project near Al-Rehab.',
+    np16_units:      'Specialized Wooden Doors',
+    np16_modal_desc: 'KAYAN manufactured, supplied, and installed wooden doors for the Mayan residential project near Al-Rehab City, featuring premium finishes tailored to the architectural style.',
+    np16_areas:      'Residential units in the Mayan project',
 
     // --- Modal ---
     modal_cta:       'Chat on WhatsApp',
@@ -618,10 +682,12 @@ const projectData = {
   },
   'mazarine': {
     images: [
+      'images/MAZARINE PROJECT/mazarine project p6.jpeg',
       'images/MAZARINE PROJECT/mazarine project p4.png',
       'images/MAZARINE PROJECT/mazarine project p2.jpg',
       'images/MAZARINE PROJECT/mazarine project p3.jpg',
       'images/MAZARINE PROJECT/mazarine project p1.jpg',
+      'images/MAZARINE PROJECT/mazarine project p5.jpeg',
     ],
     titleKey:   'proj3_title',
     locationKey:'proj3_location',
@@ -663,7 +729,7 @@ const projectData = {
   'services': {
     images: [
       'images/Our services.jpg',
-      'images/about, who we are, capabilities.jpg',
+      'images/غلاف.png',
       'images/company profile.png',
     ],
     titleKey:   'proj6_title',
@@ -683,8 +749,9 @@ const projectData = {
   const galleries = window.newProjectsImages || {};
   const list = [
     'hassan-mostafa', 'capital-hall', 'cairo-stadium', 'space-agency',
-    'brigade-151', 'konouz', 'clinics', 'licensing',
-    'hussein-mosque', 'zeinab-mosque', 'various', 'technical-office',
+    'brigade-152', 'konouz', 'clinics', 'air-services',
+    'hussein-mosque', 'zeinab-mosque', 'nafisa-mosque', 'mazareen',
+    'marina-yacht', 'sakan-salam', 'gardenia-doors', 'mayan-doors',
   ];
   list.forEach((key, i) => {
     const n = i + 1;
@@ -807,23 +874,69 @@ function initMobileMenu() {
 }
 
 // ============================================================
-// 8. MODAL LOGIC
+// 8. MODAL LOGIC (Smart On-Demand Loading & Lightweight Presentation)
 // ============================================================
-function buildModalContent(projectKey) {
+function loadSlide(slide) {
+  if (!slide) return;
+  const img = slide.querySelector('.modal-slide-img');
+  const spinner = slide.querySelector('.modal-slide-spinner');
+  if (!img) return;
+
+  const onDone = () => {
+    img.classList.add('is-loaded');
+    if (spinner) spinner.classList.add('hidden');
+  };
+
+  const targetSrc = img.dataset.src;
+  if (!img.getAttribute('src') && targetSrc) {
+    img.setAttribute('src', targetSrc);
+  }
+
+  if (img.complete && img.naturalWidth > 0) {
+    onDone();
+  } else {
+    img.addEventListener('load', onDone, { once: true });
+    img.addEventListener('error', () => {
+      if (spinner) spinner.classList.add('hidden');
+    }, { once: true });
+  }
+}
+
+function updateModalSlides(swiper) {
+  if (!swiper || !swiper.slides || !swiper.slides.length) return;
+  const active = swiper.activeIndex;
+  // Load window around active slide: [-2, -1, 0, 1, 2]
+  for (let offset = -2; offset <= 2; offset++) {
+    const idx = active + offset;
+    if (idx >= 0 && idx < swiper.slides.length) {
+      loadSlide(swiper.slides[idx]);
+    }
+  }
+}
+
+function buildModalContent(projectKey, initialSlideIndex = 0) {
   const t    = translations[currentLang];
   const data = projectData[projectKey];
   if (!data) return;
 
-  // --- Swiper slides ---
+  // --- Swiper slides with smart on-demand loading ---
   const wrapper = $('#modal-swiper-wrapper');
   if (wrapper) {
     const projectTitle = t[data.titleKey] || '';
-    wrapper.innerHTML = data.images.map(src =>
-      `<div class="swiper-slide">
-        <img class="modal-slide-bg" src="${src}" alt="" aria-hidden="true" />
-        <img class="modal-slide-img" src="${src}" alt="${projectTitle}" loading="lazy" decoding="async" />
-      </div>`
-    ).join('');
+    const total = data.images.length;
+    wrapper.innerHTML = data.images.map((src, i) => {
+      // Pre-set src for initial slide and its immediate neighbors for instant display
+      const isInitialOrNeighbor = total <= 3 ||
+        Math.abs(i - initialSlideIndex) <= 1 ||
+        (initialSlideIndex === 0 && i === total - 1) ||
+        (initialSlideIndex === total - 1 && i === 0);
+
+      const srcAttr = isInitialOrNeighbor ? `src="${src}"` : '';
+      return `<div class="swiper-slide">
+        <div class="modal-slide-spinner"></div>
+        <img class="modal-slide-img" data-src="${src}" ${srcAttr} alt="${projectTitle}" decoding="async" />
+      </div>`;
+    }).join('');
   }
 
   // --- Title ---
@@ -896,14 +1009,13 @@ function openModal(projectKey, initialSlideIndex = 0) {
   const data = projectData[projectKey];
   if (!data) return;
 
-  buildModalContent(projectKey);
+  buildModalContent(projectKey, initialSlideIndex);
 
   const modal = $('#project-modal');
   if (!modal) return;
 
   // Show modal
   modal.classList.remove('hidden');
-  // Trigger CSS transition
   requestAnimationFrame(() => {
     requestAnimationFrame(() => {
       modal.classList.add('is-open');
@@ -919,10 +1031,10 @@ function openModal(projectKey, initialSlideIndex = 0) {
 
   const hasMultipleImages = Array.isArray(data.images) && data.images.length > 1;
 
-  // Init Swiper with DOM observer support & smooth slide speed
+  // Init Swiper with event hooks for smart lazy loading
   modalSwiperInstance = new Swiper(modal.querySelector('.modal-swiper'), {
     loop: hasMultipleImages,
-    speed: 400,
+    speed: 360,
     grabCursor: hasMultipleImages,
     observer: true,
     observeParents: true,
@@ -940,6 +1052,14 @@ function openModal(projectKey, initialSlideIndex = 0) {
     },
     keyboard: { enabled: true },
     a11y: { enabled: true },
+    on: {
+      init: function() {
+        updateModalSlides(this);
+      },
+      slideChange: function() {
+        updateModalSlides(this);
+      }
+    }
   });
 
   if (Number.isInteger(initialSlideIndex) && initialSlideIndex > 0) {
@@ -952,13 +1072,19 @@ function openModal(projectKey, initialSlideIndex = 0) {
     }
   }
 
-  // Force layout update after modal becomes visible
+  // Force layout update after modal becomes visible & update slides
   setTimeout(() => {
-    if (modalSwiperInstance) modalSwiperInstance.update();
+    if (modalSwiperInstance) {
+      modalSwiperInstance.update();
+      updateModalSlides(modalSwiperInstance);
+    }
   }, 100);
 
   setTimeout(() => {
-    if (modalSwiperInstance) modalSwiperInstance.update();
+    if (modalSwiperInstance) {
+      modalSwiperInstance.update();
+      updateModalSlides(modalSwiperInstance);
+    }
   }, 300);
 
   // Focus close button for accessibility
@@ -975,13 +1101,15 @@ function closeModal() {
   modal.classList.remove('is-open');
   document.body.classList.remove('modal-open');
 
-  // Wait for transition, then hide
+  // Wait for transition, then hide and release memory
   setTimeout(() => {
     modal.classList.add('hidden');
     if (modalSwiperInstance) {
       modalSwiperInstance.destroy(true, true);
       modalSwiperInstance = null;
     }
+    const wrapper = $('#modal-swiper-wrapper');
+    if (wrapper) wrapper.innerHTML = '';
   }, 380);
 }
 
@@ -1270,10 +1398,12 @@ function initCardSliders() {
 
   cards.forEach(card => {
     const projectKey = card.getAttribute('data-project');
-    const images = (window.newProjectsImages && window.newProjectsImages[projectKey]) || [];
+    const images = (projectData[projectKey] && projectData[projectKey].images) ||
+                   (window.newProjectsImages && window.newProjectsImages[projectKey]) || [];
     if (!images || images.length <= 1) return;
 
     let currentIndex = 0;
+    let loadToken = 0;
     card.setAttribute('data-current-slide', '0');
 
     const imgEl = card.querySelector('.card-slider-img');
@@ -1290,14 +1420,24 @@ function initCardSliders() {
       }
 
       if (imgEl) {
-        imgEl.style.opacity = '0.35';
+        const currentToken = ++loadToken;
         const targetSrc = images[currentIndex];
+
+        if (imgEl.getAttribute('src') === targetSrc) {
+          imgEl.style.opacity = '1';
+          return;
+        }
+
+        imgEl.style.opacity = '0.4';
         const preloader = new Image();
+        preloader.decoding = 'async';
         preloader.onload = () => {
+          if (currentToken !== loadToken) return;
           imgEl.src = targetSrc;
           imgEl.style.opacity = '1';
         };
         preloader.onerror = () => {
+          if (currentToken !== loadToken) return;
           imgEl.src = targetSrc;
           imgEl.style.opacity = '1';
         };
