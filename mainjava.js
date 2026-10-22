@@ -788,6 +788,17 @@ const projectData = {
 
 // --- New projects (Furnishing & Interior Fit-out tab) ---
 // Image galleries are defined in new-projects-data.js (window.newProjectsImages)
+function optimizeCloudinaryUrl(url) {
+  if (typeof url !== 'string') return url;
+  if (!url.includes('res.cloudinary.com') || !url.includes('/image/upload/')) return url;
+  // Strip f_auto if present to avoid color rendering issues
+  url = url.replace('f_auto,', '').replace(',f_auto', '');
+  if (!url.includes('/image/upload/w_')) {
+    return url.replace('/image/upload/', '/image/upload/w_800,q_auto/');
+  }
+  return url;
+}
+
 (function registerNewProjects() {
   const galleries = window.newProjectsImages || {};
   const list = [
@@ -798,8 +809,9 @@ const projectData = {
   ];
   list.forEach((key, i) => {
     const n = i + 1;
+    const rawImages = galleries[key] || [];
     projectData[key] = {
-      images: galleries[key] || [],
+      images: rawImages.map(optimizeCloudinaryUrl),
       titleKey:    `np${n}_title`,
       locationKey: `np${n}_location`,
       descKey:     `np${n}_modal_desc`,
@@ -931,7 +943,7 @@ function loadSlide(slide) {
     if (spinner) spinner.classList.add('hidden');
   };
 
-  const targetSrc = img.dataset.src;
+  const targetSrc = optimizeCloudinaryUrl(img.dataset.src);
   if (!img.getAttribute('src') && targetSrc) {
     img.setAttribute('src', targetSrc);
   }
@@ -968,7 +980,8 @@ function buildModalContent(projectKey, initialSlideIndex = 0) {
   if (wrapper) {
     const projectTitle = t[data.titleKey] || '';
     const total = data.images.length;
-    wrapper.innerHTML = data.images.map((src, i) => {
+    wrapper.innerHTML = data.images.map((rawSrc, i) => {
+      const src = optimizeCloudinaryUrl(rawSrc);
       // Pre-set src for initial slide and its immediate neighbors for instant display
       const isInitialOrNeighbor = total <= 3 ||
         Math.abs(i - initialSlideIndex) <= 1 ||
@@ -1458,8 +1471,9 @@ function initCardSliders() {
 
   cards.forEach(card => {
     const projectKey = card.getAttribute('data-project');
-    const images = (projectData[projectKey] && projectData[projectKey].images) ||
+    const rawImages = (projectData[projectKey] && projectData[projectKey].images) ||
                    (window.newProjectsImages && window.newProjectsImages[projectKey]) || [];
+    const images = rawImages.map(optimizeCloudinaryUrl);
     if (!images || images.length <= 1) return;
 
     let currentIndex = 0;
