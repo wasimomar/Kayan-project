@@ -4,7 +4,7 @@
   "description": "Kayan Real Estate Development Landing Page",
   "main": "mainjava.js",
   "scripts": {
-    "build:css": "npx.cmd tailwindcss -i ./src/input.css -o ./tailwind.min.css --minify"
+    "build:css": "tailwindcss -i ./src/input.css -o ./tailwind.min.css --minify"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.19"

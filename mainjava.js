@@ -774,6 +774,7 @@ const projectData = {
 // ============================================================
 let currentLang = 'ar';
 let modalSwiperInstance = null;
+let closeModalTimer = null;
 
 // ============================================================
 // 4. DOM HELPERS
@@ -1009,10 +1010,16 @@ function openModal(projectKey, initialSlideIndex = 0) {
   const data = projectData[projectKey];
   if (!data) return;
 
-  buildModalContent(projectKey, initialSlideIndex);
+  if (closeModalTimer) {
+    clearTimeout(closeModalTimer);
+    closeModalTimer = null;
+  }
 
   const modal = $('#project-modal');
   if (!modal) return;
+
+  modal.classList.remove('is-closing');
+  buildModalContent(projectKey, initialSlideIndex);
 
   // Show modal
   modal.classList.remove('hidden');
@@ -1096,21 +1103,34 @@ function openModal(projectKey, initialSlideIndex = 0) {
 
 function closeModal() {
   const modal = $('#project-modal');
-  if (!modal) return;
+  if (!modal || modal.classList.contains('hidden') || modal.classList.contains('is-closing')) return;
 
+  if (closeModalTimer) {
+    clearTimeout(closeModalTimer);
+    closeModalTimer = null;
+  }
+
+  // Visual exit immediately: trigger fast CSS fade out
+  modal.classList.add('is-closing');
   modal.classList.remove('is-open');
-  document.body.classList.remove('modal-open');
 
-  // Wait for transition, then hide and release memory
-  setTimeout(() => {
+  // Snappy 170ms exit: avoids GPU throttling and feels instant yet smooth
+  closeModalTimer = setTimeout(() => {
     modal.classList.add('hidden');
+    modal.classList.remove('is-closing');
+    document.body.classList.remove('modal-open');
+
+    // Free Swiper and slide DOM nodes once the modal is fully hidden
     if (modalSwiperInstance) {
-      modalSwiperInstance.destroy(true, true);
+      try {
+        modalSwiperInstance.destroy(true, true);
+      } catch (e) {}
       modalSwiperInstance = null;
     }
     const wrapper = $('#modal-swiper-wrapper');
     if (wrapper) wrapper.innerHTML = '';
-  }, 380);
+    closeModalTimer = null;
+  }, 170);
 }
 
 function initModal() {
