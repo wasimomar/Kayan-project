@@ -31,7 +31,6 @@ const translations = {
     about_stat_label: 'عام التأسيس',
     about_subtitle: 'شريك استراتيجي متكامل من الهيكل حتى التفاصيل',
     about_p1: 'منذ تأسيس شركة كيان للمقاولات العامة والتوريدات، نجحت الشركة في ترسيخ مكانتها كشريك استراتيجي متكامل في تنفيذ المشروعات القومية والمؤسسية والسكنية الكبرى. تجمع كيان بين خبرتها الرائدة في قطاع تصنيع الأثاث الخشبي الفاخر والتشطيبات والديكورات الداخلية، وبين تميزها في قطاع أنظمة الألومنيوم، الواجهات الزجاجية، والأعمال الإنشائية الخارجية.',
-    about_p2: 'نحن نقدم منظومة هندسية وتنفيذية شاملة تعتمد على الجودة، الدقة، والابتكار لتحويل الرؤى المعمارية إلى واقع ملموس.',
     about_point1: 'شريك استراتيجي في المشروعات القومية والمؤسسية والسكنية الكبرى',
     about_point2: 'خبرة رائدة في تصنيع الأثاث الخشبي الفاخر والتشطيبات والديكورات الداخلية',
     about_point3: 'تميز في أنظمة الألومنيوم والواجهات الزجاجية والأعمال الإنشائية الخارجية',
@@ -331,7 +330,7 @@ const translations = {
     footer_desc: 'كيان للمقاولات والتوريدات العمومية – من الهيكل إلى التفاصيل… حلول متكاملة تُبنى بالفخامة والدقة.',
     footer_links_title:   'روابط سريعة',
     footer_contact_title: 'تواصل معنا',
-    footer_copy: '© 2026 كيان للمقاولات والتوريدات العمومية. جميع الحقوق محفوظة.',
+    footer_copy: '© 2026 كيان للمقاولات والتوريدات العمومية.',
     footer_made:          'صُنع بـ ❤️ في مصر',
   },
 
@@ -357,7 +356,6 @@ const translations = {
     about_stat_label: 'Year Established',
     about_subtitle: 'An Integrated Strategic Partner, from Structure to Details',
     about_p1: 'Since its establishment, Kayan Contracting & General Supplies has secured its position as an integrated strategic partner in delivering major national, institutional and residential projects. Kayan combines its leading expertise in luxury wooden furniture manufacturing, finishing and interior decoration with its excellence in aluminum systems, glass façades and exterior structural works.',
-    about_p2: 'We offer a comprehensive engineering and execution system built on quality, precision and innovation to turn architectural visions into tangible reality.',
     about_point1: 'Strategic partner in major national, institutional and residential projects',
     about_point2: 'Leading expertise in luxury wooden furniture, finishing and interior decoration',
     about_point3: 'Excellence in aluminum systems, glass façades and exterior structural works',
@@ -657,7 +655,7 @@ const translations = {
     footer_desc: 'Kayan Contracting & General Supplies – From structure to details… integrated solutions built with luxury and precision.',
     footer_links_title:   'Quick Links',
     footer_contact_title: 'Contact Us',
-    footer_copy: '© 2026 Kayan Contracting & General Supplies. All Rights Reserved.',
+    footer_copy: '© 2026 Kayan Contracting & General Supplies.',
     footer_made:          'Made with ❤️ in Egypt',
   }
 };
