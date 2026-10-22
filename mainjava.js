@@ -932,10 +932,13 @@ function buildModalContent(projectKey, initialSlideIndex = 0) {
         (initialSlideIndex === 0 && i === total - 1) ||
         (initialSlideIndex === total - 1 && i === 0);
 
+      const isCurrent = (i === initialSlideIndex);
       const srcAttr = isInitialOrNeighbor ? `src="${src}"` : '';
+      const loadedClass = isCurrent ? ' is-loaded' : '';
+      const spinnerHidden = isCurrent ? ' hidden' : '';
       return `<div class="swiper-slide">
-        <div class="modal-slide-spinner"></div>
-        <img class="modal-slide-img" data-src="${src}" ${srcAttr} alt="${projectTitle}" decoding="async" />
+        <div class="modal-slide-spinner${spinnerHidden}"></div>
+        <img class="modal-slide-img${loadedClass}" data-src="${src}" ${srcAttr} alt="${projectTitle}" decoding="async" />
       </div>`;
     }).join('');
   }
@@ -1021,31 +1024,30 @@ function openModal(projectKey, initialSlideIndex = 0) {
   modal.classList.remove('is-closing');
   buildModalContent(projectKey, initialSlideIndex);
 
-  // Show modal
+  // Show modal immediately with single rAF for instantaneous open
   modal.classList.remove('hidden');
-  requestAnimationFrame(() => {
-    requestAnimationFrame(() => {
-      modal.classList.add('is-open');
-    });
-  });
   document.body.classList.add('modal-open');
+  requestAnimationFrame(() => {
+    modal.classList.add('is-open');
+  });
 
   // Destroy previous Swiper if any
   if (modalSwiperInstance) {
-    modalSwiperInstance.destroy(true, true);
+    try {
+      modalSwiperInstance.destroy(true, true);
+    } catch (e) {}
     modalSwiperInstance = null;
   }
 
   const hasMultipleImages = Array.isArray(data.images) && data.images.length > 1;
 
-  // Init Swiper with event hooks for smart lazy loading
+  // Init Swiper with lean, high-performance settings
   modalSwiperInstance = new Swiper(modal.querySelector('.modal-swiper'), {
     loop: hasMultipleImages,
-    speed: 360,
+    speed: 300,
     grabCursor: hasMultipleImages,
     observer: true,
     observeParents: true,
-    observeSlideChildren: true,
     resizeObserver: true,
     autoplay: false,
     pagination: {
@@ -1079,26 +1081,21 @@ function openModal(projectKey, initialSlideIndex = 0) {
     }
   }
 
-  // Force layout update after modal becomes visible & update slides
-  setTimeout(() => {
-    if (modalSwiperInstance) {
-      modalSwiperInstance.update();
-      updateModalSlides(modalSwiperInstance);
-    }
-  }, 100);
+  // Pre-load slides right away
+  updateModalSlides(modalSwiperInstance);
 
+  // Quick single refresh for layout
   setTimeout(() => {
     if (modalSwiperInstance) {
       modalSwiperInstance.update();
-      updateModalSlides(modalSwiperInstance);
     }
-  }, 300);
+  }, 60);
 
   // Focus close button for accessibility
   setTimeout(() => {
     const closeBtn = $('#modal-close');
     if (closeBtn) closeBtn.focus();
-  }, 350);
+  }, 200);
 }
 
 function closeModal() {
