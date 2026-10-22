@@ -114,18 +114,18 @@ const translations = {
     proj5_spec3_label:'حالة المشروع',
     proj5_spec3_value:'مكتمل',
 
-    // Project 6 – Services
-    proj6_title:      'خدماتنا المتكاملة',
-    proj6_location:   'كيان – جميع الخدمات',
-    proj6_desc_short: 'تصنيع وتركيب الواجهات، الكرتن وول، السكاي لايت، وأعمال الألومنيوم المعماري.',
-    proj6_type:       'حلول هندسية شاملة',
-    proj6_modal_desc: 'تقدم كيان منظومة متكاملة من الخدمات وتشمل: تصنيع وتوريد وتثبيت الواجهات المعمارية للألومنيوم والزجاج، أنظمة الواجهات المستمرة (Curtain Wall Systems)، أنظمة الأسقف الزجاجية (Skylight Systems)، كاسرات الشمس (Aluminum Louvers)، والأبواب والنوافذ الألومنيوم بمواصفات هندسية دقيقة.',
-    proj6_spec1_label:'التصنيع والتركيب',
-    proj6_spec1_value:'شامل ومتكامل',
-    proj6_spec2_label:'أنظمة الواجهات',
-    proj6_spec2_value:'متخصصة عالية الدقة',
-    proj6_spec3_label:'الدعم والخبرة',
-    proj6_spec3_value:'فريق استشاري متخصص',
+    // Project 6 – Hospital 500
+    proj6_title:      'مشروع مستشفى 500 500',
+    proj6_location:   'الشيخ زايد، الجيزة',
+    proj6_desc_short: 'أعمال الواجهات المعمارية وحلول الألومنيوم والزجاج المتخصصة للمستشفى.',
+    proj6_units:      'واجهات ألومنيوم وزجاج',
+    proj6_modal_desc: 'ساهمت كيان في مشروع المعهد القومي للأورام الجديد (مستشفى 500 500) بالشيخ زايد، من خلال تنفيذ وتوريد وتركيب أعمال الألومنيوم والواجهات والزجاج وفق أعلى المعايير الهندسية والطبية.\n\nتضمن المشروع تنفيذ الواجهات المعمارية الحديثة وأنظمة الكرتن وول والتغطيات عالية الدقة والجودة لتلائم الطابع المعماري للصروح الطبية الكبرى.',
+    proj6_spec1_label:'نطاق الأعمال',
+    proj6_spec1_value:'واجهات ألومنيوم وزجاج وكرتن وول',
+    proj6_spec2_label:'الموقع',
+    proj6_spec2_value:'مدينة الشيخ زايد، الجيزة',
+    proj6_spec3_label:'حالة المشروع',
+    proj6_spec3_value:'مكتمل',
 
     // --- Projects tabs ---
     projects_tab_main: 'الواجهات والألومنيوم',
@@ -224,45 +224,53 @@ const translations = {
     np11_modal_desc: 'ضمن مشروعات إحياء التراث الإسلامي بالقاهرة التاريخية، نفذت كيان أعمال الفرش والتجهيز بقاعة كبار الزوار بمسجد السيدة نفيسة.\n\nتضمن العمل الأنتريهات والكراسي والأعمال الخشبية والأبواب.',
     np11_areas:      'قاعة كبار الزوار',
 
-    // New 12 – Mazareen Chalets
-    np12_title:      'أبواب وفرش شاليهات مزارين',
+    // New 12 – Mazareen Chalets (Model D)
+    np12_title:      'أبواب وفرش شاليهات مزارين – نموذج D',
     np12_location:   'العلمين الجديدة',
-    np12_desc_short: 'توريد الأبواب وفرش الشاليهات (نموذج D ونموذج E) بمشروع مزارين بالعلمين الجديدة.',
-    np12_units:      'أبواب وفرش شاليهات',
-    np12_modal_desc: 'نفذت كيان أعمال توريد وتركيب الأبواب وفرش شاليهات مشروع مزارين بالعلمين الجديدة، وشملت النموذجين D وE.',
-    np12_areas:      'شاليهات مزارين – نموذج D ونموذج E',
+    np12_desc_short: 'توريد وتركيب الأبواب وفرش الشاليهات (نموذج D) بمشروع مزارين بالعلمين الجديدة.',
+    np12_units:      'أبواب وفرش شاليهات (نموذج D)',
+    np12_modal_desc: 'نفذت كيان أعمال تصنيع وتوريد وتركيب الأبواب والأعمال الخشبية وفرش الشاليهات لمشروع مزارين بالعلمين الجديدة – نموذج D.',
+    np12_areas:      'شاليهات مزارين – نموذج D',
 
-    // New 13 – Marina Yacht Marina Doors
-    np13_title:      'أبواب مارينا مرسى اليخوت',
-    np13_location:   'الساحل الشمالي',
-    np13_desc_short: 'توريد وتركيب الأبواب الخشبية المتخصصة بمشروع مارينا مرسى اليخوت بالساحل الشمالي.',
-    np13_units:      'أبواب خشبية فاخرة',
-    np13_modal_desc: 'نفذت كيان أعمال تصنيع وتوريد وتركيب الأبواب الخشبية لمشروع مارينا مرسى اليخوت بالساحل الشمالي بأعلى مواصفات الجودة ومقاومة العوامل الجوية الساحلية.',
-    np13_areas:      'مرافق ووحدات مارينا مرسى اليخوت',
+    // New 13 – Mazareen Chalets (Model E)
+    np13_title:      'أبواب وفرش شاليهات مزارين – نموذج E',
+    np13_location:   'العلمين الجديدة',
+    np13_desc_short: 'توريد وتركيب الأبواب وفرش الشاليهات (نموذج E) بمشروع مزارين بالعلمين الجديدة.',
+    np13_units:      'أبواب وفرش شاليهات (نموذج E)',
+    np13_modal_desc: 'نفذت كيان أعمال تصنيع وتوريد وتركيب الأبواب والأعمال الخشبية وفرش الشاليهات لمشروع مزارين بالعلمين الجديدة – نموذج E.',
+    np13_areas:      'شاليهات مزارين – نموذج E',
 
-    // New 14 – Sakan Ahl Misr Doors (New Salam City)
-    np14_title:      'أبواب مشروع سكن أهل مصر',
-    np14_location:   'مدينة السلام الجديدة',
-    np14_desc_short: 'توريد وتركيب الأبواب الخشبية للوحدات السكنية بمشروع سكن أهل مصر بمدينة السلام الجديدة.',
-    np14_units:      'أبواب خشبية سكنية',
-    np14_modal_desc: 'شاركت كيان في مشروع سكن أهل مصر بمدينة السلام الجديدة عبر تصنيع وتوريد وتركيب الأبواب الخشبية للعمارات والوحدات السكنية وفقاً لأعلى معايير المتانة والتشطيب.',
-    np14_areas:      'العمارات والوحدات السكنية',
+    // New 14 – Marina Yacht Marina Doors
+    np14_title:      'أبواب مارينا مرسى اليخوت',
+    np14_location:   'الساحل الشمالي',
+    np14_desc_short: 'توريد وتركيب الأبواب الخشبية المتخصصة بمشروع مارينا مرسى اليخوت بالساحل الشمالي.',
+    np14_units:      'أبواب خشبية فاخرة',
+    np14_modal_desc: 'نفذت كيان أعمال تصنيع وتوريد وتركيب الأبواب الخشبية لمشروع مارينا مرسى اليخوت بالساحل الشمالي بأعلى مواصفات الجودة ومقاومة العوامل الجوية الساحلية.',
+    np14_areas:      'مرافق ووحدات مارينا مرسى اليخوت',
 
-    // New 15 – Gardenia Buildings Doors (Nasr City)
-    np15_title:      'أبواب عمارات جاردينيا',
-    np15_location:   'مدينة نصر، القاهرة',
-    np15_desc_short: 'تصنيع وتوريد وتركيب الأبواب الخشبية لعمارات كمبوند جاردينيا بمدينة نصر.',
-    np15_units:      'أبواب خشبية',
-    np15_modal_desc: 'نفذت كيان أعمال الأبواب الخشبية لمشروع عمارات جاردينيا بمدينة نصر، وشملت تصنيع وتركيب أبواب المداخل والوحدات السكنية بأجود أنواع الأخشاب والقشور الطبيعية.',
-    np15_areas:      'مداخل ووحدات عمارات جاردينيا',
+    // New 15 – Sakan Ahl Misr Doors (New Salam City)
+    np15_title:      'أبواب مشروع سكن أهل مصر',
+    np15_location:   'مدينة السلام الجديدة',
+    np15_desc_short: 'توريد وتركيب الأبواب الخشبية للوحدات السكنية بمشروع سكن أهل مصر بمدينة السلام الجديدة.',
+    np15_units:      'أبواب خشبية سكنية',
+    np15_modal_desc: 'شاركت كيان في مشروع سكن أهل مصر بمدينة السلام الجديدة عبر تصنيع وتوريد وتركيب الأبواب الخشبية للعمارات والوحدات السكنية وفقاً لأعلى معايير المتانة والتشطيب.',
+    np15_areas:      'العمارات والوحدات السكنية',
 
-    // New 16 – Mayan Project Doors (Near Al-Rehab)
-    np16_title:      'أبواب مشروع مايان',
-    np16_location:   'القاهرة الجديدة',
-    np16_desc_short: 'تصنيع وتوريد الأبواب الخشبية الداخلية والخارجية لمشروع مايان بجوار الرحاب.',
-    np16_units:      'أبواب خشبية متخصصة',
-    np16_modal_desc: 'قامت كيان بتصنيع وتوريد وتركيب الأبواب الخشبية لمشروع مايان السكني بجوار مدينة الرحاب، بتشطيبات راقية تناسب الطابع المعماري للمشروع.',
-    np16_areas:      'الوحدات السكنية بمشروع مايان',
+    // New 16 – Gardenia Buildings Doors (Nasr City)
+    np16_title:      'أبواب عمارات جاردينيا',
+    np16_location:   'مدينة نصر، القاهرة',
+    np16_desc_short: 'تصنيع وتوريد وتركيب الأبواب الخشبية لعمارات كمبوند جاردينيا بمدينة نصر.',
+    np16_units:      'أبواب خشبية',
+    np16_modal_desc: 'نفذت كيان أعمال الأبواب الخشبية لمشروع عمارات جاردينيا بمدينة نصر، وشملت تصنيع وتركيب أبواب المداخل والوحدات السكنية بأجود أنواع الأخشاب والقشور الطبيعية.',
+    np16_areas:      'مداخل ووحدات عمارات جاردينيا',
+
+    // New 17 – Mayan Project Doors (Near Al-Rehab)
+    np17_title:      'أبواب مشروع مايان',
+    np17_location:   'القاهرة الجديدة',
+    np17_desc_short: 'تصنيع وتوريد الأبواب الخشبية الداخلية والخارجية لمشروع مايان بجوار الرحاب.',
+    np17_units:      'أبواب خشبية متخصصة',
+    np17_modal_desc: 'قامت كيان بتصنيع وتوريد وتركيب الأبواب الخشبية لمشروع مايان السكني بجوار مدينة الرحاب، بتشطيبات راقية تناسب الطابع المعماري للمشروع.',
+    np17_areas:      'الوحدات السكنية بمشروع مايان',
 
     // --- Modal ---
     modal_cta:       'تواصل عبر الواتساب',
@@ -432,18 +440,18 @@ const translations = {
     proj5_spec3_label:'Status',
     proj5_spec3_value:'Completed',
 
-    // Project 6 – Services
-    proj6_title:      'Our Integrated Services',
-    proj6_location:   'Kayan – All Services',
-    proj6_desc_short: 'Façade fabrication, installation, curtain walls, skylights, and architectural aluminum.',
-    proj6_type:       'Comprehensive Engineering Solutions',
-    proj6_modal_desc: 'KAYAN offers a comprehensive suite of services including: fabrication, supply, and installation of architectural aluminum and glass façades, Curtain Wall Systems, Skylight Systems, Aluminum Louvers, and custom aluminum doors and windows with precise technical standards.',
-    proj6_spec1_label:'Execution',
-    proj6_spec1_value:'Full Fabrication & Installation',
-    proj6_spec2_label:'Façade Systems',
-    proj6_spec2_value:'High Precision Engineering',
-    proj6_spec3_label:'Expertise',
-    proj6_spec3_value:'Specialized Technical Team',
+    // Project 6 – Hospital 500
+    proj6_title:      'Hospital 500 500 Project',
+    proj6_location:   'Sheikh Zayed, Giza',
+    proj6_desc_short: 'Specialized architectural façades, aluminum, and glazing solutions for the hospital.',
+    proj6_units:      'Specialized Façades & Glazing',
+    proj6_modal_desc: 'KAYAN contributed to the New National Cancer Institute (Hospital 500 500) project in Sheikh Zayed, delivering specialized aluminum, architectural façades, and glazing works adhering to strict engineering and medical facility standards.\n\nThe scope covered modern façade systems, curtain walls, and precision-engineered exterior installations tailored to high-scale healthcare landmarks.',
+    proj6_spec1_label:'Scope of Works',
+    proj6_spec1_value:'Architectural Façades, Curtain Walls & Glazing',
+    proj6_spec2_label:'Location',
+    proj6_spec2_value:'Sheikh Zayed City, Giza',
+    proj6_spec3_label:'Status',
+    proj6_spec3_value:'Completed',
 
     // --- Projects tabs ---
     projects_tab_main: 'Façades & Aluminum',
@@ -542,45 +550,53 @@ const translations = {
     np11_modal_desc: 'As part of the Projects for Reviving Islamic Heritage in Historic Cairo, KAYAN carried out the furnishing and fit-out of the VIP hall at Sayida Nafisa Mosque.\n\nThe scope included lounge sets, chairs, woodwork and doors.',
     np11_areas:      'VIP hall',
 
-    // New 12 – Mazareen Chalets
-    np12_title:      'Mazareen Chalets – Doors & Furnishing',
+    // New 12 – Mazareen Chalets (Model D)
+    np12_title:      'Mazareen Chalets (Model D) – Doors & Furnishing',
     np12_location:   'New Alamein',
-    np12_desc_short: 'Supply of doors and furnishing of the Mazareen chalets (Model D and Model E) in New Alamein.',
-    np12_units:      'Doors & Chalet Furnishing',
-    np12_modal_desc: 'KAYAN supplied and installed the doors and furnished the chalets of the Mazareen project in New Alamein, covering Model D and Model E.',
-    np12_areas:      'Mazareen chalets – Model D and Model E',
+    np12_desc_short: 'Supply and installation of doors and furnishing for Mazareen chalets (Model D) in New Alamein.',
+    np12_units:      'Doors & Furnishing (Model D)',
+    np12_modal_desc: 'KAYAN manufactured, supplied and installed doors, woodwork, and furnishings for the Mazareen chalets in New Alamein – Model D.',
+    np12_areas:      'Mazareen chalets – Model D',
 
-    // New 13 – Marina Yacht Marina Doors
-    np13_title:      'Marina Yacht Marina Doors',
-    np13_location:   'North Coast',
-    np13_desc_short: 'Supply and installation of specialized wooden doors at Marina Yacht Marina, North Coast.',
-    np13_units:      'Luxury Wooden Doors',
-    np13_modal_desc: 'KAYAN carried out the manufacturing, supply and installation of wooden doors for the Marina Yacht Marina project in the North Coast, built to the highest quality standards and weather resistance.',
-    np13_areas:      'Marina Yacht Marina units and facilities',
+    // New 13 – Mazareen Chalets (Model E)
+    np13_title:      'Mazareen Chalets (Model E) – Doors & Furnishing',
+    np13_location:   'New Alamein',
+    np13_desc_short: 'Supply and installation of doors and furnishing for Mazareen chalets (Model E) in New Alamein.',
+    np13_units:      'Doors & Furnishing (Model E)',
+    np13_modal_desc: 'KAYAN manufactured, supplied and installed doors, woodwork, and furnishings for the Mazareen chalets in New Alamein – Model E.',
+    np13_areas:      'Mazareen chalets – Model E',
 
-    // New 14 – Sakan Ahl Misr Doors (New Salam City)
-    np14_title:      'Sakan Ahl Misr Project Doors',
-    np14_location:   'New Salam City',
-    np14_desc_short: 'Supply and installation of wooden doors for residential units in Sakan Ahl Misr, New Salam City.',
-    np14_units:      'Residential Wooden Doors',
-    np14_modal_desc: 'KAYAN participated in the Sakan Ahl Misr project in New Salam City by manufacturing, supplying, and installing wooden doors for residential buildings and units with high durability and finish.',
-    np14_areas:      'Residential buildings and units',
+    // New 14 – Marina Yacht Marina Doors
+    np14_title:      'Marina Yacht Marina Doors',
+    np14_location:   'North Coast',
+    np14_desc_short: 'Supply and installation of specialized wooden doors at Marina Yacht Marina, North Coast.',
+    np14_units:      'Luxury Wooden Doors',
+    np14_modal_desc: 'KAYAN carried out the manufacturing, supply and installation of wooden doors for the Marina Yacht Marina project in the North Coast, built to the highest quality standards and weather resistance.',
+    np14_areas:      'Marina Yacht Marina units and facilities',
 
-    // New 15 – Gardenia Buildings Doors (Nasr City)
-    np15_title:      'Gardenia Buildings Doors',
-    np15_location:   'Nasr City, Cairo',
-    np15_desc_short: 'Manufacturing, supply and installation of wooden doors for Gardenia compound buildings in Nasr City.',
-    np15_units:      'Wooden Doors',
-    np15_modal_desc: 'KAYAN executed the wooden door works for the Gardenia buildings project in Nasr City, including entrance and apartment doors crafted from quality wood and natural veneers.',
-    np15_areas:      'Gardenia building entrances and residential units',
+    // New 15 – Sakan Ahl Misr Doors (New Salam City)
+    np15_title:      'Sakan Ahl Misr Project Doors',
+    np15_location:   'New Salam City',
+    np15_desc_short: 'Supply and installation of wooden doors for residential units in Sakan Ahl Misr, New Salam City.',
+    np15_units:      'Residential Wooden Doors',
+    np15_modal_desc: 'KAYAN participated in the Sakan Ahl Misr project in New Salam City by manufacturing, supplying, and installing wooden doors for residential buildings and units with high durability and finish.',
+    np15_areas:      'Residential buildings and units',
 
-    // New 16 – Mayan Project Doors (Near Al-Rehab)
-    np16_title:      'Mayan Project Doors',
-    np16_location:   'New Cairo',
-    np16_desc_short: 'Manufacturing and supply of interior and exterior wooden doors for the Mayan project near Al-Rehab.',
-    np16_units:      'Specialized Wooden Doors',
-    np16_modal_desc: 'KAYAN manufactured, supplied, and installed wooden doors for the Mayan residential project near Al-Rehab City, featuring premium finishes tailored to the architectural style.',
-    np16_areas:      'Residential units in the Mayan project',
+    // New 16 – Gardenia Buildings Doors (Nasr City)
+    np16_title:      'Gardenia Buildings Doors',
+    np16_location:   'Nasr City, Cairo',
+    np16_desc_short: 'Manufacturing, supply and installation of wooden doors for Gardenia compound buildings in Nasr City.',
+    np16_units:      'Wooden Doors',
+    np16_modal_desc: 'KAYAN executed the wooden door works for the Gardenia buildings project in Nasr City, including entrance and apartment doors crafted from quality wood and natural veneers.',
+    np16_areas:      'Gardenia building entrances and residential units',
+
+    // New 17 – Mayan Project Doors (Near Al-Rehab)
+    np17_title:      'Mayan Project Doors',
+    np17_location:   'New Cairo',
+    np17_desc_short: 'Manufacturing and supply of interior and exterior wooden doors for the Mayan project near Al-Rehab.',
+    np17_units:      'Specialized Wooden Doors',
+    np17_modal_desc: 'KAYAN manufactured, supplied, and installed wooden doors for the Mayan residential project near Al-Rehab City, featuring premium finishes tailored to the architectural style.',
+    np17_areas:      'Residential units in the Mayan project',
 
     // --- Modal ---
     modal_cta:       'Chat on WhatsApp',
@@ -667,9 +683,17 @@ const projectData = {
   },
   'ayan': {
     images: [
+      'images/AYAN PROJECT/ayan project p4.jpeg',
       'images/AYAN PROJECT/ayan project p1.png',
       'images/AYAN PROJECT/ayan project p2.png',
       'images/AYAN PROJECT/ayan project p3.png',
+      'images/AYAN PROJECT/ayan project p5.jpeg',
+      'images/AYAN PROJECT/ayan project p6.jpeg',
+      'images/AYAN PROJECT/ayan project p7.jpeg',
+      'images/AYAN PROJECT/ayan project p8.jpeg',
+      'images/AYAN PROJECT/ayan project p9.jpeg',
+      'images/AYAN PROJECT/ayan project p10.jpeg',
+      'images/AYAN PROJECT/ayan project p11.jpeg',
     ],
     titleKey:   'proj2_title',
     locationKey:'proj2_location',
@@ -726,6 +750,25 @@ const projectData = {
       { labelKey: 'proj5_spec3_label', valueKey: 'proj5_spec3_value' },
     ]
   },
+  'hospital-500': {
+    images: [
+      'images/Hostpital 500/Hospital 500 p1.jpeg',
+      'images/Hostpital 500/Hospital 500 p2.jpeg',
+      'images/Hostpital 500/Hospital 500 p3.jpeg',
+      'images/Hostpital 500/Hospital 500 p4.jpeg',
+      'images/Hostpital 500/Hospital 500 p5.jpeg',
+      'images/Hostpital 500/Hospital 500 p6.jpeg',
+      'images/Hostpital 500/Hospital 500 p7.jpeg',
+    ],
+    titleKey:   'proj6_title',
+    locationKey:'proj6_location',
+    descKey:    'proj6_modal_desc',
+    specs: [
+      { labelKey: 'proj6_spec1_label', valueKey: 'proj6_spec1_value' },
+      { labelKey: 'proj6_spec2_label', valueKey: 'proj6_spec2_value' },
+      { labelKey: 'proj6_spec3_label', valueKey: 'proj6_spec3_value' },
+    ]
+  },
   'services': {
     images: [
       'images/Our services.jpg',
@@ -750,7 +793,7 @@ const projectData = {
   const list = [
     'hassan-mostafa', 'capital-hall', 'cairo-stadium', 'space-agency',
     'brigade-152', 'konouz', 'clinics', 'air-services',
-    'hussein-mosque', 'zeinab-mosque', 'nafisa-mosque', 'mazareen',
+    'hussein-mosque', 'zeinab-mosque', 'nafisa-mosque', 'mazareen-d', 'mazareen-e',
     'marina-yacht', 'sakan-salam', 'gardenia-doors', 'mayan-doors',
   ];
   list.forEach((key, i) => {
