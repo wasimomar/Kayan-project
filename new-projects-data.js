@@ -397,40 +397,34 @@
     'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679305/MAZAREENVILLAS_CHALETS_0.6_3__page-0101.jpg',
   ];
 
-  // 14. ---- Marina Yacht Marina Doors – North Coast (8) ----
+  // 14. ---- Marina Yacht Marina Doors – North Coast (6) ----
   const marinaYacht = [
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792678980/WhatsApp_Image_2026-10-19_at_11.08.53_AM.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792678980/WhatsApp_Image_2026-10-19_at_11.08.53_AM_3.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792678978/WhatsApp_Image_2026-10-19_at_11.08.53_AM_2.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792678978/WhatsApp_Image_2026-10-19_at_11.08.53_AM_1.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792678977/WhatsApp_Image_2026-10-19_at_11.08.52_AM.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792678977/WhatsApp_Image_2026-10-19_at_11.08.52_AM_2.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792678977/WhatsApp_Image_2026-10-19_at_11.08.52_AM_3.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792678977/WhatsApp_Image_2026-10-19_at_11.08.52_AM_1.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794084398/IMG-20261107-WA0092.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794084397/IMG-20261107-WA0093.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794084366/IMG-20261107-WA0088.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794084366/IMG-20261107-WA0090.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794084366/IMG-20261107-WA0091.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794084365/IMG-20261107-WA0089.jpg',
   ];
 
   // 15. ---- Sakan Ahl Misr Doors – New Salam City (3) ----
   const sakanSalam = [
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679246/WhatsApp_Image_2026-10-19_at_11.20.33_AM.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679245/WhatsApp_Image_2026-10-19_at_11.20.33_AM_1.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679945/WhatsApp_Image_2026-10-18_at_5.37.27_PM.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794119119/IMG-20261108-WA0019.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794119119/IMG-20261108-WA0018.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794119119/IMG-20261108-WA0017.jpg',
   ];
 
-  // 16. ---- Gardenia Buildings Doors – Nasr City (4) ----
+  // 16. ---- Gardenia Buildings Doors – Nasr City (1) ----
   const gardeniaDoors = [
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679243/images.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679242/images_1.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679241/492501706_692494073381966_8489929851199786071_n.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679240/489926891_692494110048629_7035122058112811295_n.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794082955/images.jpg',
   ];
 
-  // 17. ---- Mayan Project Doors – Near Al-Rehab (5) ----
+  // 17. ---- Mayan Project Doors – Near Al-Rehab (4) ----
   const mayanDoors = [
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792680161/WhatsApp_Image_2026-10-18_at_5.29.36_PM.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792680160/WhatsApp_Image_2026-10-18_at_5.29.36_PM_1.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792680158/WhatsApp_Image_2026-10-18_at_5.29.36_PM_3.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792680156/WhatsApp_Image_2026-10-18_at_5.30.10_PM.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792680154/2.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794082441/WhatsApp_Image_2026-10-18_at_5.29.36_PM_3.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794082441/WhatsApp_Image_2026-10-18_at_5.29.36_PM_1.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794082444/WhatsApp_Image_2026-10-18_at_5.29.36_PM_2.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794082441/WhatsApp_Image_2026-10-18_at_5.29.36_PM.jpg',
   ];
 
   window.newProjectsImages = {
