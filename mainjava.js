@@ -258,17 +258,17 @@ const translations = {
     // New 16 – Gardenia Buildings Doors (Nasr City)
     np16_title:      'أبواب عمارات جاردينيا',
     np16_location:   'مدينة نصر، القاهرة',
-    np16_desc_short: 'تصنيع وتركيب أبواب المداخل والشقق السكنية بأجود الأخشاب والقشور الطبيعية بكمبوند جاردينيا.',
-    np16_units:      'أبواب خشبية',
-    np16_modal_desc: 'نفذت كيان أعمال تصنيع وتوريد وتركيب الأبواب الخشبية لمشروع عمارات كمبوند جاردينيا بمدينة نصر.\n\nشملت الأعمال أبواب الشقق الرئيسية والأبواب الداخلية للوحدات السكنية، المصنعة من الأخشاب المجففة والقشور الطبيعية المختارة بعناية، مع تشطيبات دهانات فائقة النعومة تحقق العزل الصوتي والمظهر الجمالي الراقي.',
+    np16_desc_short: 'تصنيع وتوريد وتركيب الأبواب الخشبية والأبواب المعدنية المقاومة للحريق لعمارات كمبوند جاردينيا.',
+    np16_units:      'أبواب خشبية وأبواب معدنية مقاومة للحريق',
+    np16_modal_desc: 'نفذت كيان أعمال تصنيع وتوريد وتركيب الأبواب الخشبية والأبواب المعدنية المقاومة للحريق لمشروع عمارات كمبوند جاردينيا بمدينة نصر.\n\nشملت الأعمال أبواب الشقق والوحدات السكنية المصنعة من الأخشاب المجففة والقشور الطبيعية المختارة بعناية، إلى جانب الأبواب المعدنية المقاومة للحريق المعتمدة وفق أعلى معايير الأمان والسلامة والحماية المدنية.',
     np16_areas:      'مداخل ووحدات عمارات جاردينيا',
 
     // New 17 – Mayan Project Doors (Near Al-Rehab)
     np17_title:      'أبواب مشروع مايان',
     np17_location:   'القاهرة الجديدة',
-    np17_desc_short: 'تصنيع وتوريد وتركيب الأبواب الخشبية الفاخرة للوحدات السكنية بمشروع مايان بجوار مدينة الرحاب.',
-    np17_units:      'أبواب خشبية متخصصة',
-    np17_modal_desc: 'قامت كيان بتصنيع وتوريد وتركيب الأبواب الخشبية الداخلية والخارجية لمشروع مايان السكني المتميز بجوار مدينة الرحاب بالقاهرة الجديدة.\n\nتميزت الأبواب المنفذة بدقة التصنيع وجمال التفاصيل، باستخدام أخشاب وقشور طبيعية معالجة وأنظمة دهانات حديثة تتكامل مع التصميم المعماري الفاخر لوحدات المشروع.',
+    np17_desc_short: 'تصنيع وتوريد وتركيب الأبواب الخشبية والأبواب المعدنية المقاومة للحريق بمشروع مايان بجوار مدينة الرحاب.',
+    np17_units:      'أبواب خشبية وأبواب معدنية مقاومة للحريق',
+    np17_modal_desc: 'قامت كيان بتصنيع وتوريد وتركيب الأبواب الخشبية والأبواب المعدنية المقاومة للحريق لمشروع مايان السكني المتميز بجوار مدينة الرحاب بالقاهرة الجديدة.\n\nتضمن العمل تنفيذ الأبواب الخشبية الفاخرة للوحدات السكنية بأخشاب وقشور طبيعية معالجة، بالإضافة إلى توريد وتركيب الأبواب المعدنية المقاومة للحريق وفق أعلى المواصفات الفنية ومعايير السلامة والأمان.',
     np17_areas:      'الوحدات السكنية بمشروع مايان',
 
     // --- Modal ---
@@ -287,7 +287,7 @@ const translations = {
     contact_email_label:    'البريد الإلكتروني',
     contact_email_btn:      'أرسل رسالة إلكترونية ←',
     contact_addr_label: 'المقر الرئيسي',
-    contact_addr_value: '93 ش 5 الجولف – مدينة نصر – القاهرة',
+    contact_addr_value: 'مبنى 3 شارع 5 الجولف – مدينة نصر – القاهرة',
     contact_map_badge:      'افتح موقع الشركة على الخريطة ↗',
 
     // --- Services Section ---
@@ -583,17 +583,17 @@ const translations = {
     // New 16 – Gardenia Buildings Doors (Nasr City)
     np16_title:      'Gardenia Buildings Doors',
     np16_location:   'Nasr City, Cairo',
-    np16_desc_short: 'Manufacturing and installation of entrance and apartment doors using premium woods and natural veneers at Gardenia.',
-    np16_units:      'Wooden Doors',
-    np16_modal_desc: 'KAYAN executed the manufacturing, supply, and installation of wooden doors for the Gardenia Compound buildings in Nasr City.\n\nThe scope covered main apartment entrance doors and interior unit doors crafted from kiln-dried timber and selected natural veneers, finished with smooth protective coatings for acoustic insulation and refined aesthetics.',
+    np16_desc_short: 'Manufacturing, supply, and installation of wooden doors and fire-rated metal doors at Gardenia Compound.',
+    np16_units:      'Wooden & Fire-Rated Metal Doors',
+    np16_modal_desc: 'KAYAN executed the manufacturing, supply, and installation of wooden doors and fire-rated metal doors for the Gardenia Compound buildings in Nasr City.\n\nThe scope covered apartment and interior unit doors crafted from kiln-dried timber and natural veneers, alongside certified fire-resistant metal doors engineered to the highest safety and civil defense standards.',
     np16_areas:      'Gardenia building entrances and residential units',
 
     // New 17 – Mayan Project Doors (Near Al-Rehab)
     np17_title:      'Mayan Project Doors',
     np17_location:   'New Cairo',
-    np17_desc_short: 'Manufacturing, supply, and installation of luxury interior and exterior wooden doors for the Mayan project near Al-Rehab.',
-    np17_units:      'Specialized Wooden Doors',
-    np17_modal_desc: 'KAYAN manufactured, supplied, and installed interior and exterior wooden doors for the distinguished Mayan residential project near Al-Rehab City in New Cairo.\n\nThe doors feature precision craftsmanship, treated natural woods and veneers, and modern coating systems that seamlessly complement the project’s upscale architectural design.',
+    np17_desc_short: 'Manufacturing, supply, and installation of wooden doors and fire-rated metal doors for the Mayan project near Al-Rehab.',
+    np17_units:      'Wooden & Fire-Rated Metal Doors',
+    np17_modal_desc: 'KAYAN manufactured, supplied, and installed wooden doors and fire-rated metal doors for the distinguished Mayan residential project near Al-Rehab City in New Cairo.\n\nThe work included luxury residential wooden doors crafted with treated natural veneers and modern finishes, in addition to heavy-duty fire-resistant metal doors compliant with strict safety specifications.',
     np17_areas:      'Residential units in the Mayan project',
 
     // --- Modal ---
@@ -612,7 +612,7 @@ const translations = {
     contact_email_label:    'Email Address',
     contact_email_btn:      'Send an Email →',
     contact_addr_label: 'Headquarters',
-    contact_addr_value: '93 5th St, Golf – Nasr City, Cairo',
+    contact_addr_value: 'Building 3, Street 5, Golf – Nasr City, Cairo',
     contact_map_badge:      'Open Company Location on Map ↗',
 
     // --- Services Section ---

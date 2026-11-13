@@ -414,17 +414,35 @@
     'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794119119/IMG-20261108-WA0017.jpg',
   ];
 
-  // 16. ---- Gardenia Buildings Doors – Nasr City (1) ----
+  // 16. ---- Gardenia Buildings Doors – Nasr City (10) ----
   const gardeniaDoors = [
     'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794082955/images.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794590233/WhatsApp_Image_2026-11-13_at_6.28.47_PM_2.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794590233/WhatsApp_Image_2026-11-13_at_6.28.50_PM.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794590233/WhatsApp_Image_2026-11-13_at_6.28.46_PM.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794590233/WhatsApp_Image_2026-11-13_at_6.28.47_PM_3.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794590234/WhatsApp_Image_2026-11-13_at_6.28.47_PM.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794590236/WhatsApp_Image_2026-11-13_at_6.28.48_PM_2.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794590237/WhatsApp_Image_2026-11-13_at_6.28.48_PM.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794590238/WhatsApp_Image_2026-11-13_at_6.28.50_PM_2.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794590237/WhatsApp_Image_2026-11-13_at_6.28.49_PM_1.jpg',
   ];
 
-  // 17. ---- Mayan Project Doors – Near Al-Rehab (4) ----
+  // 17. ---- Mayan Project Doors – Near Al-Rehab (13) ----
   const mayanDoors = [
     'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794082441/WhatsApp_Image_2026-10-18_at_5.29.36_PM_3.jpg',
     'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794082441/WhatsApp_Image_2026-10-18_at_5.29.36_PM_1.jpg',
     'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794082444/WhatsApp_Image_2026-10-18_at_5.29.36_PM_2.jpg',
     'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794082441/WhatsApp_Image_2026-10-18_at_5.29.36_PM.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794591056/WhatsApp_Image_2026-11-13_at_6.28.46_PM_1.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794591054/WhatsApp_Image_2026-11-13_at_6.28.48_PM_1.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794591053/WhatsApp_Image_2026-11-13_at_6.28.50_PM_1.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794591051/WhatsApp_Image_2026-11-13_at_6.28.49_PM.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794591050/WhatsApp_Image_2026-11-13_at_6.28.49_PM_2.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794591049/WhatsApp_Image_2026-11-13_at_6.28.48_PM_3.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794591046/WhatsApp_Image_2026-11-13_at_6.28.46_PM_2.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794591047/WhatsApp_Image_2026-11-13_at_6.28.47_PM_1.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794591047/WhatsApp_Image_2026-11-13_at_6.28.47_PM_4.jpg',
   ];
 
   window.newProjectsImages = {

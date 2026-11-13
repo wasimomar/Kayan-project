@@ -33,7 +33,7 @@
   <!-- Swiper.js CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <!-- Custom Styles -->
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css?v=3.9" />
 </head>
 
 <body class="bg-dark-900 text-white font-cairo antialiased">
@@ -422,10 +422,16 @@
       <div class="projects-tabs" role="tablist" aria-label="Projects categories" id="projects-tabs">
         <button type="button" id="tab-projects-main" class="projects-tab is-active" role="tab" aria-selected="true"
           aria-controls="projects-panel-main" data-tab="main">
+          <svg class="projects-tab-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+          </svg>
           <span data-i18n="projects_tab_main">الواجهات والألومنيوم</span>
         </button>
         <button type="button" id="tab-projects-new" class="projects-tab" role="tab" aria-selected="false"
           aria-controls="projects-panel-new" data-tab="new" tabindex="-1">
+          <svg class="projects-tab-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" />
+          </svg>
           <span data-i18n="projects_tab_new">الفرش والتشطيبات الداخلية</span>
         </button>
       </div>
@@ -476,7 +482,8 @@
             <div class="p-6">
               <h3 class="text-lg font-bold text-white mb-2 group-hover:text-gold-400 transition-colors"
                 data-i18n="proj1_title">مشروع الجزيرة</h3>
-              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="proj1_desc_short">تنفيذ وتوريد أنظمة الألومنيوم المعماري والواجهات الزجاجية العازلة بأعلى معايير الدقة والجودة.</p>
+              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="proj1_desc_short">تنفيذ
+                وتوريد أنظمة الألومنيوم المعماري والواجهات الزجاجية العازلة بأعلى معايير الدقة والجودة.</p>
               <div class="flex items-center justify-between">
                 <span class="text-white/40 text-xs flex items-center gap-1">
                   <svg class="w-3.5 h-3.5 text-gold-500" fill="none" stroke="currentColor" stroke-width="2"
@@ -533,7 +540,8 @@
             <div class="p-6">
               <h3 class="text-lg font-bold text-white mb-2 group-hover:text-gold-400 transition-colors"
                 data-i18n="proj2_title">مشروع أيان</h3>
-              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="proj2_desc_short">توريد وتركيب أنظمة الواجهات الحديثة وحلول الألومنيوم والزجاج المعماري للمباني السكنية الفاخرة.</p>
+              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="proj2_desc_short">توريد
+                وتركيب أنظمة الواجهات الحديثة وحلول الألومنيوم والزجاج المعماري للمباني السكنية الفاخرة.</p>
               <div class="flex items-center justify-between">
                 <span class="text-white/40 text-xs flex items-center gap-1">
                   <svg class="w-3.5 h-3.5 text-gold-500" fill="none" stroke="currentColor" stroke-width="2"
@@ -590,7 +598,8 @@
             <div class="p-6">
               <h3 class="text-lg font-bold text-white mb-2 group-hover:text-gold-400 transition-colors"
                 data-i18n="proj3_title">مشروع مازارين</h3>
-              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="proj3_desc_short">تصنيع وتركيب الواجهات الزجاجية وأنظمة الكرتن وول وقطاعات الألومنيوم للمباني السكنية.</p>
+              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="proj3_desc_short">تصنيع
+                وتركيب الواجهات الزجاجية وأنظمة الكرتن وول وقطاعات الألومنيوم للمباني السكنية.</p>
               <div class="flex items-center justify-between">
                 <span class="text-white/40 text-xs flex items-center gap-1">
                   <svg class="w-3.5 h-3.5 text-gold-500" fill="none" stroke="currentColor" stroke-width="2"
@@ -648,7 +657,8 @@
             <div class="p-6">
               <h3 class="text-lg font-bold text-white mb-2 group-hover:text-gold-400 transition-colors"
                 data-i18n="proj4_title">مجمع المحاكم – مدينة العدالة</h3>
-              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="proj4_desc_short">تنفيذ الواجهات المعمارية وأنظمة الكرتن وول وأسقف السكاي لايت وكاسرات الشمس بمجمع المحاكم.</p>
+              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="proj4_desc_short">تنفيذ
+                الواجهات المعمارية وأنظمة الكرتن وول وأسقف السكاي لايت وكاسرات الشمس بمجمع المحاكم.</p>
               <div class="flex items-center justify-between">
                 <span class="text-white/40 text-xs flex items-center gap-1">
                   <svg class="w-3.5 h-3.5 text-gold-500" fill="none" stroke="currentColor" stroke-width="2"
@@ -689,7 +699,8 @@
             <div class="p-6">
               <h3 class="text-lg font-bold text-white mb-2 group-hover:text-gold-400 transition-colors"
                 data-i18n="proj5_title">مشروع سكن أهل مصر</h3>
-              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="proj5_desc_short">توريد وتركيب أعمال الألومنيوم والشبابيك والواجهات الزجاجية للمباني السكنية على نطاق واسع.</p>
+              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="proj5_desc_short">توريد
+                وتركيب أعمال الألومنيوم والشبابيك والواجهات الزجاجية للمباني السكنية على نطاق واسع.</p>
               <div class="flex items-center justify-between">
                 <span class="text-white/40 text-xs flex items-center gap-1">
                   <svg class="w-3.5 h-3.5 text-gold-500" fill="none" stroke="currentColor" stroke-width="2"
@@ -746,7 +757,8 @@
             <div class="p-6">
               <h3 class="text-lg font-bold text-white mb-2 group-hover:text-gold-400 transition-colors"
                 data-i18n="proj6_title">مشروع مستشفى 500 500</h3>
-              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="proj6_desc_short">تنفيذ الواجهات الزجاجية وأنظمة الكرتن وول والألومنيوم المتخصص للصرح الطبي العالمي.</p>
+              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="proj6_desc_short">تنفيذ
+                الواجهات الزجاجية وأنظمة الكرتن وول والألومنيوم المتخصص للصرح الطبي العالمي.</p>
               <div class="flex items-center justify-between">
                 <span class="text-white/40 text-xs flex items-center gap-1">
                   <svg class="w-3.5 h-3.5 text-gold-500" fill="none" stroke="currentColor" stroke-width="2"
@@ -810,7 +822,8 @@
             <div class="p-6">
               <h3 class="text-lg font-bold text-white mb-2 group-hover:text-gold-400 transition-colors"
                 data-i18n="np1_title">صالة حسن مصطفى المغطاة</h3>
-              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="np1_desc_short">التأثيث الكامل وتجهيز المكاتب الرئاسية وقاعات كبار الزوار والمؤتمرات وأعمال التجاليد الخشبية.</p>
+              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="np1_desc_short">التأثيث
+                الكامل وتجهيز المكاتب الرئاسية وقاعات كبار الزوار والمؤتمرات وأعمال التجاليد الخشبية.</p>
               <div class="flex items-center justify-between">
                 <span class="text-white/40 text-xs flex items-center gap-1">
                   <svg class="w-3.5 h-3.5 text-gold-500" fill="none" stroke="currentColor" stroke-width="2"
@@ -868,7 +881,8 @@
             <div class="p-6">
               <h3 class="text-lg font-bold text-white mb-2 group-hover:text-gold-400 transition-colors"
                 data-i18n="np2_title">صالة العاصمة الإدارية المغطاة</h3>
-              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="np2_desc_short">تأثيث المكاتب الوزارية وقاعات VIP والمركز الإعلامي والعيادات مع أعمال التجاليد والأخشاب.</p>
+              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="np2_desc_short">تأثيث
+                المكاتب الوزارية وقاعات VIP والمركز الإعلامي والعيادات مع أعمال التجاليد والأخشاب.</p>
               <div class="flex items-center justify-between">
                 <span class="text-white/40 text-xs flex items-center gap-1">
                   <svg class="w-3.5 h-3.5 text-gold-500" fill="none" stroke="currentColor" stroke-width="2"
@@ -926,7 +940,8 @@
             <div class="p-6">
               <h3 class="text-lg font-bold text-white mb-2 group-hover:text-gold-400 transition-colors"
                 data-i18n="np3_title">مجمع صالات استاد القاهرة</h3>
-              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="np3_desc_short">تأثيث وتجهيز الصالات الرياضية وقاعات المؤتمرات وكبار الزوار وتجليد الحوائط بالفنيل المعالج.</p>
+              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="np3_desc_short">تأثيث وتجهيز
+                الصالات الرياضية وقاعات المؤتمرات وكبار الزوار وتجليد الحوائط بالفنيل المعالج.</p>
               <div class="flex items-center justify-between">
                 <span class="text-white/40 text-xs flex items-center gap-1">
                   <svg class="w-3.5 h-3.5 text-gold-500" fill="none" stroke="currentColor" stroke-width="2"
@@ -985,7 +1000,8 @@
             <div class="p-6">
               <h3 class="text-lg font-bold text-white mb-2 group-hover:text-gold-400 transition-colors"
                 data-i18n="np4_title">وكالة الفضاء الإفريقية</h3>
-              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="np4_desc_short">التأثيث المتكامل لقاعات المؤتمرات والاجتماعات والمكاتب الإدارية مع تنفيذ التجاليد الخشبية الفاخرة.</p>
+              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="np4_desc_short">التأثيث
+                المتكامل لقاعات المؤتمرات والاجتماعات والمكاتب الإدارية مع تنفيذ التجاليد الخشبية الفاخرة.</p>
               <div class="flex items-center justify-between">
                 <span class="text-white/40 text-xs flex items-center gap-1">
                   <svg class="w-3.5 h-3.5 text-gold-500" fill="none" stroke="currentColor" stroke-width="2"
@@ -1043,7 +1059,8 @@
             <div class="p-6">
               <h3 class="text-lg font-bold text-white mb-2 group-hover:text-gold-400 transition-colors"
                 data-i18n="np5_title">قيادة اللواء 152 – أشغال عسكرية</h3>
-              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="np5_desc_short">تأثيث المكاتب القيادية والأجنحة الفندقية وقاعات الاجتماعات وتنفيذ الأبواب والتجاليد الخشبية.</p>
+              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="np5_desc_short">تأثيث
+                المكاتب القيادية والأجنحة الفندقية وقاعات الاجتماعات وتنفيذ الأبواب والتجاليد الخشبية.</p>
               <div class="flex items-center justify-between">
                 <span class="text-white/40 text-xs flex items-center gap-1">
                   <svg class="w-3.5 h-3.5 text-gold-500" fill="none" stroke="currentColor" stroke-width="2"
@@ -1100,7 +1117,8 @@
             <div class="p-6">
               <h3 class="text-lg font-bold text-white mb-2 group-hover:text-gold-400 transition-colors"
                 data-i18n="np6_title">معرض كنوز للرخام</h3>
-              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="np6_desc_short">تجهيز وتأثيث المكاتب الإدارية وقاعة الاستقبال ووحدات العمل بمعرض كنوز للرخام بأعلى مستوى.</p>
+              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="np6_desc_short">تجهيز وتأثيث
+                المكاتب الإدارية وقاعة الاستقبال ووحدات العمل بمعرض كنوز للرخام بأعلى مستوى.</p>
               <div class="flex items-center justify-between">
                 <span class="text-white/40 text-xs flex items-center gap-1">
                   <svg class="w-3.5 h-3.5 text-gold-500" fill="none" stroke="currentColor" stroke-width="2"
@@ -1158,7 +1176,8 @@
             <div class="p-6">
               <h3 class="text-lg font-bold text-white mb-2 group-hover:text-gold-400 transition-colors"
                 data-i18n="np7_title">عيادات دار الهيئة الهندسية</h3>
-              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="np7_desc_short">تجهيز وتأثيث العيادات الطبية والمكاتب الإدارية وتوريد الأبواب والأعمال الخشبية المتخصصة.</p>
+              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="np7_desc_short">تجهيز وتأثيث
+                العيادات الطبية والمكاتب الإدارية وتوريد الأبواب والأعمال الخشبية المتخصصة.</p>
               <div class="flex items-center justify-between">
                 <span class="text-white/40 text-xs flex items-center gap-1">
                   <svg class="w-3.5 h-3.5 text-gold-500" fill="none" stroke="currentColor" stroke-width="2"
@@ -1215,7 +1234,8 @@
             <div class="p-6">
               <h3 class="text-lg font-bold text-white mb-2 group-hover:text-gold-400 transition-colors"
                 data-i18n="np8_title">مبنى الخدمات الجوية بمطار القاهرة</h3>
-              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="np8_desc_short">تنفيذ أعمال الفرش والتأثيث المكتبي والتجاليد الخشبية المتكاملة لمبنى الخدمات الجوية بمطار القاهرة.</p>
+              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="np8_desc_short">تنفيذ أعمال
+                الفرش والتأثيث المكتبي والتجاليد الخشبية المتكاملة لمبنى الخدمات الجوية بمطار القاهرة.</p>
               <div class="flex items-center justify-between">
                 <span class="text-white/40 text-xs flex items-center gap-1">
                   <svg class="w-3.5 h-3.5 text-gold-500" fill="none" stroke="currentColor" stroke-width="2"
@@ -1273,7 +1293,8 @@
             <div class="p-6">
               <h3 class="text-lg font-bold text-white mb-2 group-hover:text-gold-400 transition-colors"
                 data-i18n="np9_title">مشروع مسجد الحسين</h3>
-              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="np9_desc_short">فرش وتجهيز قاعة كبار الزوار بمسجد الإمام الحسين بأثاث فاخر وأعمال خشبية ذات طابع تراثي إسلامي.</p>
+              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="np9_desc_short">فرش وتجهيز
+                قاعة كبار الزوار بمسجد الإمام الحسين بأثاث فاخر وأعمال خشبية ذات طابع تراثي إسلامي.</p>
               <div class="flex items-center justify-between">
                 <span class="text-white/40 text-xs flex items-center gap-1">
                   <svg class="w-3.5 h-3.5 text-gold-500" fill="none" stroke="currentColor" stroke-width="2"
@@ -1331,7 +1352,8 @@
             <div class="p-6">
               <h3 class="text-lg font-bold text-white mb-2 group-hover:text-gold-400 transition-colors"
                 data-i18n="np10_title">مشروع مسجد السيدة زينب</h3>
-              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="np10_desc_short">فرش وتجهيز قاعة استقبال كبار الزوار بمسجد السيدة زينب بأعمال خشبية وأثاث يليق بالطابع الإسلامي.</p>
+              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="np10_desc_short">فرش وتجهيز
+                قاعة استقبال كبار الزوار بمسجد السيدة زينب بأعمال خشبية وأثاث يليق بالطابع الإسلامي.</p>
               <div class="flex items-center justify-between">
                 <span class="text-white/40 text-xs flex items-center gap-1">
                   <svg class="w-3.5 h-3.5 text-gold-500" fill="none" stroke="currentColor" stroke-width="2"
@@ -1389,7 +1411,8 @@
             <div class="p-6">
               <h3 class="text-lg font-bold text-white mb-2 group-hover:text-gold-400 transition-colors"
                 data-i18n="np11_title">مشروع مسجد السيدة نفيسة</h3>
-              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="np11_desc_short">تأثيث وتجهيز قاعة كبار الزوار بمسجد السيدة نفيسة بأرقى الأثاث والأبواب والتجاليد الخشبية.</p>
+              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="np11_desc_short">تأثيث
+                وتجهيز قاعة كبار الزوار بمسجد السيدة نفيسة بأرقى الأثاث والأبواب والتجاليد الخشبية.</p>
               <div class="flex items-center justify-between">
                 <span class="text-white/40 text-xs flex items-center gap-1">
                   <svg class="w-3.5 h-3.5 text-gold-500" fill="none" stroke="currentColor" stroke-width="2"
@@ -1448,7 +1471,8 @@
             <div class="p-6">
               <h3 class="text-lg font-bold text-white mb-2 group-hover:text-gold-400 transition-colors"
                 data-i18n="np12_title">أبواب وفرش شاليهات مزارين – نموذج D</h3>
-              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="np12_desc_short">تصنيع وتوريد الأبواب الخشبية والتأثيث الفندقي المتكامل لشاليهات مزارين (نموذج D) بالعلمين الجديدة.</p>
+              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="np12_desc_short">تصنيع
+                وتوريد الأبواب الخشبية والتأثيث الفندقي المتكامل لشاليهات مزارين (نموذج D) بالعلمين الجديدة.</p>
               <div class="flex items-center justify-between">
                 <span class="text-white/40 text-xs flex items-center gap-1">
                   <svg class="w-3.5 h-3.5 text-gold-500" fill="none" stroke="currentColor" stroke-width="2"
@@ -1507,7 +1531,8 @@
             <div class="p-6">
               <h3 class="text-lg font-bold text-white mb-2 group-hover:text-gold-400 transition-colors"
                 data-i18n="np13_title">أبواب وفرش شاليهات مزارين – نموذج E</h3>
-              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="np13_desc_short">تصنيع وتوريد الأبواب الخشبية والفرش الداخلي المتكامل لشاليهات مزارين (نموذج E) بالعلمين الجديدة.</p>
+              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="np13_desc_short">تصنيع
+                وتوريد الأبواب الخشبية والفرش الداخلي المتكامل لشاليهات مزارين (نموذج E) بالعلمين الجديدة.</p>
               <div class="flex items-center justify-between">
                 <span class="text-white/40 text-xs flex items-center gap-1">
                   <svg class="w-3.5 h-3.5 text-gold-500" fill="none" stroke="currentColor" stroke-width="2"
@@ -1566,7 +1591,8 @@
             <div class="p-6">
               <h3 class="text-lg font-bold text-white mb-2 group-hover:text-gold-400 transition-colors"
                 data-i18n="np14_title">أبواب مارينا مرسى اليخوت</h3>
-              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="np14_desc_short">تصنيع وتوريد وتركيب الأبواب الخشبية الفاخرة المقاومة للعوامل الساحلية بمشروع مرسى اليخوت.</p>
+              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="np14_desc_short">تصنيع
+                وتوريد وتركيب الأبواب الخشبية الفاخرة المقاومة للعوامل الساحلية بمشروع مرسى اليخوت.</p>
               <div class="flex items-center justify-between">
                 <span class="text-white/40 text-xs flex items-center gap-1">
                   <svg class="w-3.5 h-3.5 text-gold-500" fill="none" stroke="currentColor" stroke-width="2"
@@ -1625,7 +1651,8 @@
             <div class="p-6">
               <h3 class="text-lg font-bold text-white mb-2 group-hover:text-gold-400 transition-colors"
                 data-i18n="np15_title">أبواب مشروع سكن أهل مصر</h3>
-              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="np15_desc_short">تصنيع وتوريد وتركيب الأبواب الخشبية عالية المتانة للوحدات والعمارات السكنية بمدينة السلام الجديدة.</p>
+              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="np15_desc_short">تصنيع
+                وتوريد وتركيب الأبواب الخشبية عالية المتانة للوحدات والعمارات السكنية بمدينة السلام الجديدة.</p>
               <div class="flex items-center justify-between">
                 <span class="text-white/40 text-xs flex items-center gap-1">
                   <svg class="w-3.5 h-3.5 text-gold-500" fill="none" stroke="currentColor" stroke-width="2"
@@ -1663,12 +1690,29 @@
               </span>
               <span
                 class="card-slider-counter absolute top-4 end-4 text-[11px] font-semibold px-2.5 py-0.5 rounded-full z-[3] pointer-events-none">1
-                / 1</span>
+                / 10</span>
+              <button type="button"
+                class="card-slider-btn card-slider-next absolute end-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full flex items-center justify-center text-white transition-all shadow-lg opacity-0 group-hover:opacity-100 focus:opacity-100 z-10"
+                aria-label="Next image">
+                <svg class="w-4 h-4 rtl:rotate-180" fill="none" stroke="currentColor" stroke-width="2.5"
+                  viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                </svg>
+              </button>
+              <button type="button"
+                class="card-slider-btn card-slider-prev absolute start-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full flex items-center justify-center text-white transition-all shadow-lg opacity-0 group-hover:opacity-100 focus:opacity-100 z-10"
+                aria-label="Previous image">
+                <svg class="w-4 h-4 rtl:rotate-180" fill="none" stroke="currentColor" stroke-width="2.5"
+                  viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+                </svg>
+              </button>
             </div>
             <div class="p-6">
               <h3 class="text-lg font-bold text-white mb-2 group-hover:text-gold-400 transition-colors"
                 data-i18n="np16_title">أبواب عمارات جاردينيا</h3>
-              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="np16_desc_short">تصنيع وتركيب أبواب المداخل والشقق السكنية بأجود الأخشاب والقشور الطبيعية بكمبوند جاردينيا.</p>
+              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="np16_desc_short">تصنيع
+                وتوريد وتركيب الأبواب الخشبية والأبواب المعدنية المقاومة للحريق لعمارات كمبوند جاردينيا.</p>
               <div class="flex items-center justify-between">
                 <span class="text-white/40 text-xs flex items-center gap-1">
                   <svg class="w-3.5 h-3.5 text-gold-500" fill="none" stroke="currentColor" stroke-width="2"
@@ -1676,7 +1720,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round"
                       d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
                   </svg>
-                  <span data-i18n="np16_units">أبواب خشبية</span>
+                  <span data-i18n="np16_units">أبواب خشبية وأبواب معدنية مقاومة للحريق</span>
                 </span>
                 <span class="text-gold-400 text-xs font-semibold" data-i18n="card_details">التفاصيل ←</span>
               </div>
@@ -1706,7 +1750,7 @@
               </span>
               <span
                 class="card-slider-counter absolute top-4 end-4 text-[11px] font-semibold px-2.5 py-0.5 rounded-full z-[3] pointer-events-none">1
-                / 4</span>
+                / 13</span>
               <button type="button"
                 class="card-slider-btn card-slider-next absolute end-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full flex items-center justify-center text-white transition-all shadow-lg opacity-0 group-hover:opacity-100 focus:opacity-100 z-10"
                 aria-label="Next image">
@@ -1727,7 +1771,8 @@
             <div class="p-6">
               <h3 class="text-lg font-bold text-white mb-2 group-hover:text-gold-400 transition-colors"
                 data-i18n="np17_title">أبواب مشروع مايان</h3>
-              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="np17_desc_short">تصنيع وتوريد وتركيب الأبواب الخشبية الفاخرة للوحدات السكنية بمشروع مايان بجوار مدينة الرحاب.</p>
+              <p class="text-white/50 text-xs leading-relaxed mb-4 line-clamp-2" data-i18n="np17_desc_short">تصنيع
+                وتوريد وتركيب الأبواب الخشبية والأبواب المعدنية المقاومة للحريق بمشروع مايان بجوار مدينة الرحاب.</p>
               <div class="flex items-center justify-between">
                 <span class="text-white/40 text-xs flex items-center gap-1">
                   <svg class="w-3.5 h-3.5 text-gold-500" fill="none" stroke="currentColor" stroke-width="2"
@@ -1735,7 +1780,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round"
                       d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
                   </svg>
-                  <span data-i18n="np17_units">أبواب خشبية متخصصة</span>
+                  <span data-i18n="np17_units">أبواب خشبية وأبواب معدنية مقاومة للحريق</span>
                 </span>
                 <span class="text-gold-400 text-xs font-semibold" data-i18n="card_details">التفاصيل ←</span>
               </div>
@@ -1891,7 +1936,7 @@
             </div>
             <div>
               <p class="text-white/50 text-xs" data-i18n="contact_addr_label">المقر الرئيسي</p>
-              <p class="text-white font-bold text-sm" data-i18n="contact_addr_value">93 ش 5 الجولف – مدينة نصر – القاهرة
+              <p class="text-white font-bold text-sm" data-i18n="contact_addr_value">مبنى 3 شارع 5 الجولف – مدينة نصر – القاهرة
               </p>
             </div>
           </div>
@@ -1955,7 +2000,7 @@
             <li><a href="tel:+201001153366" class="footer-link" dir="ltr">+20 100 115 3366</a></li>
             <li><a href="mailto:Kayanconstructionseg@gmail.com" class="footer-link break-all"
                 dir="ltr">Kayanconstructionseg@gmail.com</a></li>
-            <li><span class="footer-link cursor-default" data-i18n="contact_addr_value">93 ش 5 الجولف – مدينة نصر –
+            <li><span class="footer-link cursor-default" data-i18n="contact_addr_value">مبنى 3 شارع 5 الجولف – مدينة نصر –
                 القاهرة</span>
             </li>
           </ul>
@@ -1983,9 +2028,9 @@
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <!-- New projects image galleries -->
-  <script src="new-projects-data.js?v=3.4"></script>
+  <script src="new-projects-data.js?v=3.8"></script>
   <!-- Main Script -->
-  <script src="mainjava.js?v=3.4"></script>
+  <script src="mainjava.js?v=3.8"></script>
 </body>
 
 </html>
