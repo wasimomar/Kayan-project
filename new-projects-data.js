@@ -194,42 +194,25 @@
     'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679227/DSC_4288.jpg',
   ];
 
-  // 8. ---- Cairo Airport Air Services Building (34) ----
+  // 8. ---- Cairo Airport Air Services Building (17) ----
   const airServices = [
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679416/6.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679396/5.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679363/7.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679211/8.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679208/WhatsApp_Image_2026-10-18_at_5.29.26_PM_2.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679207/WhatsApp_Image_2026-10-18_at_5.29.26_PM_1.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679215/WhatsApp_Image_2026-10-18_at_4.55.02_PM.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679212/WhatsApp_Image_2026-10-18_at_4.55.02_PM_3.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679212/WhatsApp_Image_2026-10-18_at_4.55.02_PM_2.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679212/WhatsApp_Image_2026-10-18_at_4.55.02_PM_1.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679212/WhatsApp_Image_2026-10-18_at_4.55.01_PM_8.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679212/WhatsApp_Image_2026-10-18_at_4.55.01_PM_6.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679211/WhatsApp_Image_2026-10-18_at_4.55.01_PM_7.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679211/WhatsApp_Image_2026-10-18_at_4.55.01_PM_2.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679211/WhatsApp_Image_2026-10-18_at_4.55.01_PM_5.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679211/WhatsApp_Image_2026-10-18_at_4.55.01_PM_4.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679210/WhatsApp_Image_2026-10-18_at_4.55.00_PM.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679210/WhatsApp_Image_2026-10-18_at_4.55.00_PM_5.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679209/WhatsApp_Image_2026-10-18_at_4.55.00_PM_4.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679209/WhatsApp_Image_2026-10-18_at_4.55.00_PM_3.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679209/WhatsApp_Image_2026-10-18_at_4.55.00_PM_2.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679209/WhatsApp_Image_2026-10-18_at_4.55.00_PM_1.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679209/WhatsApp_Image_2026-10-18_at_4.54.59_PM_4.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679208/WhatsApp_Image_2026-10-18_at_4.54.59_PM_2.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679223/WhatsApp_Image_2026-10-18_at_5.30.33_PM.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679222/WhatsApp_Image_2026-10-18_at_5.30.33_PM_1.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679222/WhatsApp_Image_2026-10-18_at_5.30.32_PM.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679221/WhatsApp_Image_2026-10-18_at_5.30.32_PM_5.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679220/WhatsApp_Image_2026-10-18_at_5.30.32_PM_4.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679219/WhatsApp_Image_2026-10-18_at_5.30.32_PM_3.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679218/WhatsApp_Image_2026-10-18_at_5.30.32_PM_2.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679217/WhatsApp_Image_2026-10-18_at_5.30.32_PM_1.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679216/WhatsApp_Image_2026-10-18_at_5.30.31_PM.jpg',
-    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679216/WhatsApp_Image_2026-10-18_at_5.30.31_PM_1.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1792679212/WhatsApp_Image_2026-10-18_at_4.55.02_PM_3.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1792679215/WhatsApp_Image_2026-10-18_at_4.55.02_PM.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1792679212/WhatsApp_Image_2026-10-18_at_4.55.02_PM_2.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1792679212/WhatsApp_Image_2026-10-18_at_4.55.01_PM_8.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1792679212/WhatsApp_Image_2026-10-18_at_4.55.01_PM_6.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1792679212/WhatsApp_Image_2026-10-18_at_4.55.02_PM_1.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1792679211/WhatsApp_Image_2026-10-18_at_4.55.01_PM_7.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1792679211/WhatsApp_Image_2026-10-18_at_4.55.01_PM_2.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1792679211/WhatsApp_Image_2026-10-18_at_4.55.01_PM_4.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1792679211/WhatsApp_Image_2026-10-18_at_4.55.01_PM_5.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1792679210/WhatsApp_Image_2026-10-18_at_4.55.00_PM.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1792679210/WhatsApp_Image_2026-10-18_at_4.55.00_PM_5.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1792679209/WhatsApp_Image_2026-10-18_at_4.55.00_PM_2.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1792679209/WhatsApp_Image_2026-10-18_at_4.55.00_PM_1.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1792679209/WhatsApp_Image_2026-10-18_at_4.55.00_PM_3.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1792679209/WhatsApp_Image_2026-10-18_at_4.54.59_PM_4.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1792679209/WhatsApp_Image_2026-10-18_at_4.55.00_PM_4.jpg',
   ];
 
   // 9. ---- Al-Hussein Mosque – VIP Hall (25) ----
@@ -397,7 +380,7 @@
     'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto/v1792679305/MAZAREENVILLAS_CHALETS_0.6_3__page-0101.jpg',
   ];
 
-  // 14. ---- Marina Yacht Marina Doors – North Coast (6) ----
+  // 14. ---- Marina Yacht Marina Doors – North Coast (11) ----
   const marinaYacht = [
     'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794084398/IMG-20261107-WA0092.jpg',
     'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794084397/IMG-20261107-WA0093.jpg',
@@ -405,6 +388,11 @@
     'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794084366/IMG-20261107-WA0090.jpg',
     'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794084366/IMG-20261107-WA0091.jpg',
     'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794084365/IMG-20261107-WA0089.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1795087160/WhatsApp_Image_2026-11-15_at_9.08.08_AM_2.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1795087161/WhatsApp_Image_2026-11-15_at_9.08.08_AM_4.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1795087162/WhatsApp_Image_2026-11-15_at_9.08.08_AM_1.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1795087163/WhatsApp_Image_2026-11-15_at_9.08.08_AM_3.jpg',
+    'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1795087164/WhatsApp_Image_2026-11-15_at_9.08.08_AM.jpg',
   ];
 
   // 15. ---- Sakan Ahl Misr Doors – New Salam City (3) ----

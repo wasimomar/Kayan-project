@@ -666,6 +666,14 @@ const translations = {
 const projectData = {
   'al-jazeera': {
     images: [
+      'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1795086514/WhatsApp_Image_2026-11-15_at_6.31.56_PM_1.jpg',
+      'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1795086516/WhatsApp_Image_2026-11-15_at_6.31.56_PM_2.jpg',
+      'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1795086515/WhatsApp_Image_2026-11-15_at_6.31.56_PM.jpg',
+      'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1795086515/WhatsApp_Image_2026-11-15_at_6.31.56_PM_4.jpg',
+      'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1795086514/WhatsApp_Image_2026-11-15_at_6.31.55_PM_2.jpg',
+      'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1795086514/WhatsApp_Image_2026-11-15_at_6.31.56_PM_3.jpg',
+      'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1795086514/WhatsApp_Image_2026-11-15_at_6.31.55_PM.jpg',
+      'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1795086513/WhatsApp_Image_2026-11-15_at_6.31.55_PM_1.jpg',
       'images/AL JAZEERA PROJECT/al jazeera p3.jpeg',
       'images/AL JAZEERA PROJECT/al jazeerz p1.png',
       'images/AL JAZEERA PROJECT/al jazeera p2.png'
@@ -682,16 +690,10 @@ const projectData = {
   'ayan': {
     images: [
       'images/AYAN PROJECT/ayan project p4.jpeg',
-      'images/AYAN PROJECT/ayan project p1.png',
-      'images/AYAN PROJECT/ayan project p2.png',
-      'images/AYAN PROJECT/ayan project p3.png',
-      'images/AYAN PROJECT/ayan project p5.jpeg',
-      'images/AYAN PROJECT/ayan project p6.jpeg',
-      'images/AYAN PROJECT/ayan project p7.jpeg',
-      'images/AYAN PROJECT/ayan project p8.jpeg',
-      'images/AYAN PROJECT/ayan project p9.jpeg',
-      'images/AYAN PROJECT/ayan project p10.jpeg',
-      'images/AYAN PROJECT/ayan project p11.jpeg',
+      'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794083844/IMG-20261105-WA0063.jpg',
+      'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794083845/IMG-20261105-WA0061.jpg',
+      'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794083846/IMG-20261105-WA0059.jpg',
+      'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794083846/IMG-20261105-WA0060.jpg',
     ],
     titleKey:   'proj2_title',
     locationKey:'proj2_location',
