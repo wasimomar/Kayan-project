@@ -250,17 +250,12 @@ section#hero:hover .hero-bg {
   box-shadow: 0 0 20px rgba(19, 168, 161, 0.2);
 }
 
-/* ---------- 11. PROJECT CARDS (OPTIMIZED PERFORMANCE) ---------- */
+/* ---------- 11. PROJECT CARDS ---------- */
 .project-card {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
   transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1),
     box-shadow 0.35s ease,
     border-color 0.35s ease;
-  content-visibility: auto;
-  contain-intrinsic-size: auto 380px;
-  contain: paint layout;
-  transform: translateZ(0);
-  backface-visibility: hidden;
 }
 
 .project-card:hover {
@@ -283,19 +278,14 @@ section#hero:hover .hero-bg {
   font-size: 0.68rem;
   font-weight: 500;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
-  transform: translateZ(0);
 }
 
 .card-media-slider {
-  transform: translateZ(0);
-  backface-visibility: hidden;
-  contain: paint;
+  position: relative;
 }
 
 .card-slider-img {
-  transform: translateZ(0);
-  backface-visibility: hidden;
-  will-change: transform, opacity;
+  display: block;
 }
 
 .shadow-gold-sm {
@@ -514,15 +504,12 @@ section#hero:hover .hero-bg {
 
 .modal-box {
   /* Exit & initial state: subtle offset without expensive spring scaling */
-  transform: translateY(10px) scale(0.99) translateZ(0);
+  transform: translateY(10px) scale(0.99);
   transition: transform 0.16s ease-out;
-  will-change: transform, opacity;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
 }
 
 .modal-overlay.is-open .modal-box {
-  transform: translateY(0) scale(1) translateZ(0);
+  transform: translateY(0) scale(1);
   /* Crisp, immediate entrance curve */
   transition: transform 0.18s cubic-bezier(0, 0, 0.2, 1);
 }
@@ -640,7 +627,6 @@ body.modal-open {
   color: rgba(255, 255, 255, 0.95);
   letter-spacing: 0.5px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
-  transform: translateZ(0);
 }
 
 .swiper-pagination-bullet {
@@ -699,7 +685,6 @@ body.modal-open {
   user-select: none;
   opacity: 0;
   transition: opacity 0.16s ease;
-  will-change: opacity;
 }
 
 .modal-slide-img.is-loaded {

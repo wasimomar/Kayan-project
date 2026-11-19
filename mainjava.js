@@ -666,14 +666,14 @@ const translations = {
 const projectData = {
   'al-jazeera': {
     images: [
-      'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1795086514/WhatsApp_Image_2026-11-15_at_6.31.56_PM_1.jpg',
-      'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1795086516/WhatsApp_Image_2026-11-15_at_6.31.56_PM_2.jpg',
-      'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1795086515/WhatsApp_Image_2026-11-15_at_6.31.56_PM.jpg',
-      'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1795086515/WhatsApp_Image_2026-11-15_at_6.31.56_PM_4.jpg',
-      'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1795086514/WhatsApp_Image_2026-11-15_at_6.31.55_PM_2.jpg',
-      'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1795086514/WhatsApp_Image_2026-11-15_at_6.31.56_PM_3.jpg',
-      'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1795086514/WhatsApp_Image_2026-11-15_at_6.31.55_PM.jpg',
-      'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1795086513/WhatsApp_Image_2026-11-15_at_6.31.55_PM_1.jpg',
+      'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,f_jpg,cs_srgb,fl_strip_profile/v1795086514/WhatsApp_Image_2026-11-15_at_6.31.56_PM_1.jpg',
+      'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,f_jpg,cs_srgb,fl_strip_profile/v1795086516/WhatsApp_Image_2026-11-15_at_6.31.56_PM_2.jpg',
+      'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,f_jpg,cs_srgb,fl_strip_profile/v1795086515/WhatsApp_Image_2026-11-15_at_6.31.56_PM.jpg',
+      'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,f_jpg,cs_srgb,fl_strip_profile/v1795086515/WhatsApp_Image_2026-11-15_at_6.31.56_PM_4.jpg',
+      'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,f_jpg,cs_srgb,fl_strip_profile/v1795086514/WhatsApp_Image_2026-11-15_at_6.31.55_PM_2.jpg',
+      'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,f_jpg,cs_srgb,fl_strip_profile/v1795086514/WhatsApp_Image_2026-11-15_at_6.31.56_PM_3.jpg',
+      'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,f_jpg,cs_srgb,fl_strip_profile/v1795086514/WhatsApp_Image_2026-11-15_at_6.31.55_PM.jpg',
+      'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,f_jpg,cs_srgb,fl_strip_profile/v1795086513/WhatsApp_Image_2026-11-15_at_6.31.55_PM_1.jpg',
       'images/AL JAZEERA PROJECT/al jazeera p3.jpeg',
       'images/AL JAZEERA PROJECT/al jazeerz p1.png',
       'images/AL JAZEERA PROJECT/al jazeera p2.png'
@@ -690,10 +690,10 @@ const projectData = {
   'ayan': {
     images: [
       'images/AYAN PROJECT/ayan project p4.jpeg',
-      'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794083844/IMG-20261105-WA0063.jpg',
-      'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794083845/IMG-20261105-WA0061.jpg',
-      'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794083846/IMG-20261105-WA0059.jpg',
-      'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/v1794083846/IMG-20261105-WA0060.jpg',
+      'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,f_jpg,cs_srgb,fl_strip_profile/v1794083844/IMG-20261105-WA0063.jpg',
+      'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,f_jpg,cs_srgb,fl_strip_profile/v1794083845/IMG-20261105-WA0061.jpg',
+      'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,f_jpg,cs_srgb,fl_strip_profile/v1794083846/IMG-20261105-WA0059.jpg',
+      'https://res.cloudinary.com/ww3gequp/image/upload/w_800,q_auto,f_jpg,cs_srgb,fl_strip_profile/v1794083846/IMG-20261105-WA0060.jpg',
     ],
     titleKey:   'proj2_title',
     locationKey:'proj2_location',
@@ -791,13 +791,11 @@ const projectData = {
 function optimizeCloudinaryUrl(url) {
   if (typeof url !== 'string') return url;
   if (!url.includes('res.cloudinary.com') || !url.includes('/image/upload/')) return url;
-  // Strip f_auto if present to avoid color rendering issues
-  url = url.replace('f_auto,', '').replace(',f_auto', '');
-  if (!url.includes('/image/upload/w_')) {
-    return url.replace('/image/upload/', '/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/');
-  }
-  if (!url.includes('cs_srgb')) {
-    return url.replace('/image/upload/w_800,q_auto/', '/image/upload/w_800,q_auto,cs_srgb,fl_strip_profile/');
+  // Normalize any Cloudinary transformation to clean baseline sRGB JPEG (prevents browser color/decode corruption)
+  const normalized = url.replace(/\/image\/upload\/(?:[^/]+\/)?(v\d+\/)/, '/image/upload/w_800,q_auto,f_jpg,cs_srgb,fl_strip_profile/$1');
+  if (normalized !== url) return normalized;
+  if (!url.includes('f_jpg,cs_srgb,fl_strip_profile')) {
+    return url.replace('/image/upload/', '/image/upload/w_800,q_auto,f_jpg,cs_srgb,fl_strip_profile/');
   }
   return url;
 }
@@ -997,7 +995,7 @@ function buildModalContent(projectKey, initialSlideIndex = 0) {
       const spinnerHidden = isCurrent ? ' hidden' : '';
       return `<div class="swiper-slide">
         <div class="modal-slide-spinner${spinnerHidden}"></div>
-        <img class="modal-slide-img${loadedClass}" data-src="${src}" ${srcAttr} alt="${projectTitle}" decoding="async" />
+        <img class="modal-slide-img${loadedClass}" data-src="${src}" ${srcAttr} alt="${projectTitle}" decoding="sync" />
       </div>`;
     }).join('');
   }
@@ -1507,7 +1505,7 @@ function initCardSliders() {
 
         imgEl.style.opacity = '0.4';
         const preloader = new Image();
-        preloader.decoding = 'async';
+        preloader.decoding = 'sync';
         preloader.onload = () => {
           if (currentToken !== loadToken) return;
           imgEl.src = targetSrc;
